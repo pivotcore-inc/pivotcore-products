@@ -1,0 +1,82 @@
+[
+  {
+    "partNumber": "STM32F103C8T6",
+    "slug": "stm32f103c8t6",
+    "maker": "STMicroelectronics",
+    "category": "マイコン",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。需給逼迫が続くSTM32シリーズの在庫確保もお任せください。"
+  },
+  {
+    "partNumber": "STM32H743ZIT6",
+    "slug": "stm32h743zit6",
+    "maker": "STMicroelectronics",
+    "category": "マイコン",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+  },
+  {
+    "partNumber": "STM32G071RBT6",
+    "slug": "stm32g071rbt6",
+    "maker": "STMicroelectronics",
+    "category": "マイコン",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+  },
+  {
+    "partNumber": "XC7A35T-1CSG324C",
+    "slug": "xc7a35t-1csg324c",
+    "maker": "Xilinx (AMD)",
+    "category": "FPGA",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+  },
+  {
+    "partNumber": "XC7A100T-2FGG484I",
+    "slug": "xc7a100t-2fgg484i",
+    "maker": "Xilinx (AMD)",
+    "category": "FPGA",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+  },
+  {
+    "partNumber": "TPS65987DDRSHR",
+    "slug": "tps65987ddrshr",
+    "maker": "Texas Instruments",
+    "category": "電源IC",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+  },
+  {
+    "partNumber": "LM5175PWPR",
+    "slug": "lm5175pwpr",
+    "maker": "Texas Instruments",
+    "category": "電源IC",
+    "longLead": false,
+    "description": "本製品の調達についてご相談ください。EOL品・入手困難品にも対応しております。"
+  },
+  {
+    "partNumber": "IPP60R099P7XKSA1",
+    "slug": "ipp60r099p7xksa1",
+    "maker": "Infineon Technologies",
+    "category": "MOSFET",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+  },
+  {
+    "partNumber": "BSC093N15NS3GATMA1",
+    "slug": "bsc093n15ns3gatma1",
+    "maker": "Infineon Technologies",
+    "category": "MOSFET",
+    "longLead": false,
+    "description": "本製品の調達についてご相談ください。EOL品・入手困難品にも対応しております。"
+  },
+  {
+    "partNumber": "CY8C6244AZI-S4D92",
+    "slug": "cy8c6244azi-s4d92",
+    "maker": "Infineon (Cypress)",
+    "category": "マイコン",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+  }
+]
