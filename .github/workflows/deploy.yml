@@ -1,0 +1,40 @@
+name: 製品ページ自動ビルド & Cloudflare Pages デプロイ
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'products.json'
+      - 'build.js'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Node.js セットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: HTMLページをビルド
+        run: node build.js
+
+      - name: ビルド結果を確認
+        run: |
+          echo "=== 生成されたファイル一覧 ==="
+          find dist -name "*.html" | sort
+          echo "=== 合計ページ数 ==="
+          find dist -name "*.html" | wc -l
+
+      - name: Cloudflare Pages へデプロイ
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=pivotcore-products --branch=main
