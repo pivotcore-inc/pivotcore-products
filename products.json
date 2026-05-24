@@ -1,19 +1,42 @@
 [
   {
-    "partNumber": "STM32F103C8T6",
-    "slug": "stm32f103c8t6",
-    "maker": "STMicroelectronics",
-    "category": "マイコン",
-    "longLead": true,
-    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。需給逼迫が続くSTM32シリーズの在庫確保もお任せください。"
-  },
-  {
     "partNumber": "STM32H743ZIT6",
     "slug": "stm32h743zit6",
     "maker": "STMicroelectronics",
     "category": "マイコン",
     "longLead": true,
-    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "ARM® Cortex®-M7",
+    "freq": "480 MHz",
+    "flash": "2 MB",
+    "pkg": "LQFP-144",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "産業機器",
+      "FA機器",
+      "通信機器"
+    ]
+  },
+  {
+    "partNumber": "STM32F103C8T6",
+    "slug": "stm32f103c8t6",
+    "maker": "STMicroelectronics",
+    "category": "マイコン",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "ARM® Cortex®-M3",
+    "freq": "72 MHz",
+    "flash": "64 KB",
+    "pkg": "LQFP-48",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "産業機器制御",
+      "FA機器",
+      "計測機器",
+      "通信機器"
+    ]
   },
   {
     "partNumber": "STM32G071RBT6",
@@ -21,7 +44,17 @@
     "maker": "STMicroelectronics",
     "category": "マイコン",
     "longLead": true,
-    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "ARM® Cortex®-M0+",
+    "freq": "64 MHz",
+    "flash": "128 KB",
+    "pkg": "LQFP-64",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "IoT機器",
+      "家電製品"
+    ]
   },
   {
     "partNumber": "XC7A35T-1CSG324C",
@@ -29,7 +62,18 @@
     "maker": "Xilinx (AMD)",
     "category": "FPGA",
     "longLead": true,
-    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "",
+    "freq": "",
+    "flash": "",
+    "pkg": "CSG324",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "通信機器",
+      "画像処理",
+      "産業機器"
+    ]
   },
   {
     "partNumber": "XC7A100T-2FGG484I",
@@ -37,7 +81,17 @@
     "maker": "Xilinx (AMD)",
     "category": "FPGA",
     "longLead": true,
-    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "",
+    "freq": "",
+    "flash": "",
+    "pkg": "FGG484",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "通信機器",
+      "映像処理"
+    ]
   },
   {
     "partNumber": "TPS65987DDRSHR",
@@ -45,7 +99,17 @@
     "maker": "Texas Instruments",
     "category": "電源IC",
     "longLead": true,
-    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "",
+    "freq": "",
+    "flash": "",
+    "pkg": "",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "USB-C機器",
+      "ノートPC"
+    ]
   },
   {
     "partNumber": "LM5175PWPR",
@@ -53,7 +117,17 @@
     "maker": "Texas Instruments",
     "category": "電源IC",
     "longLead": false,
-    "description": "本製品の調達についてご相談ください。EOL品・入手困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "",
+    "freq": "",
+    "flash": "",
+    "pkg": "",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "電源設計",
+      "産業機器"
+    ]
   },
   {
     "partNumber": "IPP60R099P7XKSA1",
@@ -61,7 +135,18 @@
     "maker": "Infineon Technologies",
     "category": "MOSFET",
     "longLead": true,
-    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "",
+    "freq": "",
+    "flash": "",
+    "pkg": "TO-263-3",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "電源回路",
+      "モーター制御",
+      "産業機器"
+    ]
   },
   {
     "partNumber": "BSC093N15NS3GATMA1",
@@ -69,7 +154,17 @@
     "maker": "Infineon Technologies",
     "category": "MOSFET",
     "longLead": false,
-    "description": "本製品の調達についてご相談ください。EOL品・入手困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "",
+    "freq": "",
+    "flash": "",
+    "pkg": "TDSON-8",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "DC-DCコンバータ",
+      "電源回路"
+    ]
   },
   {
     "partNumber": "CY8C6244AZI-S4D92",
@@ -77,6 +172,37 @@
     "maker": "Infineon (Cypress)",
     "category": "マイコン",
     "longLead": true,
-    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "ARM® Cortex®-M4/M0+",
+    "freq": "150 MHz",
+    "flash": "256 KB",
+    "pkg": "",
+    "rohs": "対応",
+    "datasheet": "",
+    "usages": [
+      "IoT機器",
+      "ウェアラブル",
+      "産業機器"
+    ]
+  },
+  {
+    "partNumber": "SKE48",
+    "slug": "ske48",
+    "maker": "ZEST",
+    "category": "マイコン",
+    "longLead": true,
+    "description": "本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。",
+    "core": "nikoniko",
+    "freq": "30Hz",
+    "flash": "299KB",
+    "pkg": "nikoniko",
+    "rohs": "対応",
+    "datasheet": "https://nikoniko.co.jp",
+    "usages": [
+      "ああ",
+      "いい",
+      "うう",
+      "ええ"
+    ]
   }
 ]
