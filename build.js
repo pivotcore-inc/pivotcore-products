@@ -54,6 +54,8 @@ function header(title, description, canonicalPath) {
     .nav-link:hover::after { width: 100%; }
     .accent-border { border-top: 4px solid #b91c1c; }
     .badge-longlead { display: inline-block; background: #b91c1c; color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; letter-spacing: 0.05em; vertical-align: middle; margin-left: 8px; }
+    .badge-longlead.is-placeholder { visibility: hidden; }
+    .product-card { height: 100%; }
     .card-hover { transition: box-shadow .2s, transform .2s; }
     .card-hover:hover { box-shadow: 0 8px 24px rgba(22,58,141,0.12); transform: translateY(-2px); }
     .filter-btn { transition: background .2s, color .2s; }
@@ -142,15 +144,17 @@ function buildIndexPage() {
 
   const cards = products.map(p => `
     <div class="product-card card-hover bg-white border rounded-sm shadow-sm overflow-hidden accent-border" data-cat="${p.category}">
-      <div class="p-6">
+      <div class="p-6 flex flex-col h-full">
         <div class="flex items-start justify-between mb-3">
           <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">${p.category}</span>
-          ${p.longLead ? '<span class="badge-longlead">長納期対応</span>' : ''}
+          ${p.longLead
+            ? '<span class="badge-longlead">長納期対応</span>'
+            : '<span class="badge-longlead is-placeholder" aria-hidden="true">長納期対応</span>'}
         </div>
         <h2 class="text-lg font-bold text-[#163A8D] font-mono mb-2 break-all">${p.partNumber}</h2>
         <p class="text-sm text-slate-500 mb-4">${p.maker}</p>
         <a href="${PRODUCTS_URL}/${p.slug}/"
-           class="block w-full text-center bg-red-700 hover:bg-red-800 text-white py-2 px-4 text-sm font-bold transition">
+           class="mt-auto block w-full text-center bg-red-700 hover:bg-red-800 text-white py-2 px-4 text-sm font-bold transition">
           詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i>
         </a>
       </div>
