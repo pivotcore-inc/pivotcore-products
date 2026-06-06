@@ -11,6 +11,7 @@ on:
       - 'products-data/**'
       - 'templates/**'
       - 'build.js'
+      - 'admin/**'
       - '.github/workflows/deploy-products.yml'
   # 管理画面などからの手動実行も可能（実行時に選んだブランチへデプロイ）
   workflow_dispatch:
