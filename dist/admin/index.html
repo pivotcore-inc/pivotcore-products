@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>PivotCore 製品管理画面</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#163A8D;--navy-dark:#0d2260;--red:#b91c1c;
+--s50:#f8fafc;--s100:#f1f5f9;--s200:#e2e8f0;--s300:#cbd5e1;
+--s400:#94a3b8;--s500:#64748b;--s600:#475569;--s700:#334155;--s900:#0f172a;
+--green:#16a34a;--green-bg:#dcfce7;--orange:#ea580c;--orange-bg:#fff7ed;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--s100);color:var(--s900);min-height:100vh;}
+#login-screen{min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--navy-dark),var(--navy));}
+.login-box{background:#fff;border-radius:4px;padding:48px 40px;width:100%;max-width:400px;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+.login-logo{text-align:center;margin-bottom:28px;}
+.login-logo img{height:36px;margin-bottom:8px;}
+.login-logo p{font-size:12px;color:var(--s500);}
+.login-title{font-size:16px;font-weight:700;color:var(--navy);text-align:center;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid var(--s100);}
+.field{margin-bottom:18px;}
+.field label{display:block;font-size:11px;font-weight:700;color:var(--s500);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
+.field input{width:100%;padding:11px 14px;border:2px solid var(--s200);border-radius:2px;font-size:14px;font-family:'Noto Sans JP',sans-serif;outline:none;transition:border-color .2s;}
+.field input:focus{border-color:var(--navy);}
+.login-btn{width:100%;padding:13px;background:var(--navy);color:#fff;border:none;border-radius:2px;font-size:14px;font-weight:700;font-family:'Noto Sans JP',sans-serif;cursor:pointer;}
+.login-btn:hover{background:var(--navy-dark);}
+.login-error{background:#fef2f2;border:1px solid #fecaca;color:var(--red);padding:10px 14px;border-radius:2px;font-size:13px;margin-top:10px;display:none;}
+#main-screen,#preview-screen,#detail-screen{display:none;}
+.header{color:#fff;padding:0 32px;height:60px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.2);}
+.header-main{background:var(--navy);}
+.header-preview{background:var(--navy-dark);}
+.header-detail{background:#1e293b;}
+.header-left{display:flex;align-items:center;gap:14px;}
+.header-left img{height:26px;}
+.header-title{font-size:14px;font-weight:700;opacity:.9;border-left:2px solid rgba(255,255,255,.3);padding-left:14px;}
+.header-right{display:flex;align-items:center;gap:10px;}
+.hbtn{padding:7px 16px;font-size:12px;font-weight:700;font-family:'Noto Sans JP',sans-serif;border-radius:2px;cursor:pointer;transition:all .2s;border:none;}
+.hbtn-ghost{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+.hbtn-ghost:hover{background:rgba(255,255,255,.25);}
+.hbtn-white{background:#fff;color:var(--navy);}
+.hbtn-white:hover{background:var(--s100);}
+.hbtn-red{background:var(--red);color:#fff;}
+.hbtn-red:hover{background:#991b1b;}
+.hbtn-red:disabled{background:var(--s400);cursor:not-allowed;}
+.screen-badge{background:var(--orange);color:#fff;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;}
+.screen-badge-detail{background:#334155;}
+.content{padding:32px;max-width:1100px;margin:0 auto;}
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
+.section-title{font-size:16px;font-weight:700;color:var(--s700);}
+.add-btn{background:var(--navy);color:#fff;border:none;padding:10px 20px;font-size:13px;font-weight:700;font-family:'Noto Sans JP',sans-serif;cursor:pointer;border-radius:2px;}
+.add-btn:hover{background:var(--navy-dark);}
+.table-wrap{background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.08);}
+table{width:100%;border-collapse:collapse;}
+thead{background:var(--navy);color:#fff;}
+thead th{padding:12px 16px;text-align:left;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;}
+tbody tr{border-bottom:1px solid var(--s100);transition:background .15s;}
+tbody tr:last-child{border-bottom:none;}
+tbody tr:hover{background:var(--s50);}
+tbody td{padding:12px 16px;font-size:13px;vertical-align:middle;}
+.pn{font-family:'JetBrains Mono',monospace;font-weight:600;color:var(--navy);font-size:13px;}
+.badge{display:inline-block;padding:2px 8px;border-radius:2px;font-size:11px;font-weight:700;}
+.badge-ll{background:#fef2f2;color:var(--red);}
+.badge-no{background:var(--s100);color:var(--s500);}
+.badge-cat{background:#eff6ff;color:var(--navy);font-size:11px;font-weight:700;padding:2px 8px;border-radius:2px;}
+.action-btns{display:flex;gap:6px;align-items:center;}
+.tbtn{padding:5px 12px;font-size:12px;font-weight:700;font-family:'Noto Sans JP',sans-serif;border:none;border-radius:2px;cursor:pointer;transition:all .15s;}
+.tbtn-edit{background:var(--s100);color:var(--s700);}
+.tbtn-edit:hover{background:var(--s200);}
+.tbtn-del{background:#fef2f2;color:var(--red);}
+.tbtn-del:hover{background:#fee2e2;}
+.tbtn-up,.tbtn-down{background:var(--s100);color:var(--s600);padding:5px 9px;font-size:14px;line-height:1;}
+.tbtn-up:hover,.tbtn-down:hover{background:var(--s200);}
+.tbtn-up:disabled,.tbtn-down:disabled{opacity:.3;cursor:not-allowed;}
+.empty-state{text-align:center;padding:60px 20px;color:var(--s400);}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:200;display:none;align-items:center;justify-content:center;}
+.overlay.open{display:flex;}
+.modal{background:#fff;border-radius:4px;padding:36px;width:100%;max-width:620px;box-shadow:0 20px 60px rgba(0,0,0,.3);max-height:92vh;overflow-y:auto;}
+.modal-title{font-size:18px;font-weight:700;color:var(--navy);margin-bottom:8px;padding-bottom:16px;border-bottom:2px solid var(--s100);}
+.modal-section{font-size:12px;font-weight:700;color:var(--s400);text-transform:uppercase;letter-spacing:.08em;margin:20px 0 14px;padding-bottom:6px;border-bottom:1px solid var(--s100);}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.form-field{margin-bottom:16px;}
+.form-field label{display:block;font-size:11px;font-weight:700;color:var(--s500);text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px;}
+.form-field input,.form-field select,.form-field textarea{width:100%;padding:9px 12px;border:2px solid var(--s200);border-radius:2px;font-size:14px;font-family:'Noto Sans JP',sans-serif;outline:none;transition:border-color .2s;}
+.form-field input:focus,.form-field select:focus,.form-field textarea:focus{border-color:var(--navy);}
+.form-field textarea{resize:vertical;min-height:72px;}
+.form-field .hint{font-size:11px;color:var(--s400);margin-top:4px;}
+.cb-field{display:flex;align-items:center;gap:10px;margin-bottom:16px;}
+.cb-field label{font-size:14px;color:var(--s700);cursor:pointer;}
+.cb-field input[type=checkbox]{width:18px;height:18px;accent-color:var(--navy);cursor:pointer;}
+.modal-actions{display:flex;gap:12px;justify-content:flex-end;margin-top:20px;padding-top:20px;border-top:2px solid var(--s100);}
+.btn-cancel{padding:10px 20px;background:var(--s100);color:var(--s700);border:none;border-radius:2px;font-size:13px;font-weight:700;font-family:'Noto Sans JP',sans-serif;cursor:pointer;}
+.btn-save{padding:10px 24px;background:var(--navy);color:#fff;border:none;border-radius:2px;font-size:13px;font-weight:700;font-family:'Noto Sans JP',sans-serif;cursor:pointer;}
+.spec-pair{display:flex;gap:8px;margin-bottom:8px;align-items:center;}
+.spec-pair input{flex:1;padding:8px 10px;border:2px solid var(--s200);border-radius:2px;font-size:13px;font-family:'Noto Sans JP',sans-serif;outline:none;}
+.spec-pair input:focus{border-color:var(--navy);}
+.spec-del{background:none;border:none;color:var(--s400);cursor:pointer;font-size:16px;padding:4px;}
+.spec-del:hover{color:var(--red);}
+.spec-add{background:none;border:none;color:var(--navy);font-size:12px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:4px;}
+.spec-add:hover{color:var(--red);}
+.preview-note{background:var(--orange-bg);border-left:4px solid var(--orange);border-radius:4px;padding:16px 24px;margin-bottom:24px;}
+.preview-note h3{font-size:14px;font-weight:700;color:var(--orange);margin-bottom:4px;}
+.preview-note p{font-size:13px;color:var(--s600);}
+.diff-legend{display:flex;gap:16px;margin-bottom:14px;flex-wrap:wrap;}
+.diff-legend span{font-size:12px;color:var(--s600);display:flex;align-items:center;gap:6px;}
+.dl{width:12px;height:12px;border-radius:2px;}
+.preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;margin-bottom:32px;}
+.preview-card{background:#fff;border-radius:4px;border-top:4px solid var(--red);padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.08);cursor:pointer;transition:box-shadow .2s,transform .2s;display:flex;flex-direction:column;}
+.preview-card:hover{box-shadow:0 6px 20px rgba(22,58,141,.12);transform:translateY(-2px);}
+.preview-card .cat{font-size:11px;font-weight:700;color:var(--s400);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;}
+.preview-card .pn-lg{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--navy);font-size:14px;margin-bottom:6px;word-break:break-all;}
+.preview-card .maker{font-size:13px;color:var(--s500);margin-bottom:12px;}
+.preview-card .ll-badge{display:inline-block;background:var(--red);color:#fff;font-size:10px;font-weight:700;padding:2px 8px;margin-bottom:12px;align-self:flex-start;}
+.rfq-btn-prev{display:block;width:100%;text-align:center;background:var(--red);color:#fff;border:none;padding:8px;font-size:12px;font-weight:700;font-family:'Noto Sans JP',sans-serif;border-radius:2px;cursor:pointer;margin-top:auto;}
+.rfq-btn-prev:hover{background:#991b1b;}
+.click-hint{font-size:11px;color:var(--s400);text-align:center;margin-top:8px;}
+.diff-added{background:#f0fdf4;border-top-color:var(--green);}
+.diff-changed{background:#fefce8;border-top-color:var(--orange);}
+.diff-removed{background:#fef2f2;border-top-color:var(--red);opacity:.6;cursor:default;}
+.diff-tag{font-size:10px;font-weight:700;padding:1px 6px;border-radius:2px;margin-left:6px;}
+.diff-tag-added{background:var(--green-bg);color:var(--green);}
+.diff-tag-changed{background:var(--orange-bg);color:var(--orange);}
+.diff-tag-removed{background:#fef2f2;color:var(--red);}
+.pub-status{font-size:13px;padding:6px 12px;border-radius:2px;display:none;}
+.pub-status.ok{background:var(--green-bg);color:var(--green);display:inline-block;}
+.pub-status.err{background:#fef2f2;color:var(--red);display:inline-block;}
+.pub-status.ing{background:var(--orange-bg);color:var(--orange);display:inline-block;}
+.detail-content{padding:32px;max-width:1000px;margin:0 auto;}
+.detail-hero{background:var(--navy);color:#fff;padding:28px 32px;}
+.detail-hero-badges{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap;}
+.dbadge{font-size:12px;font-weight:700;padding:3px 10px;border-radius:2px;}
+.dbadge-cat{background:rgba(255,255,255,.15);color:#fff;}
+.dbadge-ll{background:var(--red);color:#fff;}
+.dbadge-pkg{background:rgba(255,255,255,.12);color:rgba(255,255,255,.9);}
+.detail-pn{font-family:'JetBrains Mono',monospace;font-size:30px;font-weight:700;margin-bottom:6px;word-break:break-all;}
+.detail-maker{font-size:17px;opacity:.8;}
+.detail-body{display:grid;grid-template-columns:1fr 300px;gap:32px;margin-top:32px;}
+@media(max-width:700px){.detail-body{grid-template-columns:1fr;}}
+.spec-table-2col{display:grid;grid-template-columns:140px 1fr 140px 1fr;border:1px solid var(--s200);border-radius:4px;overflow:hidden;margin-bottom:24px;}
+.spec-key{padding:11px 16px;font-size:13px;font-weight:700;color:var(--s500);background:var(--s50);border-bottom:1px solid var(--s200);border-right:1px solid var(--s200);}
+.spec-val{padding:11px 16px;font-size:13px;background:#fff;border-bottom:1px solid var(--s200);border-right:1px solid var(--s200);}
+.usage-section{background:var(--s50);border-radius:4px;padding:20px;margin-bottom:24px;}
+.usage-title{font-size:14px;font-weight:700;color:var(--s700);margin-bottom:12px;}
+.usage-list{display:flex;flex-wrap:wrap;gap:8px;}
+.usage-tag{background:#fff;border:1px solid var(--s200);border-radius:20px;padding:4px 14px;font-size:13px;color:var(--s700);}
+.usage-nado{font-size:12px;color:var(--s400);font-style:italic;margin-left:4px;}
+.detail-desc-box{background:var(--s50);border-left:4px solid var(--navy);padding:18px;border-radius:0 4px 4px 0;margin-bottom:20px;}
+.detail-desc-box p{font-size:14px;color:var(--s700);line-height:1.8;}
+.detail-section-title{font-size:17px;font-weight:700;color:var(--navy);margin-bottom:14px;padding-left:12px;border-left:4px solid var(--red);}
+.detail-policy{background:var(--s50);padding:18px;border-radius:4px;}
+.detail-policy .plabel{font-size:11px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px;}
+.detail-policy ul{font-size:13px;color:var(--s600);list-style:disc;padding-left:18px;line-height:2.2;}
+.rfq-box{background:#fff;border:2px solid var(--navy);border-radius:4px;padding:22px;position:sticky;top:80px;}
+.rfq-box h3{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:8px;}
+.rfq-box p{font-size:13px;color:var(--s500);margin-bottom:18px;line-height:1.7;}
+.rfq-box-btn{display:block;width:100%;text-align:center;background:var(--red);color:#fff;border:none;padding:13px;font-size:14px;font-weight:700;font-family:'Noto Sans JP',sans-serif;border-radius:2px;cursor:pointer;margin-bottom:10px;}
+.rfq-box-tel{display:block;width:100%;text-align:center;border:2px solid var(--navy);color:var(--navy);padding:9px;font-size:13px;font-weight:700;font-family:'Noto Sans JP',sans-serif;border-radius:2px;cursor:pointer;background:#fff;}
+.rfq-note{font-size:11px;color:var(--s400);text-align:center;margin-top:8px;line-height:1.6;}
+.back-to-list{font-size:13px;color:var(--s500);margin-top:14px;text-align:center;display:block;cursor:pointer;}
+.back-to-list:hover{color:var(--navy);}
+.related-section{margin-top:36px;}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:12px;}
+.related-card{background:#fff;border:1px solid var(--s200);border-radius:4px;padding:16px;cursor:pointer;transition:box-shadow .2s;}
+.related-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.08);}
+.r-cat{font-size:11px;color:var(--s400);margin-bottom:4px;}
+.r-pn{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--navy);font-size:13px;word-break:break-all;}
+.r-maker{font-size:12px;color:var(--s500);margin-top:2px;}
+.preview-banner{background:var(--orange-bg);border:1px solid var(--orange);border-radius:4px;padding:12px 20px;margin-bottom:24px;font-size:13px;color:var(--orange);font-weight:700;text-align:center;}
+.flow-section{background:var(--s50);border-top:1px solid var(--s200);padding:20px 32px;margin-top:32px;}
+.flow-title{font-size:13px;font-weight:700;color:var(--s600);margin-bottom:14px;}
+.flow-steps{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.flow-step{display:flex;align-items:center;gap:8px;}
+.flow-num{width:24px;height:24px;background:var(--navy);color:#fff;border-radius:50%;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.flow-label{font-size:13px;color:var(--s700);}
+.flow-arrow{color:var(--s300);font-size:16px;}
+.footer-bar{background:var(--navy-dark);color:rgba(255,255,255,.6);text-align:center;padding:14px;font-size:12px;}
+</style>
+</head>
+<body>
+
+<!-- ===== ログイン ===== -->
+<div id="login-screen">
+  <div class="login-box">
+    <div class="login-logo">
+      <img src="https://www.pivotcore.jp/pivotcore_logo.png" alt="PivotCore">
+      <p>株式会社ピボットコア</p>
+    </div>
+    <div class="login-title">製品管理画面</div>
+    <div class="field">
+      <label>Worker URL</label>
+      <input type="url" id="worker-url" placeholder="https://pivotcore-admin.xxxx.workers.dev">
+    </div>
+    <div class="field">
+      <label>パスワード</label>
+      <input type="password" id="password" placeholder="パスワードを入力" onkeydown="if(event.key==='Enter')doLogin()">
+    </div>
+    <button class="login-btn" onclick="doLogin()">ログイン</button>
+    <div class="login-error" id="login-error"></div>
+  </div>
+</div>
+
+<!-- ===== 管理画面 ===== -->
+<div id="main-screen">
+  <header class="header header-main">
+    <div class="header-left">
+      <img src="https://www.pivotcore.jp/pivotcore_logo.png" alt="PivotCore">
+      <span class="header-title">製品管理画面</span>
+    </div>
+    <div class="header-right">
+      <span id="unsaved-label" style="font-size:12px;color:rgba(255,255,255,.6);display:none;">● 未公開の変更あり</span>
+      <button class="hbtn hbtn-white" onclick="openPreview()">👁 プレビュー・公開</button>
+      <button class="hbtn hbtn-ghost" onclick="doLogout()">ログアウト</button>
+    </div>
+  </header>
+  <div class="content">
+    <div class="section-header">
+      <span class="section-title" id="product-count">製品一覧（0件）</span>
+      <button class="add-btn" onclick="openModal()">＋ 新しい型番を追加</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th style="width:50px;">順序</th><th>型番</th><th>メーカー</th><th>カテゴリ</th><th>長納期</th><th>操作</th></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div id="empty-state" class="empty-state" style="display:none;">
+        <div style="font-size:32px;">📦</div>
+        <p style="margin-top:8px;">製品が登録されていません。「新しい型番を追加」から登録してください。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== プレビュー一覧 ===== -->
+<div id="preview-screen">
+  <header class="header header-preview">
+    <div class="header-left">
+      <span class="screen-badge">プレビュー</span>
+      <span class="header-title">公開前の確認</span>
+    </div>
+    <div class="header-right">
+      <span class="pub-status" id="pub-status"></span>
+      <button class="hbtn hbtn-red" id="pub-btn" onclick="doPublish()">🚀 このまま公開する</button>
+      <button class="hbtn hbtn-ghost" onclick="closePreview()">← 編集に戻る</button>
+    </div>
+  </header>
+  <div class="content">
+    <div class="preview-note">
+      <h3>⚠️ 公開前の確認画面です</h3>
+      <p>カードをクリックすると個別の詳細ページもプレビューできます。問題なければ「このまま公開する」を押してください。</p>
+    </div>
+    <div id="diff-summary" style="margin-bottom:20px;"></div>
+    <div style="font-size:15px;font-weight:700;color:var(--s700);margin-bottom:12px;">型番カード一覧</div>
+    <div class="diff-legend">
+      <span><div class="dl" style="background:#f0fdf4;border:1px solid var(--green);"></div>新規追加</span>
+      <span><div class="dl" style="background:#fefce8;border:1px solid var(--orange);"></div>変更あり</span>
+      <span><div class="dl" style="background:#fef2f2;border:1px solid var(--red);"></div>削除</span>
+      <span style="color:var(--s400);">※ カードをクリックすると詳細ページをプレビューできます</span>
+    </div>
+    <div class="preview-grid" id="preview-grid"></div>
+  </div>
+</div>
+
+<!-- ===== 詳細プレビュー ===== -->
+<div id="detail-screen">
+  <header class="header header-detail">
+    <div class="header-left">
+      <span class="screen-badge screen-badge-detail">詳細プレビュー</span>
+      <span class="header-title" id="detail-header-pn"></span>
+    </div>
+    <div class="header-right">
+      <button class="hbtn hbtn-ghost" onclick="closeDetail()">← 一覧プレビューに戻る</button>
+    </div>
+  </header>
+  <div id="detail-body"></div>
+</div>
+
+<!-- ===== 編集モーダル ===== -->
+<div class="overlay" id="modal">
+  <div class="modal">
+    <div class="modal-title" id="modal-title">新しい型番を追加</div>
+
+    <div class="form-field"><label>説明文</label><textarea id="f-description" rows="2" placeholder="本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。"></textarea></div>
+
+    <div class="modal-section">基本情報</div>
+    <div class="form-row">
+      <div class="form-field"><label>型番 <span style="color:var(--red)">*</span></label><input type="text" id="f-partNumber" placeholder="例：STM32F103C8T6"></div>
+      <div class="form-field"><label>メーカー <span style="color:var(--red)">*</span></label><input type="text" id="f-manufacturer" placeholder="例：STMicroelectronics"></div>
+    </div>
+    <div class="form-row">
+      <div class="form-field"><label>カテゴリ <span style="color:var(--red)">*</span></label><input type="text" id="f-category" placeholder="例：マイコン (MCU)"></div>
+      <div class="form-field"><label>パッケージ</label><input type="text" id="f-package" placeholder="例：LQFP-48"></div>
+    </div>
+
+    <div class="modal-section">スペック情報（任意）</div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
+      <span style="font-size:12px;color:var(--s500);">項目名と内容を入力してください</span>
+      <button class="spec-add" onclick="addSpecRow()">＋ 行を追加</button>
+    </div>
+    <div id="spec-rows"></div>
+
+    <div style="margin-top:16px;margin-bottom:16px;">
+      <div style="display:flex;gap:8px;margin-bottom:4px;">
+        <span style="width:40%;font-size:11px;font-weight:700;color:var(--s500);text-transform:uppercase;letter-spacing:.08em;">RoHS</span>
+        <span style="flex:1;font-size:11px;font-weight:700;color:var(--s500);text-transform:uppercase;letter-spacing:.08em;">データシートURL</span>
+        <span class="spec-del" style="visibility:hidden;">✕</span>
+      </div>
+      <div class="spec-pair">
+        <select id="f-rohs" style="width:40%;padding:8px 10px;border:2px solid var(--s200);border-radius:2px;font-size:13px;font-family:'Noto Sans JP',sans-serif;outline:none;"><option value="対応">対応</option><option value="非対応">非対応</option><option value="">未設定</option></select>
+        <input type="url" id="f-datasheetUrl" placeholder="https://..." style="flex:1;padding:8px 10px;border:2px solid var(--s200);border-radius:2px;font-size:13px;outline:none;">
+        <span class="spec-del" style="visibility:hidden;">✕</span>
+      </div>
+    </div>
+    <div class="cb-field">
+      <input type="checkbox" id="f-longLead" checked>
+      <label for="f-longLead">長納期対応バッジを表示する</label>
+    </div>
+
+    <div class="form-field"><label>用途例（カンマ区切り）</label><input type="text" id="f-applications" placeholder="産業機器制御, FA機器, 計測機器"></div>
+    <div class="form-field"><label>検索キーワード（カンマ区切り）</label><input type="text" id="f-keywords" placeholder="STM32, マイコン, MCU"></div>
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal()">キャンセル</button>
+      <button class="btn-save" onclick="saveProduct()">保存する</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let WORKER='', PASSWORD='', siteMeta={}, working=[], original=[], currentSha='', editingIndex=-1;
+
+function $(id){return document.getElementById(id);}
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+function show(id){['login-screen','main-screen','preview-screen','detail-screen'].forEach(s=>$(s).style.display='none');$(id).style.display=id==='login-screen'?'flex':'block';}
+function toSlug(s){return(s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
+
+// ===== ログイン =====
+async function doLogin(){
+  WORKER=$('worker-url').value.trim().replace(/\/$/,'');
+  PASSWORD=$('password').value;
+  if(!WORKER||!PASSWORD){showLoginError('Worker URLとパスワードを入力してください。');return;}
+  try{
+    const res=await fetch(WORKER+'/products',{headers:{'X-Admin-Password':PASSWORD}});
+    if(!res.ok) throw new Error(res.status===401?'パスワードが正しくありません。':'接続エラー: '+res.status);
+    const body=await res.json();
+    siteMeta=body.data.site||{};
+    working=body.data.products||[];
+    original=JSON.parse(JSON.stringify(working));
+    currentSha=body.sha||'';
+    renderTable();show('main-screen');
+  }catch(e){showLoginError(e.message);}
+}
+function showLoginError(msg){const el=$('login-error');el.textContent=msg;el.style.display='block';}
+function doLogout(){WORKER='';PASSWORD='';show('login-screen');}
+
+// ===== テーブル描画 =====
+function renderTable(){
+  $('product-count').textContent='製品一覧（'+working.length+'件）';
+  const tb=$('tbody');tb.innerHTML='';
+  $('empty-state').style.display=working.length?'none':'block';
+  working.forEach((p,i)=>{
+    const tr=document.createElement('tr');
+    tr.innerHTML=
+      '<td><button class="tbtn tbtn-up" onclick="moveProduct('+i+',-1)"'+(i===0?' disabled':'')+'>▲</button> '+
+      '<button class="tbtn tbtn-down" onclick="moveProduct('+i+',1)"'+(i===working.length-1?' disabled':'')+'>▼</button></td>'+
+      '<td><span class="pn">'+esc(p.partNumber)+'</span></td>'+
+      '<td>'+esc(p.manufacturer)+'</td>'+
+      '<td><span class="badge badge-cat">'+esc(p.category)+'</span></td>'+
+      '<td>'+(p.longLead!==false?'<span class="badge badge-ll">長納期対応</span>':'<span class="badge badge-no">—</span>')+'</td>'+
+      '<td><div class="action-btns"><button class="tbtn tbtn-edit" onclick="openModal('+i+')">編集</button><button class="tbtn tbtn-del" onclick="removeProduct('+i+')">削除</button></div></td>';
+    tb.appendChild(tr);
+  });
+  updateUnsaved();
+}
+function moveProduct(i,dir){const j=i+dir;if(j<0||j>=working.length)return;[working[i],working[j]]=[working[j],working[i]];renderTable();}
+function removeProduct(i){if(!confirm('「'+working[i].partNumber+'」を削除しますか？'))return;working.splice(i,1);renderTable();}
+function updateUnsaved(){$('unsaved-label').style.display=JSON.stringify(original)!==JSON.stringify(working)?'':'none';}
+
+// ===== 編集モーダル =====
+function addSpecRow(label,value){
+  const div=document.createElement('div');div.className='spec-pair';
+  div.innerHTML='<input placeholder="項目名（例：コア）" value="'+(label||'')+'" style="width:40%;">'+
+    '<input placeholder="内容（例：ARM Cortex-M3）" value="'+(value||'')+'">'+
+    '<button class="spec-del" onclick="this.parentElement.remove()">✕</button>';
+  $('spec-rows').appendChild(div);
+}
+function openModal(i){
+  editingIndex=typeof i==='number'?i:-1;
+  $('modal-title').textContent=editingIndex>=0?'型番を編集':'新しい型番を追加';
+  const p=editingIndex>=0?working[i]:{};
+  $('f-partNumber').value=p.partNumber||'';
+  $('f-manufacturer').value=p.manufacturer||'';
+  $('f-category').value=p.category||'';
+  $('f-package').value=p.package||'';
+  $('f-description').value=p.description||'';
+  $('f-longLead').checked=p.longLead!==false;
+  $('f-rohs').value=p.rohs||'対応';
+  $('f-datasheetUrl').value=p.datasheetUrl||'';
+  $('f-applications').value=(p.applications||[]).join(', ');
+  $('f-keywords').value=(p.keywords||[]).join(', ');
+  $('spec-rows').innerHTML='';
+  (p.specs||[]).forEach(s=>addSpecRow(s.label,s.value));
+  if(!(p.specs||[]).length){addSpecRow();addSpecRow();}
+  $('modal').classList.add('open');
+}
+function closeModal(){$('modal').classList.remove('open');editingIndex=-1;}
+function saveProduct(){
+  const pn=$('f-partNumber').value.trim();
+  const mfr=$('f-manufacturer').value.trim();
+  const cat=$('f-category').value.trim();
+  if(!pn||!mfr||!cat){alert('型番・メーカー・カテゴリは必須です。');return;}
+  const slug=toSlug(pn);
+  const dup=working.some((x,idx)=>idx!==editingIndex&&toSlug(x.partNumber)===slug);
+  if(dup){alert('同じ型番（URL）が既に存在します。');return;}
+  const specs=[];
+  $('spec-rows').querySelectorAll('.spec-pair').forEach(row=>{
+    const inputs=row.querySelectorAll('input');
+    if(inputs[0].value.trim()&&inputs[1].value.trim()) specs.push({label:inputs[0].value.trim(),value:inputs[1].value.trim()});
+  });
+  const p={
+    partNumber:pn,manufacturer:mfr,category:cat,
+    package:$('f-package').value.trim(),
+    longLead:$('f-longLead').checked,
+    rohs:$('f-rohs').value,
+    description:$('f-description').value.trim(),
+    datasheetUrl:$('f-datasheetUrl').value.trim(),
+    specs:specs,
+    applications:$('f-applications').value.split(',').map(s=>s.trim()).filter(Boolean),
+    keywords:$('f-keywords').value.split(',').map(s=>s.trim()).filter(Boolean)
+  };
+  if(editingIndex>=0) working[editingIndex]=p; else working.push(p);
+  closeModal();renderTable();
+}
+$('modal').addEventListener('click',e=>{if(e.target===$('modal'))closeModal();});
+
+// ===== プレビュー一覧 =====
+function openPreview(){
+  const oMap=Object.fromEntries(original.map(p=>[toSlug(p.partNumber),p]));
+  const wMap=Object.fromEntries(working.map(p=>[toSlug(p.partNumber),p]));
+  let added=0,changed=0,removed=0;
+  const cards=[];
+  working.forEach((p,i)=>{
+    const old=oMap[toSlug(p.partNumber)];
+    let dc='',tag='';
+    if(!old){dc='diff-added';tag='<span class="diff-tag diff-tag-added">NEW</span>';added++;}
+    else if(JSON.stringify(p)!==JSON.stringify(old)){dc='diff-changed';tag='<span class="diff-tag diff-tag-changed">変更</span>';changed++;}
+    cards.push('<div class="preview-card '+dc+'" onclick="openDetail('+i+')">'+
+      '<div class="cat">'+esc(p.category)+tag+'</div>'+
+      '<div class="pn-lg">'+esc(p.partNumber)+'</div>'+
+      '<div class="maker">'+esc(p.manufacturer)+'</div>'+
+      (p.longLead!==false?'<div class="ll-badge">長納期対応</div>':'')+
+      '<button class="rfq-btn-prev" onclick="event.stopPropagation();openDetail('+i+')">詳細・見積依頼 ›</button>'+
+      '<div class="click-hint">クリックで詳細ページを確認</div></div>');
+  });
+  original.forEach(p=>{
+    if(!wMap[toSlug(p.partNumber)]){removed++;
+      cards.push('<div class="preview-card diff-removed"><div class="cat">'+esc(p.category)+'<span class="diff-tag diff-tag-removed">削除</span></div><div class="pn-lg">'+esc(p.partNumber)+'</div><div class="maker">'+esc(p.manufacturer)+'</div><button class="rfq-btn-prev" style="background:var(--s400)">詳細・見積依頼 ›</button></div>');
+    }
+  });
+  $('preview-grid').innerHTML=cards.join('');
+  const parts=[];
+  if(added)parts.push('<span style="color:var(--green);font-weight:700;">＋'+added+'件 新規追加</span>');
+  if(changed)parts.push('<span style="color:var(--orange);font-weight:700;">✎ '+changed+'件 変更</span>');
+  if(removed)parts.push('<span style="color:var(--red);font-weight:700;">－'+removed+'件 削除</span>');
+  const noChange=!added&&!changed&&!removed;
+  $('diff-summary').innerHTML=noChange
+    ?'<div style="background:var(--s100);border-radius:4px;padding:14px 20px;font-size:14px;color:var(--s500);">変更はありません。</div>'
+    :'<div style="background:#fff;border-radius:4px;padding:14px 20px;box-shadow:0 1px 4px rgba(0,0,0,.08);font-size:14px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;"><span style="font-weight:700;color:var(--s700);">変更内容：</span>'+parts.join('<span style="color:var(--s300);">｜</span>')+'</div>';
+  $('pub-btn').disabled=noChange;
+  $('pub-status').style.display='none';
+  show('preview-screen');window.scrollTo(0,0);
+}
+function closePreview(){show('main-screen');window.scrollTo(0,0);}
+
+// ===== 詳細プレビュー =====
+function openDetail(idx){
+  const p=working[idx];if(!p)return;
+  $('detail-header-pn').textContent=p.partNumber;
+  const dynSpecs=(p.specs||[]).filter(s=>s.label!=='パッケージ').map(s=>({l:s.label,v:s.value}));
+  const specs=[{l:'メーカー',v:p.manufacturer}];
+  if(dynSpecs[0])specs.push(dynSpecs[0]);
+  specs.push({l:'カテゴリ',v:p.category});
+  for(let i=1;i<dynSpecs.length;i++)specs.push(dynSpecs[i]);
+  if(p.package)specs.push({l:'パッケージ',v:p.package});
+  if(p.rohs)specs.push({l:'RoHS',v:p.rohs});
+  if(p.package)specs.push({l:'パッケージ',v:p.package});
+  let specHtml='';
+  if(specs.length){
+    const rows=[];
+    for(let i=0;i<specs.length;i+=2){
+      const a=specs[i],b=specs[i+1];
+      rows.push('<div class="spec-key">'+esc(a.l)+'</div><div class="spec-val">'+esc(a.v)+'</div>'+
+        (b?'<div class="spec-key">'+esc(b.l)+'</div><div class="spec-val">'+esc(b.v)+'</div>':'<div class="spec-key"></div><div class="spec-val"></div>'));
+    }
+    specHtml='<div class="spec-table-2col">'+rows.join('')+'</div>';
+  }
+  const apps=(p.applications||[]).filter(Boolean);
+  let usageHtml='';
+  if(apps.length){
+    const tags=apps.map((a,i)=>'<span class="usage-tag">'+esc(a)+(i===apps.length-1?'<span class="usage-nado"> など</span>':'')+'</span>').join('');
+    usageHtml='<div class="usage-section"><div class="usage-title">主な用途例</div><div class="usage-list">'+tags+'</div></div>';
+  }
+  const related=working.filter((x,i2)=>x.category===p.category&&i2!==idx).slice(0,3);
+  const relatedHtml=related.length?'<div class="related-section"><div class="detail-section-title">関連製品（'+esc(p.category)+'）</div><div class="related-grid">'+related.map((r,ri)=>{
+    const ri2=working.indexOf(r);
+    return '<div class="related-card" onclick="openDetail('+ri2+')"><div class="r-cat">'+esc(r.category)+'</div><div class="r-pn">'+esc(r.partNumber)+'</div><div class="r-maker">'+esc(r.manufacturer)+'</div></div>';
+  }).join('')+'</div></div>':'';
+
+  $('detail-body').innerHTML=
+    '<div class="preview-banner">⚠️ これはプレビューです。「このまま公開する」ボタンから反映できます。</div>'+
+    '<div class="detail-hero"><div style="max-width:1000px;margin:0 auto;">'+
+    '<div style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:8px;">ホーム / 調達対応型番一覧 / '+esc(p.partNumber)+'</div>'+
+    '<div class="detail-hero-badges">'+
+    '<span class="dbadge dbadge-cat">'+esc(p.category)+'</span>'+
+    (p.longLead!==false?'<span class="dbadge dbadge-ll">長納期対応</span>':'')+
+    (p.package?'<span class="dbadge dbadge-pkg">パッケージ：'+esc(p.package)+'</span>':'')+
+    '</div>'+
+    '<div class="detail-pn">'+esc(p.partNumber)+'</div>'+
+    '<div class="detail-maker">'+esc(p.manufacturer)+'</div>'+
+    '</div></div>'+
+    '<div class="detail-content"><div class="detail-body"><div>'+
+    '<div class="detail-desc-box"><p>'+esc(p.description||'本製品の調達についてご相談ください。長納期品・調達困難品にも対応しております。')+'</p></div>'+
+    specHtml+usageHtml+
+    '<div class="detail-policy"><div class="plabel">当社の調達方針</div><ul><li>正規品ルートを優先し、模倣品の混入を防止します</li><li>品質とトレーサビリティ（追跡可能性）を重視します</li><li>原則24時間以内に一次回答いたします</li></ul></div>'+
+    '</div><div>'+
+    '<div class="rfq-box"><h3>この型番の調達について相談する</h3><p>在庫確認・お見積り・納期回答など、お気軽にご相談ください。</p>'+
+    '<button class="rfq-box-btn">✉ RFQフォームへ進む（無料）</button>'+
+    '<button class="rfq-box-tel">📞 050-6863-4302（平日 9:00-17:30）</button>'+
+    '<div class="rfq-note">お電話でのご相談も承っております。</div></div>'+
+    '<a class="back-to-list" onclick="closeDetail()">← 型番一覧に戻る</a></div></div>'+
+    relatedHtml+'</div>'+
+    '<div class="flow-section"><div class="flow-title">👤 ご利用の流れ</div><div class="flow-steps">'+
+    '<div class="flow-step"><div class="flow-num">1</div><div class="flow-label">型番検索・ページ確認</div></div><div class="flow-arrow">→</div>'+
+    '<div class="flow-step"><div class="flow-num">2</div><div class="flow-label">RFQフォームからお問い合わせ</div></div><div class="flow-arrow">→</div>'+
+    '<div class="flow-step"><div class="flow-num">3</div><div class="flow-label">内容確認・お見積り</div></div><div class="flow-arrow">→</div>'+
+    '<div class="flow-step"><div class="flow-num">4</div><div class="flow-label">ご回答・ご提案</div></div>'+
+    '</div></div><div class="footer-bar">© 2026 PivotCore Co., Ltd.</div>';
+  show('detail-screen');window.scrollTo(0,0);
+}
+function closeDetail(){show('preview-screen');window.scrollTo(0,0);}
+
+// ===== 公開 (Worker API) =====
+async function doPublish(){
+  const btn=$('pub-btn'),status=$('pub-status');
+  btn.disabled=true;
+  status.className='pub-status ing';status.style.display='inline-block';status.textContent='⏳ 公開中...';
+  try{
+    const res=await fetch(WORKER+'/products',{
+      method:'PUT',
+      headers:{'Content-Type':'application/json','X-Admin-Password':PASSWORD},
+      body:JSON.stringify({data:{site:siteMeta,products:working},sha:currentSha,message:'製品データ更新（管理画面）'})
+    });
+    const body=await res.json();
+    if(!res.ok)throw new Error(body.detail||body.error||res.status);
+    currentSha=body.sha||currentSha;
+    original=JSON.parse(JSON.stringify(working));
+    updateUnsaved();
+    status.className='pub-status ok';
+    status.textContent='✅ 公開しました！数分でサイトに反映されます。';
+    setTimeout(()=>{status.style.display='none';},8000);
+  }catch(e){
+    status.className='pub-status err';
+    status.textContent='❌ エラー: '+e.message;
+    btn.disabled=false;
+    setTimeout(()=>{status.style.display='none';},8000);
+  }
+}
+</script>
+</body>
+</html>
