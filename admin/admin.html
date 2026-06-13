@@ -486,13 +486,14 @@ function openDetail(idx){
   for(let i=1;i<dynSpecs.length;i++)specs.push(dynSpecs[i]);
   if(p.package)specs.push({l:'パッケージ',v:p.package});
   if(p.rohs)specs.push({l:'RoHS',v:p.rohs});
+  if(p.datasheetUrl)specs.push({l:'データシート',v:'<a href="'+esc(p.datasheetUrl)+'" target="_blank" style="color:var(--navy);text-decoration:underline;">メーカー公式ページで確認する ↗</a>',html:true});
   let specHtml='';
   if(specs.length){
     const rows=[];
     for(let i=0;i<specs.length;i+=2){
       const a=specs[i],b=specs[i+1];
-      rows.push('<div class="spec-key">'+esc(a.l)+'</div><div class="spec-val">'+esc(a.v)+'</div>'+
-        (b?'<div class="spec-key">'+esc(b.l)+'</div><div class="spec-val">'+esc(b.v)+'</div>':'<div class="spec-key"></div><div class="spec-val"></div>'));
+      rows.push('<div class="spec-key">'+esc(a.l)+'</div><div class="spec-val">'+(a.html?a.v:esc(a.v))+'</div>'+
+        (b?'<div class="spec-key">'+esc(b.l)+'</div><div class="spec-val">'+(b.html?b.v:esc(b.v))+'</div>':'<div class="spec-key"></div><div class="spec-val"></div>'));
     }
     specHtml='<div class="spec-table-2col">'+rows.join('')+'</div>';
   }
