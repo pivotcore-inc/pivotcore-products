@@ -90,8 +90,12 @@
 
                 <!-- 左：製品情報（2カラム分） -->
                 <div class="md:col-span-2">
+                    <!-- 調達についてのご案内 -->
+                    <div class="bg-slate-50 border-l-4 border-[#163A8D] p-6 rounded-sm mb-8">
+                        <p class="text-slate-700 leading-loose">{{DESCRIPTION}}</p>
+                    </div>
+
                     <!-- 製品情報テーブル（2列ペア） -->
-                    <h2 class="text-xl font-bold text-[#163A8D] mb-6 border-l-4 border-red-700 pl-4">製品情報</h2>
                     <div class="border rounded-sm overflow-hidden shadow-sm mb-8">
                         <table class="w-full text-[13px]">
                             <tbody>
@@ -100,14 +104,16 @@
                         </table>
                     </div>
 
-                    <!-- 調達についてのご案内 -->
-                    <h2 class="text-xl font-bold text-[#163A8D] mb-4 border-l-4 border-red-700 pl-4">調達についてのご案内</h2>
-                    <div class="bg-slate-50 border-l-4 border-[#163A8D] p-6 rounded-sm mb-8">
-                        <p class="text-slate-700 leading-loose">{{DESCRIPTION}}</p>
-                    </div>
+                    <!-- 主な用途例 -->
+                    <section class="mb-8">
+                        <h2 class="text-xl font-bold text-[#163A8D] border-l-4 border-red-700 pl-4 mb-6">主な用途例</h2>
+                        <ul class="flex flex-wrap gap-3">
+                            {{APPLICATIONS}}
+                        </ul>
+                    </section>
 
                     <!-- 当社の調達方針 -->
-                    <div class="bg-slate-50 p-6 border rounded-sm space-y-2">
+                    <div class="bg-slate-50 p-6 border rounded-sm space-y-2 mb-8">
                         <div class="text-xs font-bold text-[#163A8D] uppercase tracking-wider mb-3">当社の調達方針</div>
                         <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
                             <li>正規品ルートを優先し、模倣品の混入を防止します</li>
@@ -116,13 +122,8 @@
                         </ul>
                     </div>
 
-                    <!-- 主な用途例 -->
-                    <section class="mt-14">
-                        <h2 class="text-xl font-bold text-[#163A8D] border-l-4 border-red-700 pl-4 mb-6">主な用途例</h2>
-                        <ul class="flex flex-wrap gap-3">
-                            {{APPLICATIONS}}
-                        </ul>
-                    </section>
+                    <!-- 関連製品 -->
+                    {{RELATED_PRODUCTS}}
 
                     <!-- ご利用の流れ -->
                     <section class="mt-14">

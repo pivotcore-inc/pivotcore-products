@@ -104,7 +104,7 @@ function validate(products) {
 
 // ---------- ページ生成 ----------
 
-function buildProductPage(p, site, tpl) {
+function buildProductPage(p, site, tpl, allProducts) {
   const slug = p.slug ? toSlug(p.slug) : toSlug(p.partNumber);
   const canonical = `${site.baseUrl}${site.productsPath}/${slug}/`;
   const makerUrl = `${site.productsPath}/?maker=${encodeURIComponent(p.manufacturer)}`;
@@ -219,11 +219,31 @@ function buildProductPage(p, site, tpl) {
     SPEC_ROWS: specRows,
     DATASHEET_BLOCK: datasheetBlock,
     APPLICATIONS: applications,
+    RELATED_PRODUCTS: buildRelatedProducts(p, site, allProducts),
     YEAR: new Date().getFullYear()
   });
 
   writeMounted(path.join(slug, 'index.html'), html);
   return { slug, canonical };
+}
+
+function buildRelatedProducts(p, site, allProducts) {
+  const related = (allProducts || [])
+    .filter(x => x.category === p.category && x.partNumber !== p.partNumber)
+    .slice(0, 3);
+  if (!related.length) return '';
+  const cards = related.map(r => {
+    const rSlug = toSlug(r.partNumber);
+    return `<a href="${site.productsPath}/${rSlug}/" class="block border border-slate-200 rounded p-4 hover:shadow-md transition">
+            <div class="text-xs text-slate-400 mb-1">${esc(r.category)}</div>
+            <div class="font-bold text-[#163A8D] font-mono text-sm break-all">${esc(r.partNumber)}</div>
+            <div class="text-xs text-slate-500 mt-1">${esc(r.manufacturer)}</div>
+        </a>`;
+  }).join('');
+  return `<section class="mb-8">
+        <h2 class="text-xl font-bold text-[#163A8D] border-l-4 border-red-700 pl-4 mb-6">関連製品（${esc(p.category)}）</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">${cards}</div>
+    </section>`;
 }
 
 function buildIndexPage(products, site, tpl) {
@@ -368,7 +388,7 @@ function main() {
   const productTpl = readTpl('product.html');
   const indexTpl = readTpl('index.html');
 
-  const entries = products.map((p) => buildProductPage(p, site, productTpl));
+  const entries = products.map((p) => buildProductPage(p, site, productTpl, products));
   buildIndexPage(products, site, indexTpl);
   buildSitemap(entries, site);
   buildRobots(site);
