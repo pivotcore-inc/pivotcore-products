@@ -486,7 +486,6 @@ function openDetail(idx){
   for(let i=1;i<dynSpecs.length;i++)specs.push(dynSpecs[i]);
   if(p.package)specs.push({l:'パッケージ',v:p.package});
   if(p.rohs)specs.push({l:'RoHS',v:p.rohs});
-  if(p.package)specs.push({l:'パッケージ',v:p.package});
   let specHtml='';
   if(specs.length){
     const rows=[];
