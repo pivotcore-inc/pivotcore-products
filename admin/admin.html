@@ -330,7 +330,9 @@ let WORKER='', PASSWORD='', siteMeta={}, working=[], original=[], currentSha='',
 
 function $(id){return document.getElementById(id);}
 function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
-function show(id){['login-screen','main-screen','preview-screen','detail-screen'].forEach(s=>$(s).style.display='none');$(id).style.display=id==='login-screen'?'flex':'block';}
+function show(id){['login-screen','main-screen','preview-screen','detail-screen'].forEach(s=>$(s).style.display='none');$(id).style.display=id==='login-screen'?'flex':'block';window.scrollTo(0,0);}
+function navTo(id){show(id);history.pushState({screen:id},'','#'+id.replace('-screen',''));}
+window.onpopstate=function(e){if(e.state&&e.state.screen){show(e.state.screen);}else{var h=location.hash.replace('#','');if(h==='preview')show('preview-screen');else if(h==='detail')show('detail-screen');else if(WORKER)show('main-screen');else show('login-screen');}};
 function toSlug(s){return(s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
 
 // ===== ログイン =====
@@ -346,7 +348,7 @@ async function doLogin(){
     working=body.data.products||[];
     original=JSON.parse(JSON.stringify(working));
     currentSha=body.sha||'';
-    renderTable();show('main-screen');
+    renderTable();navTo('main-screen');
   }catch(e){showLoginError(e.message);}
 }
 function showLoginError(msg){const el=$('login-error');el.textContent=msg;el.style.display='block';}
@@ -469,9 +471,9 @@ function openPreview(){
     :'<div style="background:#fff;border-radius:4px;padding:14px 20px;box-shadow:0 1px 4px rgba(0,0,0,.08);font-size:14px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;"><span style="font-weight:700;color:var(--s700);">変更内容：</span>'+parts.join('<span style="color:var(--s300);">｜</span>')+'</div>';
   $('pub-btn').disabled=noChange;
   $('pub-status').style.display='none';
-  show('preview-screen');window.scrollTo(0,0);
+  navTo('preview-screen');
 }
-function closePreview(){show('main-screen');window.scrollTo(0,0);}
+function closePreview(){history.back();}
 
 // ===== 詳細プレビュー =====
 function openDetail(idx){
@@ -536,9 +538,9 @@ function openDetail(idx){
     '<div class="flow-step"><div class="flow-num">3</div><div class="flow-label">内容確認・お見積り</div></div><div class="flow-arrow">→</div>'+
     '<div class="flow-step"><div class="flow-num">4</div><div class="flow-label">ご回答・ご提案</div></div>'+
     '</div></div><div class="footer-bar">© 2026 PivotCore Co., Ltd.</div>';
-  show('detail-screen');window.scrollTo(0,0);
+  navTo('detail-screen');
 }
-function closeDetail(){show('preview-screen');window.scrollTo(0,0);}
+function closeDetail(){history.back();}
 
 // ===== 公開 (Worker API) =====
 async function doPublish(){
