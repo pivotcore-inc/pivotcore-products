@@ -12,32 +12,6 @@
   },
   "products": [
     {
-      "partNumber": "でんぱ組",
-      "manufacturer": "でんぱ組",
-      "category": "でんぱ組",
-      "package": "でんぱ組",
-      "longLead": true,
-      "rohs": "対応",
-      "description": "アイドル",
-      "datasheetUrl": "https://dempagumi.tokyo/",
-      "specs": [
-        {
-          "label": "でんぱ組",
-          "value": "でんぱ組"
-        },
-        {
-          "label": "でんぱ組",
-          "value": "でんぱ組"
-        }
-      ],
-      "applications": [
-        "アイドル"
-      ],
-      "keywords": [
-        "アイドル"
-      ]
-    },
-    {
       "partNumber": "STM32F205REY6TR",
       "manufacturer": "STMicroelectronics",
       "category": "マイコン (MCU)",
@@ -78,6 +52,32 @@
         "Cortex-M3"
       ],
       "longLead": true
+    },
+    {
+      "partNumber": "でんぱ組",
+      "manufacturer": "でんぱ組",
+      "category": "でんぱ組",
+      "package": "でんぱ組",
+      "longLead": true,
+      "rohs": "対応",
+      "description": "アイドル",
+      "datasheetUrl": "https://dempagumi.tokyo/",
+      "specs": [
+        {
+          "label": "でんぱ組",
+          "value": "でんぱ組"
+        },
+        {
+          "label": "でんぱ組",
+          "value": "でんぱ組"
+        }
+      ],
+      "applications": [
+        "アイドル"
+      ],
+      "keywords": [
+        "アイドル"
+      ]
     },
     {
       "partNumber": "STM32F103C8T6",
