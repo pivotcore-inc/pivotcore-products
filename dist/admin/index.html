@@ -215,12 +215,7 @@ tbody td{padding:12px 16px;font-size:13px;vertical-align:middle;}
   <div class="content">
     <div class="section-header">
       <span class="section-title" id="product-count">製品一覧（0件）</span>
-      <div style="display:flex;gap:8px;align-items:center;">
-        <button class="tbtn tbtn-edit" onclick="exportData()" title="製品データをJSONファイルとしてダウンロード">📥 エクスポート</button>
-        <button class="tbtn tbtn-edit" onclick="$('import-file').click()" title="JSONファイルから製品データを読み込み">📤 インポート</button>
-        <input type="file" id="import-file" accept=".json" style="display:none;" onchange="importData(this)">
-        <button class="add-btn" onclick="openModal()">＋ 新しい型番を追加</button>
-      </div>
+      <button class="add-btn" onclick="openModal()">＋ 新しい型番を追加</button>
     </div>
     <div class="table-wrap">
       <table>
@@ -338,7 +333,7 @@ function esc(s){const d=document.createElement('div');d.textContent=s;return d.i
 function show(id){['login-screen','main-screen','preview-screen','detail-screen'].forEach(s=>$(s).style.display='none');$(id).style.display=id==='login-screen'?'flex':'block';window.scrollTo(0,0);}
 function navTo(id){show(id);history.pushState({screen:id},'','#'+id.replace('-screen',''));}
 window.onpopstate=function(e){if(e.state&&e.state.screen){show(e.state.screen);}else{var h=location.hash.replace('#','');if(h==='preview')show('preview-screen');else if(h==='detail')show('detail-screen');else if(WORKER)show('main-screen');else show('login-screen');}};
-function toSlug(s){return(s||'').toLowerCase().replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]+/g,'-').replace(/^-|-$/g,'');}
+function toSlug(s){return(s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
 
 // ===== ログイン =====
 async function doLogin(){
@@ -491,21 +486,21 @@ function openDetail(idx){
   for(let i=1;i<dynSpecs.length;i++)specs.push(dynSpecs[i]);
   if(p.package)specs.push({l:'パッケージ',v:p.package});
   if(p.rohs)specs.push({l:'RoHS',v:p.rohs});
-  if(p.datasheetUrl)specs.push({l:'データシート',v:'<a href="'+esc(p.datasheetUrl)+'" target="_blank" style="color:var(--navy);text-decoration:underline;">メーカー公式ページで確認する ↗</a>',html:true});
+  if(p.package)specs.push({l:'パッケージ',v:p.package});
   let specHtml='';
   if(specs.length){
     const rows=[];
     for(let i=0;i<specs.length;i+=2){
       const a=specs[i],b=specs[i+1];
-      rows.push('<div class="spec-key">'+esc(a.l)+'</div><div class="spec-val">'+(a.html?a.v:esc(a.v))+'</div>'+
-        (b?'<div class="spec-key">'+esc(b.l)+'</div><div class="spec-val">'+(b.html?b.v:esc(b.v))+'</div>':'<div class="spec-key"></div><div class="spec-val"></div>'));
+      rows.push('<div class="spec-key">'+esc(a.l)+'</div><div class="spec-val">'+esc(a.v)+'</div>'+
+        (b?'<div class="spec-key">'+esc(b.l)+'</div><div class="spec-val">'+esc(b.v)+'</div>':'<div class="spec-key"></div><div class="spec-val"></div>'));
     }
     specHtml='<div class="spec-table-2col">'+rows.join('')+'</div>';
   }
   const apps=(p.applications||[]).filter(Boolean);
   let usageHtml='';
   if(apps.length){
-    const tags=apps.map((a,i)=>'<span class="usage-tag">'+esc(a)+'</span>').join('');
+    const tags=apps.map((a,i)=>'<span class="usage-tag">'+esc(a)+(i===apps.length-1?'<span class="usage-nado"> など</span>':'')+'</span>').join('');
     usageHtml='<div class="usage-section"><div class="usage-title">主な用途例</div><div class="usage-list">'+tags+'</div></div>';
   }
   const related=working.filter((x,i2)=>x.category===p.category&&i2!==idx).slice(0,3);
@@ -572,41 +567,6 @@ async function doPublish(){
     btn.disabled=false;
     setTimeout(()=>{status.style.display='none';},8000);
   }
-}
-
-// ===== エクスポート・インポート =====
-function exportData(){
-  const data={site:siteMeta,products:working};
-  const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement('a');
-  a.href=url;
-  a.download='products_'+new Date().toISOString().slice(0,10)+'.json';
-  a.click();
-  URL.revokeObjectURL(url);
-}
-function importData(input){
-  const file=input.files[0];
-  if(!file)return;
-  const reader=new FileReader();
-  reader.onload=function(e){
-    try{
-      const data=JSON.parse(e.target.result);
-      const prods=data.products||data;
-      if(!Array.isArray(prods))throw new Error('製品データの配列が見つかりません');
-      const missing=prods.filter(p=>!p.partNumber||!p.manufacturer||!p.category);
-      if(missing.length)throw new Error(missing.length+'件の製品に必須項目（型番/メーカー/カテゴリ）が不足しています');
-      if(!confirm(prods.length+'件の製品データをインポートします。現在のデータは上書きされます。よろしいですか？'))return;
-      if(data.site)siteMeta=data.site;
-      working=prods;
-      renderTable();
-      alert('✅ '+prods.length+'件の製品データをインポートしました。内容を確認後「プレビュー・公開」から公開してください。');
-    }catch(err){
-      alert('❌ インポートエラー: '+err.message);
-    }
-  };
-  reader.readAsText(file);
-  input.value='';
 }
 </script>
 </body>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>調達対応型番一覧（型番検索） | 株式会社ピボットコア</title>
+    <meta name="description" content="半導体・電子部品の調達対応型番一覧。STM32・FPGA・電源IC・パワー半導体など、長納期品・調達困難品・EOL品の在庫確認とお見積りをピボットコアが承ります。">
+    <link rel="canonical" href="https://www.pivotcore.jp/products/">
+    <meta name="robots" content="index,follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="株式会社ピボットコア">
+    <meta property="og:title" content="調達対応型番一覧 | 株式会社ピボットコア">
+    <meta property="og:description" content="半導体・電子部品の調達対応型番一覧。STM32・FPGA・電源IC・パワー半導体など、長納期品・調達困難品・EOL品の在庫確認とお見積りをピボットコアが承ります。">
+    <meta property="og:url" content="https://www.pivotcore.jp/products/">
+    <meta property="og:image" content="https://www.pivotcore.jp/pivotcore_ogp.png">
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"調達対応型番一覧","url":"https://www.pivotcore.jp/products/","isPartOf":{"@type":"WebSite","name":"株式会社ピボットコア","url":"https://www.pivotcore.jp/"}}</script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .accent-border { border-top: 4px solid #b91c1c !important; }
+        .badge-longlead { display: inline-block; background: #b91c1c; color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; letter-spacing: 0.05em; }
+        .card-hover { transition: box-shadow .2s, transform .2s; }
+        .card-hover:hover { box-shadow: 0 8px 24px rgba(22,58,141,0.12); transform: translateY(-2px); }
+        .nav-link::after { content: ''; display: block; width: 0; height: 2px; background: #b91c1c; transition: width .3s; }
+        .nav-link:hover::after { width: 100%; }
+        .filter-chip.active { background:#163A8D; color:#fff; border-color:#163A8D; }
+    </style>
+</head>
+<body class="bg-white text-slate-900 leading-relaxed">
+
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex flex-col lg:flex-row justify-between items-center">
+            <a href="https://www.pivotcore.jp/" class="flex flex-col items-start mb-4 lg:mb-0">
+                <img src="https://www.pivotcore.jp/pivotcore_logo.png" alt="株式会社ピボットコアロゴ" class="h-10 md:h-12 object-contain">
+                <p class="text-[10px] md:text-xs font-bold text-slate-500 tracking-[0.1em] mt-1 ml-2">株式会社ピボットコア</p>
+            </a>
+            <nav class="flex items-center space-x-8">
+                <ul class="flex space-x-4 md:space-x-8 text-sm font-bold text-slate-700">
+                    <li><a href="https://www.pivotcore.jp/" class="nav-link hover:text-[#163A8D] transition">ホーム</a></li>
+                    <li><a href="https://www.pivotcore.jp/products/" class="nav-link hover:text-[#163A8D] transition text-[#163A8D]">型番検索</a></li>
+                    <li><a href="https://www.pivotcore.jp/#rfq" class="nav-link hover:text-[#163A8D] transition">見積依頼 (RFQ)</a></li>
+                </ul>
+                <div class="hidden md:block">
+                    <a href="tel:050-6863-4302" class="flex items-center text-[#163A8D] font-bold">
+                        <i class="fas fa-phone-alt mr-2 text-red-700"></i><span>050-6863-4302</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- パンくず -->
+        <nav class="bg-slate-50 border-b" aria-label="パンくず">
+            <div class="container mx-auto px-6 py-3 text-[13px] text-slate-500">
+                <ol class="flex flex-wrap items-center gap-2">
+                    <li><a href="https://www.pivotcore.jp/" class="hover:text-red-700">ホーム</a></li>
+                    <li><i class="fas fa-chevron-right text-[10px] text-slate-400"></i></li>
+                    <li class="font-bold text-slate-700">型番検索</li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- 見出し -->
+        <div class="bg-[#163A8D] text-white py-14">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <h1 class="text-3xl md:text-4xl font-bold mb-3">調達対応型番一覧</h1>
+                <p class="opacity-90 text-[15px] leading-relaxed">長納期品・調達困難品・EOL品を中心に、調達対応可能な型番を掲載しています。型番をクリックすると詳細ページが表示されます。</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-6 py-12 max-w-5xl">
+            <!-- 検索ボックス -->
+            <div class="mb-6">
+                <div class="relative">
+                    <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                    <input id="search" type="text" inputmode="search" placeholder="型番・メーカー・カテゴリで検索（例：STM32、Infineon、電源IC）"
+                        class="w-full border-2 border-slate-200 rounded p-4 pl-12 focus:border-red-700 focus:outline-none transition text-[15px]">
+                </div>
+            </div>
+
+            <!-- メーカー絞り込み -->
+            <div class="mb-3">
+                <div class="text-[12px] font-bold text-slate-500 uppercase tracking-widest mb-2">メーカーで絞り込み</div>
+                <div id="maker-filters" class="flex flex-wrap gap-2">
+                    <button data-maker="" class="filter-chip active text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition">すべて</button>
+                    <button data-maker="STMicroelectronics" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">STMicroelectronics</button>
+<button data-maker="AMD (Xilinx)" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">AMD (Xilinx)</button>
+<button data-maker="Intel (Altera)" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">Intel (Altera)</button>
+<button data-maker="Texas Instruments" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">Texas Instruments</button>
+<button data-maker="Infineon Technologies" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">Infineon Technologies</button>
+<button data-maker="Microchip Technology" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">Microchip Technology</button>
+<button data-maker="FTDI" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">FTDI</button>
+<button data-maker="Analog Devices (Maxim)" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">Analog Devices (Maxim)</button>
+                </div>
+            </div>
+
+            <!-- カテゴリ絞り込み -->
+            <div class="mb-8">
+                <div class="text-[12px] font-bold text-slate-500 uppercase tracking-widest mb-2">カテゴリで絞り込み</div>
+                <div id="cat-filters" class="flex flex-wrap gap-2">
+                    <button data-cat="" class="filter-chip active text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition">すべて</button>
+                    <button data-cat="マイコン (MCU)" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">マイコン (MCU)</button>
+<button data-cat="FPGA" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">FPGA</button>
+<button data-cat="電源IC (DC/DCコンバータ)" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">電源IC (DC/DCコンバータ)</button>
+<button data-cat="パワーMOSFET" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">パワーMOSFET</button>
+<button data-cat="IGBT" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">IGBT</button>
+<button data-cat="インターフェースIC (USB-UART)" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">インターフェースIC (USB-UART)</button>
+<button data-cat="インターフェースIC (RS-232)" class="filter-chip text-[13px] border border-slate-300 rounded-full px-4 py-1.5 transition hover:border-[#163A8D]">インターフェースIC (RS-232)</button>
+                </div>
+            </div>
+
+            <p id="result-count" class="text-[13px] text-slate-500 mb-4"></p>
+
+            <!-- 製品カード（静的生成） -->
+            <div id="product-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <a data-card href="/products/stm32f103c8t6/" data-maker="STMicroelectronics" data-cat="マイコン (MCU)" data-search="STM32F103C8T6 STMicroelectronics マイコン (MCU) LQFP-48 STM32 STM32F103 マイコン MCU Cortex-M3" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">マイコン (MCU)</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">STM32F103C8T6</div>
+        <div class="text-sm text-slate-500 mb-3">STMicroelectronics</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/stm32f205rey6tr/" data-maker="STMicroelectronics" data-cat="マイコン (MCU)" data-search="STM32F205REY6TR STMicroelectronics マイコン (MCU) LQFP-64 STM32 STM32F205 マイコン MCU Cortex-M3" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">マイコン (MCU)</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">STM32F205REY6TR</div>
+        <div class="text-sm text-slate-500 mb-3">STMicroelectronics</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/stm32f407vgt6/" data-maker="STMicroelectronics" data-cat="マイコン (MCU)" data-search="STM32F407VGT6 STMicroelectronics マイコン (MCU) LQFP-100 STM32 STM32F407 マイコン MCU Cortex-M4" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">マイコン (MCU)</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">STM32F407VGT6</div>
+        <div class="text-sm text-slate-500 mb-3">STMicroelectronics</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/xc7a35t-1ftg256c/" data-maker="AMD (Xilinx)" data-cat="FPGA" data-search="XC7A35T-1FTG256C AMD (Xilinx) FPGA FTBGA-256 FPGA Xilinx AMD Artix-7 XC7A35T" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">FPGA</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">XC7A35T-1FTG256C</div>
+        <div class="text-sm text-slate-500 mb-3">AMD (Xilinx)</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/10m08sae144c8g/" data-maker="Intel (Altera)" data-cat="FPGA" data-search="10M08SAE144C8G Intel (Altera) FPGA EQFP-144 FPGA Altera Intel MAX 10 10M08" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">FPGA</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">10M08SAE144C8G</div>
+        <div class="text-sm text-slate-500 mb-3">Intel (Altera)</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/tps54560ddar/" data-maker="Texas Instruments" data-cat="電源IC (DC/DCコンバータ)" data-search="TPS54560DDAR Texas Instruments 電源IC (DC/DCコンバータ) SO PowerPAD-8 TI Texas Instruments 電源IC DCDC TPS54560" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">電源IC (DC/DCコンバータ)</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">TPS54560DDAR</div>
+        <div class="text-sm text-slate-500 mb-3">Texas Instruments</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/lm2596s-adj/" data-maker="Texas Instruments" data-cat="電源IC (DC/DCコンバータ)" data-search="LM2596S-ADJ Texas Instruments 電源IC (DC/DCコンバータ) TO-263-5 TI Texas Instruments 電源IC レギュレータ LM2596" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">電源IC (DC/DCコンバータ)</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">LM2596S-ADJ</div>
+        <div class="text-sm text-slate-500 mb-3">Texas Instruments</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/irfp460pbf/" data-maker="Infineon Technologies" data-cat="パワーMOSFET" data-search="IRFP460PBF Infineon Technologies パワーMOSFET TO-247 Infineon MOSFET パワー半導体 IRFP460 Nチャネル" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">パワーMOSFET</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">IRFP460PBF</div>
+        <div class="text-sm text-slate-500 mb-3">Infineon Technologies</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/ikw40n120h3/" data-maker="Infineon Technologies" data-cat="IGBT" data-search="IKW40N120H3 Infineon Technologies IGBT TO-247 Infineon IGBT パワー半導体 IKW40N120 1200V" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">IGBT</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">IKW40N120H3</div>
+        <div class="text-sm text-slate-500 mb-3">Infineon Technologies</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/atmega328p-pu/" data-maker="Microchip Technology" data-cat="マイコン (MCU)" data-search="ATMEGA328P-PU Microchip Technology マイコン (MCU) PDIP-28 Microchip Atmel AVR ATMEGA328P マイコン" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">マイコン (MCU)</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">ATMEGA328P-PU</div>
+        <div class="text-sm text-slate-500 mb-3">Microchip Technology</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/ft232rl/" data-maker="FTDI" data-cat="インターフェースIC (USB-UART)" data-search="FT232RL FTDI インターフェースIC (USB-UART) SSOP-28 FTDI USB UART FT232RL インターフェース" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">インターフェースIC (USB-UART)</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">FT232RL</div>
+        <div class="text-sm text-slate-500 mb-3">FTDI</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+<a data-card href="/products/max232cpe/" data-maker="Analog Devices (Maxim)" data-cat="インターフェースIC (RS-232)" data-search="MAX232CPE Analog Devices (Maxim) インターフェースIC (RS-232) PDIP-16 Maxim Analog Devices RS-232 MAX232 インターフェース" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">インターフェースIC (RS-232)</div>
+        <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">MAX232CPE</div>
+        <div class="text-sm text-slate-500 mb-3">Analog Devices (Maxim)</div>
+        <div class="mb-3"><span class="badge-longlead">長納期対応</span></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
+    </a>
+            </div>
+
+            <div id="no-result" class="hidden text-center py-16 text-slate-500">
+                <i class="fas fa-box-open text-4xl mb-4 text-slate-300"></i>
+                <p>該当する型番が見つかりませんでした。</p>
+                <p class="text-[13px] mt-2">お探しの型番は <a href="https://www.pivotcore.jp/#rfq" class="text-[#163A8D] underline">RFQフォーム</a> から直接お問い合わせいただけます。</p>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="https://www.pivotcore.jp/" class="text-sm font-bold text-slate-500 hover:text-[#163A8D] transition">
+                    <i class="fas fa-arrow-left mr-2"></i>ホームへ戻る
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#002060] text-white py-16 mt-16">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 border-b border-[#001a4d] pb-8 mb-8">
+                <div>
+                    <img src="https://www.pivotcore.jp/pivotcore_logo.png" alt="株式会社ピボットコアロゴ" class="h-10 object-contain mb-1">
+                    <p class="text-xs font-semibold text-slate-300 tracking-[0.1em] ml-2">株式会社ピボットコア</p>
+                </div>
+                <ul class="flex flex-wrap gap-x-8 gap-y-2 text-[15px] text-slate-300">
+                    <li><a href="https://www.pivotcore.jp/" class="hover:text-white transition">ホーム</a></li>
+                    <li><a href="https://www.pivotcore.jp/products/" class="hover:text-white transition">型番検索</a></li>
+                    <li><a href="https://www.pivotcore.jp/#rfq" class="hover:text-white transition">見積依頼 (RFQ)</a></li>
+                </ul>
+            </div>
+            <p class="text-center text-[10px] text-slate-400 tracking-widest font-bold">&copy; 2026 PivotCore Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            const grid = document.getElementById('product-grid');
+            const cards = Array.from(grid.querySelectorAll('[data-card]'));
+            const search = document.getElementById('search');
+            const makerWrap = document.getElementById('maker-filters');
+            const catWrap = document.getElementById('cat-filters');
+            const noResult = document.getElementById('no-result');
+            const countEl = document.getElementById('result-count');
+
+            let activeMaker = '';
+            let activeCat = '';
+
+            // URLクエリ ?maker= で初期フィルタ（パンくずのメーカーリンクから遷移）
+            const params = new URLSearchParams(location.search);
+            const qMaker = params.get('maker');
+            if (qMaker) activeMaker = qMaker;
+            const qText = params.get('q');
+            if (qText) search.value = qText;
+
+            function normalize(s) { return (s || '').toLowerCase(); }
+
+            function apply() {
+                const term = normalize(search.value).trim();
+                let visible = 0;
+                cards.forEach(card => {
+                    const haystack = normalize(card.getAttribute('data-search'));
+                    const maker = card.getAttribute('data-maker');
+                    const cat = card.getAttribute('data-cat');
+                    const matchText = !term || haystack.includes(term);
+                    const matchMaker = !activeMaker || maker === activeMaker;
+                    const matchCat = !activeCat || cat === activeCat;
+                    const show = matchText && matchMaker && matchCat;
+                    card.style.display = show ? '' : 'none';
+                    if (show) visible++;
+                });
+                noResult.classList.toggle('hidden', visible !== 0);
+                countEl.textContent = visible + ' 件の型番';
+            }
+
+            function bindChips(wrap, attr, setter) {
+                wrap.querySelectorAll('.filter-chip').forEach(chip => {
+                    chip.addEventListener('click', () => {
+                        wrap.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+                        chip.classList.add('active');
+                        setter(chip.getAttribute(attr) || '');
+                        apply();
+                    });
+                });
+            }
+
+            bindChips(makerWrap, 'data-maker', v => activeMaker = v);
+            bindChips(catWrap, 'data-cat', v => activeCat = v);
+
+            // 初期メーカーフィルタの見た目同期
+            if (activeMaker) {
+                const target = makerWrap.querySelector('[data-maker="' + CSS.escape(activeMaker) + '"]');
+                if (target) {
+                    makerWrap.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+                    target.classList.add('active');
+                }
+            }
+
+            search.addEventListener('input', apply);
+            apply();
+        })();
+    </script>
+</body>
+</html>

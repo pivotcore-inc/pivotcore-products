@@ -40,7 +40,7 @@ function toSlug(partNumber) {
   return String(partNumber)
     .trim()
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
 
@@ -104,7 +104,7 @@ function validate(products) {
 
 // ---------- ページ生成 ----------
 
-function buildProductPage(p, site, tpl) {
+function buildProductPage(p, site, tpl, allProducts) {
   const slug = p.slug ? toSlug(p.slug) : toSlug(p.partNumber);
   const canonical = `${site.baseUrl}${site.productsPath}/${slug}/`;
   const makerUrl = `${site.productsPath}/?maker=${encodeURIComponent(p.manufacturer)}`;
@@ -199,7 +199,7 @@ function buildProductPage(p, site, tpl) {
     COMPANY_EN: esc(site.companyEn),
     JSONLD: jsonld,
     BASE_URL: esc(site.baseUrl),
-    PRODUCTS_URL: esc(site.baseUrl + site.productsPath),
+    PRODUCTS_URL: esc(site.productsPath),
     RFQ_URL: esc(site.rfqUrl),
     RFQ_PREFILL_URL: esc(rfqPrefill),
     LOGO: esc(site.logo),
@@ -219,11 +219,31 @@ function buildProductPage(p, site, tpl) {
     SPEC_ROWS: specRows,
     DATASHEET_BLOCK: datasheetBlock,
     APPLICATIONS: applications,
+    RELATED_PRODUCTS: buildRelatedProducts(p, site, allProducts),
     YEAR: new Date().getFullYear()
   });
 
   writeMounted(path.join(slug, 'index.html'), html);
   return { slug, canonical };
+}
+
+function buildRelatedProducts(p, site, allProducts) {
+  const related = (allProducts || [])
+    .filter(x => x.category === p.category && x.partNumber !== p.partNumber)
+    .slice(0, 3);
+  if (!related.length) return '';
+  const cards = related.map(r => {
+    const rSlug = toSlug(r.partNumber);
+    return `<a href="${site.productsPath}/${rSlug}/" class="block border border-slate-200 rounded p-4 hover:shadow-md transition">
+            <div class="text-xs text-slate-400 mb-1">${esc(r.category)}</div>
+            <div class="font-bold text-[#163A8D] font-mono text-sm break-all">${esc(r.partNumber)}</div>
+            <div class="text-xs text-slate-500 mt-1">${esc(r.manufacturer)}</div>
+        </a>`;
+  }).join('');
+  return `<section class="mb-8">
+        <h2 class="text-xl font-bold text-[#163A8D] border-l-4 border-red-700 pl-4 mb-6">関連製品（${esc(p.category)}）</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">${cards}</div>
+    </section>`;
 }
 
 function buildIndexPage(products, site, tpl) {
@@ -235,12 +255,12 @@ function buildIndexPage(products, site, tpl) {
       .filter(Boolean).join(' ');
     const longLeadBadge = p.longLead !== false
       ? '<div class="mb-3"><span class="badge-longlead">長納期対応</span></div>' : '';
-    return `<a data-card href="${esc(url)}" data-maker="${attr(p.manufacturer)}" data-cat="${attr(p.category)}" data-search="${attr(searchData)}" class="block bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
+    return `<a data-card href="${esc(url)}" data-maker="${attr(p.manufacturer)}" data-cat="${attr(p.category)}" data-search="${attr(searchData)}" class="flex flex-col bg-white border border-slate-200 rounded-sm shadow-sm card-hover overflow-hidden accent-border p-5">
         <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">${esc(p.category)}</div>
         <div class="text-lg font-bold text-[#163A8D] font-mono break-all mb-1">${esc(p.partNumber)}</div>
         <div class="text-sm text-slate-500 mb-3">${esc(p.manufacturer)}</div>
         ${longLeadBadge}
-        <div class="bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
+        <div class="mt-auto bg-red-700 hover:bg-red-800 text-white text-center py-2.5 text-sm font-bold transition">詳細・見積依頼 <i class="fas fa-chevron-right ml-1"></i></div>
         <div class="text-center text-xs text-slate-400 mt-2">クリックで詳細ページを確認</div>
     </a>`;
   }).join('\n');
@@ -276,7 +296,7 @@ function buildIndexPage(products, site, tpl) {
     COMPANY_EN: esc(site.companyEn),
     JSONLD: jsonld,
     BASE_URL: esc(site.baseUrl),
-    PRODUCTS_URL: esc(site.baseUrl + site.productsPath),
+    PRODUCTS_URL: esc(site.productsPath),
     RFQ_URL: esc(site.rfqUrl),
     LOGO: esc(site.logo),
     TEL: esc(site.tel),
@@ -368,15 +388,22 @@ function main() {
   const productTpl = readTpl('product.html');
   const indexTpl = readTpl('index.html');
 
-  const entries = products.map((p) => buildProductPage(p, site, productTpl));
+  const entries = products.map((p) => buildProductPage(p, site, productTpl, products));
   buildIndexPage(products, site, indexTpl);
   buildSitemap(entries, site);
   buildRobots(site);
+
+  // 管理画面を dist に含める（固定URLでアクセス可能にする）
+  const adminSrc = path.join(ROOT, 'admin', 'admin.html');
+  if (fs.existsSync(adminSrc)) {
+    writeFile(path.join('admin', 'index.html'), fs.readFileSync(adminSrc, 'utf8'));
+  }
 
   console.log(`✓ ${products.length} 件の製品ページを生成しました。`);
   console.log(`  出力先: ${OUT_DIR}`);
   entries.forEach((e) => console.log(`  - ${site.productsPath}/${e.slug}/`));
   console.log(`  + ${site.productsPath}/ （一覧）, sitemap.xml, robots.txt`);
+  if (fs.existsSync(adminSrc)) console.log(`  + /admin/ （管理画面）`);
 }
 
 main();
