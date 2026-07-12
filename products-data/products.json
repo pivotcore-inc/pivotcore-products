@@ -12,48 +12,6 @@
   },
   "products": [
     {
-      "partNumber": "STM32F205REY6TR",
-      "manufacturer": "STMicroelectronics",
-      "category": "マイコン (MCU)",
-      "package": "LQFP-64",
-      "rohs": "対応",
-      "description": "STM32F205REY6TRは、STMicroelectronics製の高性能32ビットマイコンです。現在、長納期・入手困難な状況が続いております。調達・在庫確認・代替提案など、お気軽にお問い合わせください。",
-      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f205re.html",
-      "specs": [
-        {
-          "label": "コア",
-          "value": "ARM® Cortex®-M3"
-        },
-        {
-          "label": "動作周波数",
-          "value": "120 MHz"
-        },
-        {
-          "label": "フラッシュメモリ",
-          "value": "512 KB"
-        },
-        {
-          "label": "パッケージ",
-          "value": "LQFP-64"
-        }
-      ],
-      "applications": [
-        "産業機器制御",
-        "FA機器",
-        "計測機器",
-        "通信機器",
-        "家電製品"
-      ],
-      "keywords": [
-        "STM32",
-        "STM32F205",
-        "マイコン",
-        "MCU",
-        "Cortex-M3"
-      ],
-      "longLead": true
-    },
-    {
       "partNumber": "STM32F103C8T6",
       "manufacturer": "STMicroelectronics",
       "category": "マイコン (MCU)",
@@ -89,6 +47,48 @@
       "keywords": [
         "STM32",
         "STM32F103",
+        "マイコン",
+        "MCU",
+        "Cortex-M3"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "STM32F205REY6TR",
+      "manufacturer": "STMicroelectronics",
+      "category": "マイコン (MCU)",
+      "package": "LQFP-64",
+      "rohs": "対応",
+      "description": "STM32F205REY6TRは、STMicroelectronics製の高性能32ビットマイコンです。現在、長納期・入手困難な状況が続いております。調達・在庫確認・代替提案など、お気軽にお問い合わせください。",
+      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f205re.html",
+      "specs": [
+        {
+          "label": "コア",
+          "value": "ARM® Cortex®-M3"
+        },
+        {
+          "label": "動作周波数",
+          "value": "120 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "512 KB"
+        },
+        {
+          "label": "パッケージ",
+          "value": "LQFP-64"
+        }
+      ],
+      "applications": [
+        "産業機器制御",
+        "FA機器",
+        "計測機器",
+        "通信機器",
+        "家電製品"
+      ],
+      "keywords": [
+        "STM32",
+        "STM32F205",
         "マイコン",
         "MCU",
         "Cortex-M3"
