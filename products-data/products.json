@@ -1,5 +1,4 @@
 {
-  "$schema": "./products.schema.json",
   "site": {
     "company": "株式会社ピボットコア",
     "companyEn": "PivotCore Inc.",
@@ -12,48 +11,6 @@
     "ogImage": "https://www.pivotcore.jp/pivotcore_ogp.png"
   },
   "products": [
-    {
-      "partNumber": "STM32F103C8T6",
-      "manufacturer": "STMicroelectronics",
-      "category": "マイコン (MCU)",
-      "package": "LQFP-48",
-      "rohs": "対応",
-      "description": "STM32F103C8T6は、STMicroelectronics製のARM Cortex-M3コアを搭載した汎用32ビットマイコンです。産業機器を中心に広く採用されており、長納期・入手困難な状況が続いております。在庫確認・代替提案・お見積りなど、お気軽にご相談ください。",
-      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
-      "specs": [
-        {
-          "label": "コア",
-          "value": "ARM® Cortex®-M3"
-        },
-        {
-          "label": "動作周波数",
-          "value": "72 MHz"
-        },
-        {
-          "label": "フラッシュメモリ",
-          "value": "64 KB"
-        },
-        {
-          "label": "パッケージ",
-          "value": "LQFP-48"
-        }
-      ],
-      "applications": [
-        "産業機器制御",
-        "FA機器",
-        "計測機器",
-        "通信機器",
-        "家電製品"
-      ],
-      "keywords": [
-        "STM32",
-        "STM32F103",
-        "マイコン",
-        "MCU",
-        "Cortex-M3"
-      ],
-      "longLead": true
-    },
     {
       "partNumber": "STM32F205REY6TR",
       "manufacturer": "STMicroelectronics",
@@ -90,6 +47,48 @@
       "keywords": [
         "STM32",
         "STM32F205",
+        "マイコン",
+        "MCU",
+        "Cortex-M3"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "STM32F103C8T6",
+      "manufacturer": "STMicroelectronics",
+      "category": "マイコン (MCU)",
+      "package": "LQFP-48",
+      "rohs": "対応",
+      "description": "STM32F103C8T6は、STMicroelectronics製のARM Cortex-M3コアを搭載した汎用32ビットマイコンです。産業機器を中心に広く採用されており、長納期・入手困難な状況が続いております。在庫確認・代替提案・お見積りなど、お気軽にご相談ください。",
+      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
+      "specs": [
+        {
+          "label": "コア",
+          "value": "ARM® Cortex®-M3"
+        },
+        {
+          "label": "動作周波数",
+          "value": "72 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "64 KB"
+        },
+        {
+          "label": "パッケージ",
+          "value": "LQFP-48"
+        }
+      ],
+      "applications": [
+        "産業機器制御",
+        "FA機器",
+        "計測機器",
+        "通信機器",
+        "家電製品"
+      ],
+      "keywords": [
+        "STM32",
+        "STM32F103",
         "マイコン",
         "MCU",
         "Cortex-M3"
