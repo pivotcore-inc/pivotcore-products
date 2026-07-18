@@ -163,7 +163,7 @@
             const qText = params.get('q');
             if (qText) search.value = qText;
 
-            function normalize(s) { return (s || '').toLowerCase(); }
+            function normalize(s) { return (s || '').toLowerCase().replace(/[\u3041-\u3096]/g, function(m) { return String.fromCharCode(m.charCodeAt(0) + 0x60); }); }
 
             function apply() {
                 const term = normalize(search.value).trim();
