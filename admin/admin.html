@@ -353,12 +353,16 @@ async function doLogin(){
     working=body.data.products||[];
     original=JSON.parse(JSON.stringify(working));
     currentSha=body.sha||'';
+    sessionStorage.setItem('pvt_worker',WORKER);
+    sessionStorage.setItem('pvt_password',PASSWORD);
     renderTable();navTo('main-screen');
   }catch(e){showLoginError(e.message);}
 }
 function showLoginError(msg){const el=$('login-error');el.textContent=msg;el.style.display='block';}
-function doLogout(){WORKER='';PASSWORD='';show('login-screen');}
-
+function doLogout(){WORKER='';PASSWORD='';sessionStorage.removeItem('pvt_worker');sessionStorage.removeItem('pvt_password');$('worker-url').value='';$('password').value='';$('login-error').style.display='none';history.replaceState(null,'','#login');show('login-screen');}
+// F5リロード時にsessionStorageからログイン状態を復元
+window.addEventListener('DOMContentLoaded',function(){var w=sessionStorage.getItem('pvt_worker'),p=sessionStorage.getItem('pvt_password');if(w&&p){$('worker-url').value=w;$('password').value=p;doLogin();}});
+  
 // ===== テーブル描画 =====
 function renderTable(){
   $('product-count').textContent='製品一覧（'+working.length+'件）';
