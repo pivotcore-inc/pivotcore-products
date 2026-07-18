@@ -337,7 +337,7 @@ function $(id){return document.getElementById(id);}
 function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
 function show(id){['login-screen','main-screen','preview-screen','detail-screen'].forEach(s=>$(s).style.display='none');$(id).style.display=id==='login-screen'?'flex':'block';window.scrollTo(0,0);}
 function navTo(id){show(id);history.pushState({screen:id},'','#'+id.replace('-screen',''));}
-window.onpopstate=function(e){if(e.state&&e.state.screen){show(e.state.screen);}else{var h=location.hash.replace('#','');if(h==='preview')show('preview-screen');else if(h==='detail')show('detail-screen');else if(WORKER)show('main-screen');else show('login-screen');}};
+window.onpopstate=function(e){if(!WORKER){history.replaceState(null,'','#login');show('login-screen');return;}if(e.state&&e.state.screen){show(e.state.screen);}else{var h=location.hash.replace('#','');if(h==='preview')show('preview-screen');else if(h==='detail')show('detail-screen');else if(WORKER)show('main-screen');else show('login-screen');}};
 function toSlug(s){return(s||'').toLowerCase().replace(/[^a-z0-9\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]+/g,'-').replace(/^-|-$/g,'');}
 
 // ===== ログイン =====
