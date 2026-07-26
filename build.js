@@ -160,6 +160,7 @@ function buildProductPage(p, site, tpl, allProducts) {
       '@context': 'https://schema.org',
       '@type': 'Product',
       name: p.partNumber,
+      image: site.logo,
       sku: p.partNumber,
       mpn: p.partNumber,
       category: p.category,
