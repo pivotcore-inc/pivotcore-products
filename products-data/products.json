@@ -654,6 +654,1180 @@
         "産業機器"
       ],
       "longLead": true
+    },
+    {
+      "partNumber": "XC7A100T-1CSG324C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "CSBGA-324",
+      "rohs": "対応",
+      "description": "XC7A100T-1CSG324CはAMD製Artix-7 FPGAです。産業用画像処理や通信機器で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "CSBGA-324"
+        },
+        {
+          "label": "ファミリ",
+          "value": "Artix-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "101,440"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "4,860 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "240"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "210"
+        },
+        {
+          "label": "動作温度",
+          "value": "0～85℃"
+        }
+      ],
+      "applications": [
+        "産業用画像処理",
+        "通信機器",
+        "計測機器",
+        "FA機器",
+        "エッジ機器"
+      ],
+      "keywords": [
+        "XC7A100T-1CSG324C",
+        "AMD",
+        "Xilinx",
+        "Artix-7",
+        "FPGA",
+        "CSBGA324",
+        "101440 logic cells"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7K160T-2FBG676C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FCBGA-676",
+      "rohs": "対応",
+      "description": "XC7K160T-2FBG676CはAMD製Kintex-7 FPGAです。通信・放送・画像処理機器向けに需要があり、長納期・調達困難時の調査と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-7.html",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "FCBGA-676"
+        },
+        {
+          "label": "ファミリ",
+          "value": "Kintex-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "162,240"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "11,700 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "600"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "400"
+        },
+        {
+          "label": "動作温度",
+          "value": "0～85℃"
+        }
+      ],
+      "applications": [
+        "通信インフラ",
+        "放送機器",
+        "画像処理",
+        "計測機器",
+        "産業用ネットワーク"
+      ],
+      "keywords": [
+        "XC7K160T-2FBG676C",
+        "AMD",
+        "Xilinx",
+        "Kintex-7",
+        "FPGA",
+        "FCBGA676",
+        "162240 logic cells"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "10CL025YU256C8G",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "UBGA-256",
+      "rohs": "対応",
+      "description": "10CL025YU256C8GはIntel製Cyclone 10 LP FPGAです。産業制御やインターフェース用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/10/lp.html",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "UBGA-256"
+        },
+        {
+          "label": "ファミリ",
+          "value": "Cyclone 10 LP"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "594 Kb"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "150"
+        },
+        {
+          "label": "ロジックエレメント",
+          "value": "24,624"
+        },
+        {
+          "label": "動作温度",
+          "value": "0～85℃"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "FA制御",
+        "通信機器",
+        "計測機器",
+        "インターフェース変換"
+      ],
+      "keywords": [
+        "10CL025YU256C8G",
+        "Intel",
+        "Altera",
+        "Cyclone 10 LP",
+        "FPGA",
+        "UBGA256",
+        "24624 logic elements"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "10M50DAF484C7G",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "FBGA-484",
+      "rohs": "対応",
+      "description": "10M50DAF484C7GはIntel製MAX 10 FPGAです。内蔵フラッシュを備え産業機器で広く使われ、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/max/10.html",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "FBGA-484"
+        },
+        {
+          "label": "ファミリ",
+          "value": "MAX 10"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "360"
+        },
+        {
+          "label": "ロジックエレメント",
+          "value": "50,000"
+        },
+        {
+          "label": "ユーザフラッシュ",
+          "value": "内蔵"
+        },
+        {
+          "label": "動作温度",
+          "value": "0～85℃"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "FA機器",
+        "モータ制御",
+        "計測機器",
+        "通信機器"
+      ],
+      "keywords": [
+        "10M50DAF484C7G",
+        "Intel",
+        "Altera",
+        "MAX 10",
+        "FPGA",
+        "FBGA484",
+        "50000 logic elements"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LFE5U-45F-6BG381C",
+      "manufacturer": "Lattice Semiconductor",
+      "category": "FPGA",
+      "package": "caBGA-381",
+      "rohs": "対応",
+      "description": "LFE5U-45F-6BG381CはLattice製ECP5 FPGAです。映像・通信・産業ネットワーク用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/ECP5",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "caBGA-381"
+        },
+        {
+          "label": "ファミリ",
+          "value": "ECP5"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "44,000"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "1,944 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "72"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "203"
+        },
+        {
+          "label": "動作温度",
+          "value": "0～85℃"
+        }
+      ],
+      "applications": [
+        "産業用カメラ",
+        "通信機器",
+        "映像処理",
+        "ネットワーク機器",
+        "エッジ機器"
+      ],
+      "keywords": [
+        "LFE5U-45F-6BG381C",
+        "Lattice",
+        "ECP5",
+        "FPGA",
+        "caBGA381",
+        "44K LUT",
+        "industrial video"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LCMXO3LF-6900C-5BG256C",
+      "manufacturer": "Lattice Semiconductor",
+      "category": "FPGA",
+      "package": "caBGA-256",
+      "rohs": "対応",
+      "description": "LCMXO3LF-6900C-5BG256CはLattice製MachXO3 FPGAです。制御・ブリッジ用途に適し、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/MachXO3",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "caBGA-256"
+        },
+        {
+          "label": "ファミリ",
+          "value": "MachXO3"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "6,900"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "240 Kb"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "206"
+        },
+        {
+          "label": "動作温度",
+          "value": "0～85℃"
+        }
+      ],
+      "applications": [
+        "システム制御",
+        "インターフェース変換",
+        "産業機器",
+        "通信機器",
+        "サーバー機器"
+      ],
+      "keywords": [
+        "LCMXO3LF-6900C-5BG256C",
+        "Lattice",
+        "MachXO3",
+        "FPGA",
+        "caBGA256",
+        "6900 LUT",
+        "bridge"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MPF300T-FCG484I",
+      "manufacturer": "Microchip Technology",
+      "category": "FPGA",
+      "package": "FCBGA-484",
+      "rohs": "対応",
+      "description": "MPF300T-FCG484IはMicrochip製PolarFire FPGAです。低消費電力と高信頼性が求められる用途で、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/polarfire-fpgas",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "FCBGA-484"
+        },
+        {
+          "label": "ファミリ",
+          "value": "PolarFire"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "約21 Mb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "924"
+        },
+        {
+          "label": "ロジックエレメント",
+          "value": "300,000"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～100℃"
+        }
+      ],
+      "applications": [
+        "産業用画像処理",
+        "通信機器",
+        "医療機器",
+        "エッジコンピューティング",
+        "セキュア制御"
+      ],
+      "keywords": [
+        "MPF300T-FCG484I",
+        "Microchip",
+        "PolarFire",
+        "FPGA",
+        "FCBGA484",
+        "low power",
+        "industrial"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AGLN250V2-VQG100",
+      "manufacturer": "Microchip Technology",
+      "category": "FPGA",
+      "package": "VQFP-100",
+      "rohs": "対応",
+      "description": "AGLN250V2-VQG100はMicrochip製IGLOO nano FPGAです。低消費電力の制御機器や保守用途で使われ、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/igloo-nano-fpgas",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "VQFP-100"
+        },
+        {
+          "label": "ファミリ",
+          "value": "IGLOO nano"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "36 Kb"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "71"
+        },
+        {
+          "label": "ロジックエレメント",
+          "value": "250,000 system gates"
+        },
+        {
+          "label": "動作温度",
+          "value": "0～85℃"
+        }
+      ],
+      "applications": [
+        "携帯型機器",
+        "産業制御",
+        "計測機器",
+        "センサー機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "AGLN250V2-VQG100",
+        "Microchip",
+        "IGLOO nano",
+        "FPGA",
+        "VQFP100",
+        "low power",
+        "250K gates"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MT40A512M16LY-075E",
+      "manufacturer": "Micron",
+      "category": "DRAM (DDR4)",
+      "package": "FBGA-96",
+      "rohs": "対応",
+      "description": "MT40A512M16LY-075EはMicron製8Gb DDR4 SDRAMです。産業機器や通信装置で需要があり、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram",
+      "specs": [
+        {
+          "label": "動作周波数",
+          "value": "1333 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "8 Gb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "FBGA-96"
+        },
+        {
+          "label": "ファミリ",
+          "value": "DDR4"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～95℃"
+        },
+        {
+          "label": "種別",
+          "value": "DDR4 SDRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "1.2 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "512M x16"
+        },
+        {
+          "label": "データレート",
+          "value": "2666 MT/s"
+        },
+        {
+          "label": "電源",
+          "value": "1.2 V"
+        }
+      ],
+      "applications": [
+        "産業用PC",
+        "通信機器",
+        "ネットワーク機器",
+        "組込みシステム",
+        "計測機器"
+      ],
+      "keywords": [
+        "MT40A512M16LY-075E",
+        "Micron",
+        "DDR4",
+        "8Gb",
+        "x16",
+        "FBGA96",
+        "2666MT/s"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MT41K256M16TW-107:P",
+      "manufacturer": "Micron",
+      "category": "DRAM (DDR3L)",
+      "package": "FBGA-96",
+      "rohs": "対応",
+      "description": "MT41K256M16TW-107:PはMicron製4Gb DDR3L SDRAMです。既存産業機器の保守需要が根強く、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr3-sdram",
+      "specs": [
+        {
+          "label": "動作周波数",
+          "value": "933 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "4 Gb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "FBGA-96"
+        },
+        {
+          "label": "ファミリ",
+          "value": "DDR3L"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～95℃"
+        },
+        {
+          "label": "種別",
+          "value": "DDR3L SDRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "1.35 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "256M x16"
+        },
+        {
+          "label": "データレート",
+          "value": "1866 MT/s"
+        },
+        {
+          "label": "電源",
+          "value": "1.35 V"
+        }
+      ],
+      "applications": [
+        "産業用PC",
+        "通信機器",
+        "医療機器",
+        "計測機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "MT41K256M16TW-107:P",
+        "Micron",
+        "DDR3L",
+        "4Gb",
+        "x16",
+        "FBGA96",
+        "1866MT/s"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MT29F4G08ABADAWP-ITX:D",
+      "manufacturer": "Micron",
+      "category": "Flashメモリ (SLC NAND)",
+      "package": "TSOP-48",
+      "rohs": "対応",
+      "description": "MT29F4G08ABADAWP-ITX:DはMicron製4Gb SLC NANDです。産業・通信機器の保守用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/storage/nand-flash/slc-nand",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "4 Gb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TSOP-48"
+        },
+        {
+          "label": "ファミリ",
+          "value": "SLC NAND"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～85℃"
+        },
+        {
+          "label": "種別",
+          "value": "SLC NAND Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.3 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "512M x8"
+        },
+        {
+          "label": "機能",
+          "value": "高耐久・不揮発性メモリ"
+        },
+        {
+          "label": "電源",
+          "value": "3.3 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "データロガー",
+        "医療機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "MT29F4G08ABADAWP-ITX:D",
+        "Micron",
+        "SLC NAND",
+        "4Gb",
+        "TSOP48",
+        "industrial flash"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "W25Q128JVSIQ",
+      "manufacturer": "Winbond Electronics",
+      "category": "Flashメモリ (Serial NOR)",
+      "package": "SOIC-8",
+      "rohs": "対応",
+      "description": "W25Q128JVSIQはWinbond製128MbシリアルNORフラッシュです。組込み機器で採用例が多く、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/new-online-purchasing-guide/?__locale=en&pLine=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2F&pNo=W25Q128JV",
+      "specs": [
+        {
+          "label": "動作周波数",
+          "value": "133 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "128 Mb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SOIC-8"
+        },
+        {
+          "label": "ファミリ",
+          "value": "W25Q"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～85℃"
+        },
+        {
+          "label": "種別",
+          "value": "Serial NOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.7～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Quad I/O / QPI"
+        },
+        {
+          "label": "機能",
+          "value": "XIP対応・不揮発性メモリ"
+        },
+        {
+          "label": "データレート",
+          "value": "133 MHz"
+        },
+        {
+          "label": "電源",
+          "value": "3.3 V"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "産業機器",
+        "通信機器",
+        "IoT機器",
+        "家電製品"
+      ],
+      "keywords": [
+        "W25Q128JVSIQ",
+        "Winbond",
+        "128Mb",
+        "Serial NOR",
+        "SPI Flash",
+        "Quad I/O",
+        "SOIC8"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "W25N01GVZEIG",
+      "manufacturer": "Winbond Electronics",
+      "category": "Flashメモリ (Serial NAND)",
+      "package": "WSON-8",
+      "rohs": "対応",
+      "description": "W25N01GVZEIGはWinbond製1GbシリアルNANDフラッシュです。大容量組込み用途で需要があり、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/product/code-storage-flash-memory/qspi-nand-flash/?__locale=en",
+      "specs": [
+        {
+          "label": "動作周波数",
+          "value": "104 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "1 Gb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "WSON-8"
+        },
+        {
+          "label": "ファミリ",
+          "value": "W25N"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～85℃"
+        },
+        {
+          "label": "種別",
+          "value": "Serial NAND Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.7～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Quad I/O"
+        },
+        {
+          "label": "機能",
+          "value": "ECC内蔵・不揮発性メモリ"
+        },
+        {
+          "label": "データレート",
+          "value": "104 MHz"
+        },
+        {
+          "label": "電源",
+          "value": "3.3 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "IoT機器",
+        "データロガー",
+        "通信機器",
+        "組込みLinux"
+      ],
+      "keywords": [
+        "W25N01GVZEIG",
+        "Winbond",
+        "1Gb",
+        "Serial NAND",
+        "SPI NAND",
+        "WSON8",
+        "ECC"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS25LP128F-JKLE",
+      "manufacturer": "ISSI",
+      "category": "Flashメモリ (Serial NOR)",
+      "package": "WSON-8",
+      "rohs": "対応",
+      "description": "IS25LP128F-JKLEはISSI製128MbシリアルNORフラッシュです。産業機器のコード格納用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/US/product-flash.shtml",
+      "specs": [
+        {
+          "label": "動作周波数",
+          "value": "133 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "128 Mb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "WSON-8"
+        },
+        {
+          "label": "ファミリ",
+          "value": "IS25LP"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～105℃"
+        },
+        {
+          "label": "種別",
+          "value": "Serial NOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.3～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Dual / Quad I/O"
+        },
+        {
+          "label": "機能",
+          "value": "XIP対応・不揮発性メモリ"
+        },
+        {
+          "label": "データレート",
+          "value": "133 MHz"
+        },
+        {
+          "label": "電源",
+          "value": "3.0 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "車載周辺機器",
+        "通信機器",
+        "計測機器",
+        "組込みシステム"
+      ],
+      "keywords": [
+        "IS25LP128F-JKLE",
+        "ISSI",
+        "128Mb",
+        "Serial NOR",
+        "SPI Flash",
+        "WSON8",
+        "industrial"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS42S16400J-7TLI",
+      "manufacturer": "ISSI",
+      "category": "DRAM (SDRAM)",
+      "package": "TSOP-54",
+      "rohs": "対応",
+      "description": "IS42S16400J-7TLIはISSI製64Mb SDRAMです。旧世代の産業機器や保守用途で根強い需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/US/product-dram.shtml",
+      "specs": [
+        {
+          "label": "動作周波数",
+          "value": "143 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "64 Mb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TSOP-54"
+        },
+        {
+          "label": "ファミリ",
+          "value": "SDRAM"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～85℃"
+        },
+        {
+          "label": "種別",
+          "value": "SDR SDRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.3 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "4M x16"
+        },
+        {
+          "label": "データレート",
+          "value": "143 MT/s"
+        },
+        {
+          "label": "電源",
+          "value": "3.3 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "計測機器",
+        "通信機器",
+        "表示装置",
+        "保守・補修"
+      ],
+      "keywords": [
+        "IS42S16400J-7TLI",
+        "ISSI",
+        "SDRAM",
+        "64Mb",
+        "4Mx16",
+        "TSOP54",
+        "industrial memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "CY7C1041GN30-10ZSXI",
+      "manufacturer": "Infineon Technologies",
+      "category": "SRAM",
+      "package": "TSOP-44",
+      "rohs": "対応",
+      "description": "CY7C1041GN30-10ZSXIはInfineon製4Mb非同期SRAMです。産業制御や通信機器で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/memories/sram/",
+      "specs": [
+        {
+          "label": "動作周波数",
+          "value": "10 ns"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "4 Mb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TSOP-44"
+        },
+        {
+          "label": "ファミリ",
+          "value": "MoBL SRAM"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～85℃"
+        },
+        {
+          "label": "種別",
+          "value": "Asynchronous SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.0 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "256K x16"
+        },
+        {
+          "label": "機能",
+          "value": "低消費電力・高速アクセス"
+        },
+        {
+          "label": "データレート",
+          "value": "10 ns access"
+        },
+        {
+          "label": "電源",
+          "value": "3.0 V"
+        }
+      ],
+      "applications": [
+        "産業制御",
+        "通信機器",
+        "計測機器",
+        "ネットワーク機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "CY7C1041GN30-10ZSXI",
+        "Infineon",
+        "SRAM",
+        "4Mb",
+        "256Kx16",
+        "TSOP44",
+        "10ns"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "EEU-FR1H101",
+      "manufacturer": "Panasonic Industry",
+      "category": "アルミ電解コンデンサ",
+      "package": "ラジアルリード",
+      "rohs": "対応",
+      "description": "EEU-FR1H101はPanasonic製100µF・50Vのアルミ電解コンデンサです。電源平滑用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://na.industrial.panasonic.com/products/capacitors/aluminum-electrolytic-capacitors/lineup/aluminum-electrolytic-capacitors-radial-lead-type/series/83367",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "ラジアルリード"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～105℃"
+        },
+        {
+          "label": "種別",
+          "value": "アルミ電解コンデンサ"
+        },
+        {
+          "label": "機能",
+          "value": "100µF / 50V / 低インピーダンス / 長寿命"
+        },
+        {
+          "label": "電源",
+          "value": "50 V"
+        }
+      ],
+      "applications": [
+        "スイッチング電源",
+        "産業用電源",
+        "通信機器",
+        "FA機器",
+        "家電製品"
+      ],
+      "keywords": [
+        "EEU-FR1H101",
+        "Panasonic",
+        "アルミ電解コンデンサ",
+        "100uF",
+        "50V",
+        "FRシリーズ",
+        "低ESR"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "UPM1H101MPD",
+      "manufacturer": "Nichicon",
+      "category": "アルミ電解コンデンサ",
+      "package": "ラジアルリード",
+      "rohs": "対応",
+      "description": "UPM1H101MPDはNichicon製100µF・50Vのアルミ電解コンデンサです。電源・制御機器の保守需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.nichicon.co.jp/english/products/catalog/digital/",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "ラジアルリード"
+        },
+        {
+          "label": "動作温度",
+          "value": "-55～105℃"
+        },
+        {
+          "label": "種別",
+          "value": "アルミ電解コンデンサ"
+        },
+        {
+          "label": "機能",
+          "value": "100µF / 50V / 低インピーダンス / 105℃対応"
+        },
+        {
+          "label": "電源",
+          "value": "50 V"
+        }
+      ],
+      "applications": [
+        "産業用電源",
+        "制御盤",
+        "通信機器",
+        "計測機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "UPM1H101MPD",
+        "Nichicon",
+        "アルミ電解コンデンサ",
+        "100uF",
+        "50V",
+        "UPMシリーズ",
+        "低インピーダンス"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "50ZLH100MEFC8X11.5",
+      "manufacturer": "Rubycon",
+      "category": "アルミ電解コンデンサ",
+      "package": "ラジアルリード",
+      "rohs": "対応",
+      "description": "50ZLH100MEFC8X11.5はRubycon製100µF・50Vのアルミ電解コンデンサです。電源平滑用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.rubycon.co.jp/en/products/aluminum/",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "ラジアルリード 8×11.5mm"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～105℃"
+        },
+        {
+          "label": "種別",
+          "value": "アルミ電解コンデンサ"
+        },
+        {
+          "label": "機能",
+          "value": "100µF / 50V / 低インピーダンス / 長寿命"
+        },
+        {
+          "label": "電源",
+          "value": "50 V"
+        }
+      ],
+      "applications": [
+        "電源回路",
+        "産業機器",
+        "通信機器",
+        "インバータ制御",
+        "保守・補修"
+      ],
+      "keywords": [
+        "50ZLH100MEFC8X11.5",
+        "Rubycon",
+        "アルミ電解コンデンサ",
+        "100uF",
+        "50V",
+        "ZLH",
+        "8x11.5"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "EKY-500ELL101MJ20S",
+      "manufacturer": "Nippon Chemi-Con",
+      "category": "アルミ電解コンデンサ",
+      "package": "ラジアルリード",
+      "rohs": "対応",
+      "description": "EKY-500ELL101MJ20SはNippon Chemi-Con製100µF・50Vアルミ電解コンデンサです。産業用電源で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.chemi-con.co.jp/en/products/print-condenser.php?part_number=EKY-500ELL101MJ20S",
+      "specs": [
+        {
+          "label": "パッケージ",
+          "value": "ラジアルリード"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～105℃"
+        },
+        {
+          "label": "種別",
+          "value": "アルミ電解コンデンサ"
+        },
+        {
+          "label": "機能",
+          "value": "100µF / 50V / 低インピーダンス / 長寿命"
+        },
+        {
+          "label": "電源",
+          "value": "50 V"
+        }
+      ],
+      "applications": [
+        "産業用電源",
+        "スイッチング電源",
+        "通信機器",
+        "FA機器",
+        "計測機器"
+      ],
+      "keywords": [
+        "EKY-500ELL101MJ20S",
+        "Nippon Chemi-Con",
+        "アルミ電解コンデンサ",
+        "100uF",
+        "50V",
+        "KYシリーズ"
+      ],
+      "longLead": true
     }
   ]
 }
