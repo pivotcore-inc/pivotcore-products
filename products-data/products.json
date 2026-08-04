@@ -147,6 +147,10 @@
       "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "specs": [
         {
+          "label": "パッケージ",
+          "value": "FTBGA-256"
+        },
+        {
           "label": "ファミリ",
           "value": "Artix-7"
         },
@@ -165,10 +169,6 @@
         {
           "label": "I/Oピン",
           "value": "170"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FTBGA-256"
         }
       ],
       "applications": [
@@ -197,8 +197,16 @@
       "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/max-10.html",
       "specs": [
         {
+          "label": "パッケージ",
+          "value": "EQFP-144"
+        },
+        {
           "label": "ファミリ",
           "value": "MAX 10"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "101"
         },
         {
           "label": "ロジックエレメント",
@@ -209,16 +217,8 @@
           "value": "内蔵"
         },
         {
-          "label": "I/Oピン",
-          "value": "101"
-        },
-        {
           "label": "動作温度",
           "value": "0°C - 85°C"
-        },
-        {
-          "label": "パッケージ",
-          "value": "EQFP-144"
         }
       ],
       "applications": [
@@ -247,6 +247,14 @@
       "datasheetUrl": "https://www.ti.com/product/TPS54560",
       "specs": [
         {
+          "label": "パッケージ",
+          "value": "SO PowerPAD-8"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C - 150°C"
+        },
+        {
           "label": "種別",
           "value": "降圧 (Buck) コンバータ"
         },
@@ -261,14 +269,6 @@
         {
           "label": "スイッチング周波数",
           "value": "100kHz - 2.5MHz"
-        },
-        {
-          "label": "動作温度",
-          "value": "-40°C - 150°C"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SO PowerPAD-8"
         }
       ],
       "applications": [
@@ -297,6 +297,10 @@
       "datasheetUrl": "https://www.ti.com/product/LM2596",
       "specs": [
         {
+          "label": "パッケージ",
+          "value": "TO-263-5"
+        },
+        {
           "label": "種別",
           "value": "降圧 (Buck) レギュレータ"
         },
@@ -309,16 +313,12 @@
           "value": "3 A"
         },
         {
-          "label": "出力電圧",
-          "value": "可変 (1.2V - 37V)"
-        },
-        {
           "label": "スイッチング周波数",
           "value": "150 kHz"
         },
         {
-          "label": "パッケージ",
-          "value": "TO-263-5"
+          "label": "出力電圧",
+          "value": "可変 (1.2V - 37V)"
         }
       ],
       "applications": [
@@ -347,6 +347,10 @@
       "datasheetUrl": "https://www.infineon.com/cms/en/product/power/mosfet/",
       "specs": [
         {
+          "label": "パッケージ",
+          "value": "TO-247"
+        },
+        {
           "label": "チャネル",
           "value": "Nチャネル"
         },
@@ -365,10 +369,6 @@
         {
           "label": "ゲート閾値電圧",
           "value": "2.0V - 4.0V"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TO-247"
         }
       ],
       "applications": [
@@ -397,6 +397,14 @@
       "datasheetUrl": "https://www.infineon.com/cms/en/product/power/igbt/",
       "specs": [
         {
+          "label": "パッケージ",
+          "value": "TO-247"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C - 175°C"
+        },
+        {
           "label": "種別",
           "value": "IGBT (アンチパラレルダイオード内蔵)"
         },
@@ -411,14 +419,6 @@
         {
           "label": "飽和電圧 (VCE(sat))",
           "value": "2.05 V (typ)"
-        },
-        {
-          "label": "動作温度",
-          "value": "-40°C - 175°C"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TO-247"
         }
       ],
       "applications": [
@@ -447,10 +447,6 @@
       "datasheetUrl": "https://www.microchip.com/en-us/product/atmega328p",
       "specs": [
         {
-          "label": "アーキテクチャ",
-          "value": "8-bit AVR"
-        },
-        {
           "label": "動作周波数",
           "value": "最大 20 MHz"
         },
@@ -461,6 +457,10 @@
         {
           "label": "パッケージ",
           "value": "PDIP-28"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "8-bit AVR"
         }
       ],
       "applications": [
@@ -489,6 +489,10 @@
       "datasheetUrl": "https://ftdichip.com/products/ft232rl/",
       "specs": [
         {
+          "label": "パッケージ",
+          "value": "SSOP-28"
+        },
+        {
           "label": "機能",
           "value": "USB 2.0 - UART 変換"
         },
@@ -507,10 +511,6 @@
         {
           "label": "EEPROM",
           "value": "内蔵"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SSOP-28"
         }
       ],
       "applications": [
@@ -539,8 +539,16 @@
       "datasheetUrl": "https://www.analog.com/en/products/max232.html",
       "specs": [
         {
+          "label": "パッケージ",
+          "value": "PDIP-16"
+        },
+        {
           "label": "機能",
           "value": "RS-232 ドライバ/レシーバ"
+        },
+        {
+          "label": "データレート",
+          "value": "最大 120 kbps"
         },
         {
           "label": "ドライバ数",
@@ -553,14 +561,6 @@
         {
           "label": "電源電圧",
           "value": "5 V"
-        },
-        {
-          "label": "データレート",
-          "value": "最大 120 kbps"
-        },
-        {
-          "label": "パッケージ",
-          "value": "PDIP-16"
         }
       ],
       "applications": [
@@ -576,6 +576,82 @@
         "RS-232",
         "MAX232",
         "インターフェース"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MT25QL256ABA8ESF-0SIT",
+      "manufacturer": "Micron",
+      "category": "Flashメモリ (Serial NOR)",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "MT25QL256ABA8ESF-0SITはMicron製256MbシリアルNORフラッシュです。産業機器や通信機器向けに採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/storage/nor-flash/serial-nor/part-catalog/part-detail/mt25ql256aba8esf-0sit",
+      "specs": [
+        {
+          "label": "動作周波数",
+          "value": "133 MHz"
+        },
+        {
+          "label": "フラッシュメモリ",
+          "value": "256 Mb"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SOIC-16"
+        },
+        {
+          "label": "ファミリ",
+          "value": "MT25Q"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～+85℃"
+        },
+        {
+          "label": "種別",
+          "value": "Serial NOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.0 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Quad I/O"
+        },
+        {
+          "label": "機能",
+          "value": "不揮発性メモリ・XIP対応"
+        },
+        {
+          "label": "データレート",
+          "value": "160 MT/s"
+        },
+        {
+          "label": "電源",
+          "value": "3.0 V"
+        },
+        {
+          "label": "電源電圧",
+          "value": "3.0 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "ネットワーク機器",
+        "組込みシステム"
+      ],
+      "keywords": [
+        "MT25QL256ABA8ESF-0SIT",
+        "Micron",
+        "256Mb",
+        "Serial NOR",
+        "SPI Flash",
+        "Quad I/O",
+        "SOIC-16",
+        "産業機器"
       ],
       "longLead": true
     }
