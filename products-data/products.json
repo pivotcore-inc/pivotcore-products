@@ -1,7 +1,14 @@
 {
   "site": {
     "company": "株式会社ピボットコア",
-    "baseUrl": "https://www.pivotcore.jp"
+    "companyEn": "PivotCore Inc.",
+    "baseUrl": "https://www.pivotcore.jp",
+    "productsPath": "/products",
+    "rfqUrl": "https://www.pivotcore.jp/#rfq",
+    "tel": "050-6863-4302",
+    "telHours": "平日 9:00-17:30",
+    "logo": "https://www.pivotcore.jp/pivotcore_logo.png",
+    "ogImage": "https://www.pivotcore.jp/pivotcore_ogp.png"
   },
   "products": [
     {
@@ -9,10 +16,9 @@
       "manufacturer": "STMicroelectronics",
       "category": "マイコン (MCU)",
       "package": "LQFP-48",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
       "description": "STM32F103C8T6は、STMicroelectronics製のARM Cortex-M3コアを搭載した汎用32ビットマイコンです。産業機器を中心に広く採用されており、長納期・入手困難な状況が続いております。在庫確認・代替提案・お見積りなど、お気軽にご相談ください。",
+      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
       "specs": [
         {
           "label": "コア",
@@ -25,10 +31,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "64 KB"
-        },
-        {
-          "label": "パッケージ",
-          "value": "LQFP-48"
         }
       ],
       "applications": [
@@ -44,17 +46,17 @@
         "マイコン",
         "MCU",
         "Cortex-M3"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "STM32F205REY6TR",
       "manufacturer": "STMicroelectronics",
       "category": "マイコン (MCU)",
       "package": "LQFP-64",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f205re.html",
       "description": "STM32F205REY6TRは、STMicroelectronics製の高性能32ビットマイコンです。現在、長納期・入手困難な状況が続いております。調達・在庫確認・代替提案など、お気軽にお問い合わせください。",
+      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f205re.html",
       "specs": [
         {
           "label": "コア",
@@ -67,10 +69,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "512 KB"
-        },
-        {
-          "label": "パッケージ",
-          "value": "LQFP-64"
         }
       ],
       "applications": [
@@ -86,17 +84,17 @@
         "マイコン",
         "MCU",
         "Cortex-M3"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "STM32F407VGT6",
       "manufacturer": "STMicroelectronics",
       "category": "マイコン (MCU)",
       "package": "LQFP-100",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f407vg.html",
       "description": "STM32F407VGT6は、STMicroelectronics製のARM Cortex-M4コアを搭載した高性能マイコンです。需給逼迫により調達が難しい状況が続いております。代替品のクロスリファレンス調査も承ります。",
+      "datasheetUrl": "https://www.st.com/en/microcontrollers-microprocessors/stm32f407vg.html",
       "specs": [
         {
           "label": "コア",
@@ -109,10 +107,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "1 MB"
-        },
-        {
-          "label": "パッケージ",
-          "value": "LQFP-100"
         }
       ],
       "applications": [
@@ -128,22 +122,18 @@
         "マイコン",
         "MCU",
         "Cortex-M4"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "XC7A35T-1FTG256C",
       "manufacturer": "AMD (Xilinx)",
       "category": "FPGA",
       "package": "FTBGA-256",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "description": "XC7A35T-1FTG256Cは、AMD(Xilinx)製のArtix-7シリーズFPGAです。供給不足・長納期化が顕著な製品群のひとつです。市場在庫の確保および代替提案について、お気軽にご相談ください。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FTBGA-256"
-        },
         {
           "label": "ファミリ",
           "value": "Artix-7"
@@ -178,22 +168,18 @@
         "AMD",
         "Artix-7",
         "XC7A35T"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "10M08SAE144C8G",
       "manufacturer": "Intel (Altera)",
       "category": "FPGA",
       "package": "EQFP-144",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/max-10.html",
       "description": "10M08SAE144C8Gは、Intel(Altera)製のMAX 10シリーズFPGAです。EOL・需給逼迫により調達が困難な状況が見られます。在庫確認・代替提案を含めてご相談を承ります。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/max-10.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "EQFP-144"
-        },
         {
           "label": "ファミリ",
           "value": "MAX 10"
@@ -228,22 +214,18 @@
         "Intel",
         "MAX 10",
         "10M08"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "TPS54560DDAR",
       "manufacturer": "Texas Instruments",
       "category": "電源IC (DC/DCコンバータ)",
       "package": "SO PowerPAD-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.ti.com/product/TPS54560",
       "description": "TPS54560DDARは、Texas Instruments製の降圧型DC/DCコンバータICです。電源IC全般で需給逼迫が続いております。在庫確認・代替品提案など、調達のご相談を承ります。",
+      "datasheetUrl": "https://www.ti.com/product/TPS54560",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "SO PowerPAD-8"
-        },
         {
           "label": "動作温度",
           "value": "-40°C - 150°C"
@@ -278,22 +260,18 @@
         "電源IC",
         "DCDC",
         "TPS54560"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LM2596S-ADJ",
       "manufacturer": "Texas Instruments",
       "category": "電源IC (DC/DCコンバータ)",
       "package": "TO-263-5",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.ti.com/product/LM2596",
       "description": "LM2596S-ADJは、Texas Instruments製の降圧型スイッチングレギュレータです。ロングセラー品ながら需給が逼迫する場面が見られます。調達・代替提案についてお気軽にご相談ください。",
+      "datasheetUrl": "https://www.ti.com/product/LM2596",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "TO-263-5"
-        },
         {
           "label": "種別",
           "value": "降圧 (Buck) レギュレータ"
@@ -328,22 +306,18 @@
         "電源IC",
         "レギュレータ",
         "LM2596"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IRFP460PBF",
       "manufacturer": "Infineon Technologies",
       "category": "パワーMOSFET",
       "package": "TO-247",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.infineon.com/cms/en/product/power/mosfet/",
       "description": "IRFP460PBFは、Infineon Technologies製のNチャネルパワーMOSFETです。パワー半導体は需給逼迫が続いており、長納期化が見られます。在庫確認・代替提案を含めご相談を承ります。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/power/mosfet/",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "TO-247"
-        },
         {
           "label": "チャネル",
           "value": "Nチャネル"
@@ -378,22 +352,18 @@
         "パワー半導体",
         "IRFP460",
         "Nチャネル"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IKW40N120H3",
       "manufacturer": "Infineon Technologies",
       "category": "IGBT",
       "package": "TO-247",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.infineon.com/cms/en/product/power/igbt/",
       "description": "IKW40N120H3は、Infineon Technologies製の1200V IGBTです。パワー系デバイスは需給逼迫・長納期化が続いております。市場在庫の確保および代替提案についてご相談ください。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/power/igbt/",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "TO-247"
-        },
         {
           "label": "動作温度",
           "value": "-40°C - 175°C"
@@ -428,17 +398,17 @@
         "パワー半導体",
         "IKW40N120",
         "1200V"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "ATMEGA328P-PU",
       "manufacturer": "Microchip Technology",
       "category": "マイコン (MCU)",
       "package": "PDIP-28",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/product/atmega328p",
       "description": "ATMEGA328P-PUは、Microchip(旧Atmel)製の8ビットAVRマイコンです。教育・産業の両分野で広く使われ、需給が逼迫する場面があります。調達・在庫確認についてご相談ください。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/atmega328p",
       "specs": [
         {
           "label": "動作周波数",
@@ -447,10 +417,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "32 KB"
-        },
-        {
-          "label": "パッケージ",
-          "value": "PDIP-28"
         },
         {
           "label": "アーキテクチャ",
@@ -470,22 +436,18 @@
         "AVR",
         "ATMEGA328P",
         "マイコン"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "FT232RL",
       "manufacturer": "FTDI",
       "category": "インターフェースIC (USB-UART)",
       "package": "SSOP-28",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://ftdichip.com/products/ft232rl/",
       "description": "FT232RLは、FTDI製のUSB-シリアル(UART)変換ICです。広く普及している一方で需給逼迫が見られます。在庫確認・代替提案についてお気軽にご相談ください。",
+      "datasheetUrl": "https://ftdichip.com/products/ft232rl/",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "SSOP-28"
-        },
         {
           "label": "機能",
           "value": "USB 2.0 - UART 変換"
@@ -520,22 +482,18 @@
         "UART",
         "FT232RL",
         "インターフェース"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MAX232CPE",
       "manufacturer": "Analog Devices (Maxim)",
       "category": "インターフェースIC (RS-232)",
       "package": "PDIP-16",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.analog.com/en/products/max232.html",
       "description": "MAX232CPEは、Analog Devices(旧Maxim)製のRS-232トランシーバICです。保守用途を中心に根強い需要があり、調達が難しい場面があります。在庫確認・代替提案を承ります。",
+      "datasheetUrl": "https://www.analog.com/en/products/max232.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "PDIP-16"
-        },
         {
           "label": "機能",
           "value": "RS-232 ドライバ/レシーバ"
@@ -570,17 +528,17 @@
         "RS-232",
         "MAX232",
         "インターフェース"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT25QL256ABA8ESF-0SIT",
       "manufacturer": "Micron",
       "category": "Flashメモリ (Serial NOR)",
       "package": "SOIC-16",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/storage/nor-flash/serial-nor/part-catalog/part-detail/mt25ql256aba8esf-0sit",
       "description": "MT25QL256ABA8ESF-0SITはMicron製256MbシリアルNORフラッシュです。産業機器や通信機器向けに採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/storage/nor-flash/serial-nor/part-catalog/part-detail/mt25ql256aba8esf-0sit",
       "specs": [
         {
           "label": "動作周波数",
@@ -589,10 +547,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "256 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SOIC-16"
         },
         {
           "label": "ファミリ",
@@ -646,22 +600,18 @@
         "Quad I/O",
         "SOIC-16",
         "産業機器"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "XC7A100T-1CSG324C",
       "manufacturer": "AMD (Xilinx)",
       "category": "FPGA",
       "package": "CSBGA-324",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "description": "XC7A100T-1CSG324CはAMD製Artix-7 FPGAです。産業用画像処理や通信機器で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "CSBGA-324"
-        },
         {
           "label": "ファミリ",
           "value": "Artix-7"
@@ -702,22 +652,18 @@
         "FPGA",
         "CSBGA324",
         "101440 logic cells"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "XC7K160T-2FBG676C",
       "manufacturer": "AMD (Xilinx)",
       "category": "FPGA",
       "package": "FCBGA-676",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-7.html",
       "description": "XC7K160T-2FBG676CはAMD製Kintex-7 FPGAです。通信・放送・画像処理機器向けに需要があり、長納期・調達困難時の調査と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-7.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FCBGA-676"
-        },
         {
           "label": "ファミリ",
           "value": "Kintex-7"
@@ -758,22 +704,18 @@
         "FPGA",
         "FCBGA676",
         "162240 logic cells"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "10CL025YU256C8G",
       "manufacturer": "Intel (Altera)",
       "category": "FPGA",
       "package": "UBGA-256",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/10/lp.html",
       "description": "10CL025YU256C8GはIntel製Cyclone 10 LP FPGAです。産業制御やインターフェース用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/10/lp.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "UBGA-256"
-        },
         {
           "label": "ファミリ",
           "value": "Cyclone 10 LP"
@@ -810,22 +752,18 @@
         "FPGA",
         "UBGA256",
         "24624 logic elements"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "10M50DAF484C7G",
       "manufacturer": "Intel (Altera)",
       "category": "FPGA",
       "package": "FBGA-484",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/max/10.html",
       "description": "10M50DAF484C7GはIntel製MAX 10 FPGAです。内蔵フラッシュを備え産業機器で広く使われ、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/max/10.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FBGA-484"
-        },
         {
           "label": "ファミリ",
           "value": "MAX 10"
@@ -862,22 +800,18 @@
         "FPGA",
         "FBGA484",
         "50000 logic elements"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LFE5U-45F-6BG381C",
       "manufacturer": "Lattice Semiconductor",
       "category": "FPGA",
       "package": "caBGA-381",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/ECP5",
       "description": "LFE5U-45F-6BG381CはLattice製ECP5 FPGAです。映像・通信・産業ネットワーク用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/ECP5",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "caBGA-381"
-        },
         {
           "label": "ファミリ",
           "value": "ECP5"
@@ -918,22 +852,18 @@
         "caBGA381",
         "44K LUT",
         "industrial video"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LCMXO3LF-6900C-5BG256C",
       "manufacturer": "Lattice Semiconductor",
       "category": "FPGA",
       "package": "caBGA-256",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/MachXO3",
       "description": "LCMXO3LF-6900C-5BG256CはLattice製MachXO3 FPGAです。制御・ブリッジ用途に適し、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/MachXO3",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "caBGA-256"
-        },
         {
           "label": "ファミリ",
           "value": "MachXO3"
@@ -970,22 +900,18 @@
         "caBGA256",
         "6900 LUT",
         "bridge"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MPF300T-FCG484I",
       "manufacturer": "Microchip Technology",
       "category": "FPGA",
       "package": "FCBGA-484",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/polarfire-fpgas",
       "description": "MPF300T-FCG484IはMicrochip製PolarFire FPGAです。低消費電力と高信頼性が求められる用途で、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/polarfire-fpgas",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FCBGA-484"
-        },
         {
           "label": "ファミリ",
           "value": "PolarFire"
@@ -1022,22 +948,18 @@
         "FCBGA484",
         "low power",
         "industrial"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "AGLN250V2-VQG100",
       "manufacturer": "Microchip Technology",
       "category": "FPGA",
       "package": "VQFP-100",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/igloo-nano-fpgas",
       "description": "AGLN250V2-VQG100はMicrochip製IGLOO nano FPGAです。低消費電力の制御機器や保守用途で使われ、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/igloo-nano-fpgas",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "VQFP-100"
-        },
         {
           "label": "ファミリ",
           "value": "IGLOO nano"
@@ -1074,17 +996,17 @@
         "VQFP100",
         "low power",
         "250K gates"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT40A512M16LY-075E",
       "manufacturer": "Micron",
       "category": "DRAM (DDR4)",
       "package": "FBGA-96",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram",
       "description": "MT40A512M16LY-075EはMicron製8Gb DDR4 SDRAMです。産業機器や通信装置で需要があり、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram",
       "specs": [
         {
           "label": "動作周波数",
@@ -1093,10 +1015,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "8 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-96"
         },
         {
           "label": "ファミリ",
@@ -1142,17 +1060,17 @@
         "x16",
         "FBGA96",
         "2666MT/s"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT41K256M16TW-107:P",
       "manufacturer": "Micron",
       "category": "DRAM (DDR3L)",
       "package": "FBGA-96",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr3-sdram",
       "description": "MT41K256M16TW-107:PはMicron製4Gb DDR3L SDRAMです。既存産業機器の保守需要が根強く、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr3-sdram",
       "specs": [
         {
           "label": "動作周波数",
@@ -1161,10 +1079,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "4 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-96"
         },
         {
           "label": "ファミリ",
@@ -1210,25 +1124,21 @@
         "x16",
         "FBGA96",
         "1866MT/s"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT29F4G08ABADAWP-ITX:D",
       "manufacturer": "Micron",
       "category": "Flashメモリ (SLC NAND)",
       "package": "TSOP-48",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/storage/nand-flash/slc-nand",
       "description": "MT29F4G08ABADAWP-ITX:DはMicron製4Gb SLC NANDです。産業・通信機器の保守用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/storage/nand-flash/slc-nand",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "4 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP-48"
         },
         {
           "label": "ファミリ",
@@ -1273,17 +1183,17 @@
         "4Gb",
         "TSOP48",
         "industrial flash"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "W25Q128JVSIQ",
       "manufacturer": "Winbond Electronics",
       "category": "Flashメモリ (Serial NOR)",
       "package": "SOIC-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.winbond.com/hq/new-online-purchasing-guide/?__locale=en&pLine=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2F&pNo=W25Q128JV",
       "description": "W25Q128JVSIQはWinbond製128MbシリアルNORフラッシュです。組込み機器で採用例が多く、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/new-online-purchasing-guide/?__locale=en&pLine=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2F&pNo=W25Q128JV",
       "specs": [
         {
           "label": "動作周波数",
@@ -1292,10 +1202,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "128 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SOIC-8"
         },
         {
           "label": "ファミリ",
@@ -1345,17 +1251,17 @@
         "SPI Flash",
         "Quad I/O",
         "SOIC8"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "W25N01GVZEIG",
       "manufacturer": "Winbond Electronics",
       "category": "Flashメモリ (Serial NAND)",
       "package": "WSON-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.winbond.com/hq/product/code-storage-flash-memory/qspi-nand-flash/?__locale=en",
       "description": "W25N01GVZEIGはWinbond製1GbシリアルNANDフラッシュです。大容量組込み用途で需要があり、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/product/code-storage-flash-memory/qspi-nand-flash/?__locale=en",
       "specs": [
         {
           "label": "動作周波数",
@@ -1364,10 +1270,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "1 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "WSON-8"
         },
         {
           "label": "ファミリ",
@@ -1417,17 +1319,17 @@
         "SPI NAND",
         "WSON8",
         "ECC"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IS25LP128F-JKLE",
       "manufacturer": "ISSI",
       "category": "Flashメモリ (Serial NOR)",
       "package": "WSON-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.issi.com/US/product-flash.shtml",
       "description": "IS25LP128F-JKLEはISSI製128MbシリアルNORフラッシュです。産業機器のコード格納用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/US/product-flash.shtml",
       "specs": [
         {
           "label": "動作周波数",
@@ -1436,10 +1338,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "128 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "WSON-8"
         },
         {
           "label": "ファミリ",
@@ -1489,17 +1387,17 @@
         "SPI Flash",
         "WSON8",
         "industrial"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IS42S16400J-7TLI",
       "manufacturer": "ISSI",
       "category": "DRAM (SDRAM)",
       "package": "TSOP-54",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.issi.com/US/product-dram.shtml",
       "description": "IS42S16400J-7TLIはISSI製64Mb SDRAMです。旧世代の産業機器や保守用途で根強い需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/US/product-dram.shtml",
       "specs": [
         {
           "label": "動作周波数",
@@ -1508,10 +1406,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "64 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP-54"
         },
         {
           "label": "ファミリ",
@@ -1557,17 +1451,17 @@
         "4Mx16",
         "TSOP54",
         "industrial memory"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "CY7C1041GN30-10ZSXI",
       "manufacturer": "Infineon Technologies",
       "category": "SRAM",
       "package": "TSOP-44",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.infineon.com/cms/en/product/memories/sram/",
       "description": "CY7C1041GN30-10ZSXIはInfineon製4Mb非同期SRAMです。産業制御や通信機器で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/memories/sram/",
       "specs": [
         {
           "label": "動作周波数",
@@ -1576,10 +1470,6 @@
         {
           "label": "フラッシュメモリ",
           "value": "4 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP-44"
         },
         {
           "label": "ファミリ",
@@ -1629,22 +1519,18 @@
         "256Kx16",
         "TSOP44",
         "10ns"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "EEU-FR1H101",
       "manufacturer": "Panasonic Industry",
       "category": "アルミ電解コンデンサ",
       "package": "ラジアルリード",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://na.industrial.panasonic.com/products/capacitors/aluminum-electrolytic-capacitors/lineup/aluminum-electrolytic-capacitors-radial-lead-type/series/83367",
       "description": "EEU-FR1H101はPanasonic製100µF・50Vのアルミ電解コンデンサです。電源平滑用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://na.industrial.panasonic.com/products/capacitors/aluminum-electrolytic-capacitors/lineup/aluminum-electrolytic-capacitors-radial-lead-type/series/83367",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "ラジアルリード"
-        },
         {
           "label": "動作温度",
           "value": "-40～105℃"
@@ -1677,22 +1563,18 @@
         "50V",
         "FRシリーズ",
         "低ESR"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "UPM1H101MPD",
       "manufacturer": "Nichicon",
       "category": "アルミ電解コンデンサ",
       "package": "ラジアルリード",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.nichicon.co.jp/english/products/catalog/digital/",
       "description": "UPM1H101MPDはNichicon製100µF・50Vのアルミ電解コンデンサです。電源・制御機器の保守需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.nichicon.co.jp/english/products/catalog/digital/",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "ラジアルリード"
-        },
         {
           "label": "動作温度",
           "value": "-55～105℃"
@@ -1725,22 +1607,18 @@
         "50V",
         "UPMシリーズ",
         "低インピーダンス"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "50ZLH100MEFC8X11.5",
       "manufacturer": "Rubycon",
       "category": "アルミ電解コンデンサ",
       "package": "ラジアルリード",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.rubycon.co.jp/en/products/aluminum/",
       "description": "50ZLH100MEFC8X11.5はRubycon製100µF・50Vのアルミ電解コンデンサです。電源平滑用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.rubycon.co.jp/en/products/aluminum/",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "ラジアルリード 8×11.5mm"
-        },
         {
           "label": "動作温度",
           "value": "-40～105℃"
@@ -1773,22 +1651,18 @@
         "50V",
         "ZLH",
         "8x11.5"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "EKY-500ELL101MJ20S",
       "manufacturer": "Nippon Chemi-Con",
       "category": "アルミ電解コンデンサ",
       "package": "ラジアルリード",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.chemi-con.co.jp/en/products/print-condenser.php?part_number=EKY-500ELL101MJ20S",
       "description": "EKY-500ELL101MJ20SはNippon Chemi-Con製100µF・50Vアルミ電解コンデンサです。産業用電源で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.chemi-con.co.jp/en/products/print-condenser.php?part_number=EKY-500ELL101MJ20S",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "ラジアルリード"
-        },
         {
           "label": "動作温度",
           "value": "-40～105℃"
@@ -1820,22 +1694,18 @@
         "100uF",
         "50V",
         "KYシリーズ"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "XC7A50T-1CSG324C",
       "manufacturer": "AMD (Xilinx)",
       "category": "FPGA",
       "package": "CSBGA-324",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "description": "XC7A50T-1CSG324CはAMD製Artix-7 FPGAです。画像処理や通信機器で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "CSBGA-324"
-        },
         {
           "label": "ファミリ",
           "value": "Artix-7"
@@ -1876,22 +1746,18 @@
         "FPGA",
         "CSBGA324",
         "52160 logic cells"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "XC7K70T-2FBG676C",
       "manufacturer": "AMD (Xilinx)",
       "category": "FPGA",
       "package": "FCBGA-676",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-7.html",
       "description": "XC7K70T-2FBG676CはAMD製Kintex-7 FPGAです。通信・放送・画像処理用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-7.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FCBGA-676"
-        },
         {
           "label": "ファミリ",
           "value": "Kintex-7"
@@ -1932,22 +1798,18 @@
         "FPGA",
         "FCBGA676",
         "65600 logic cells"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "5CEFA5F23C8N",
       "manufacturer": "Intel (Altera)",
       "category": "FPGA",
       "package": "FBGA-484",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/sku/210443/cyclone-v-5cea5-fpga/specifications.html",
       "description": "5CEFA5F23C8NはIntel製Cyclone V E FPGAです。産業制御や映像処理で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/sku/210443/cyclone-v-5cea5-fpga/specifications.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FBGA-484"
-        },
         {
           "label": "ファミリ",
           "value": "Cyclone V E"
@@ -1984,22 +1846,18 @@
         "FPGA",
         "FBGA484",
         "77000 logic elements"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "10M16SAU169C8G",
       "manufacturer": "Intel (Altera)",
       "category": "FPGA",
       "package": "UBGA-169",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/sku/210275/intel-max-10-10m16-fpga/specifications.html",
       "description": "10M16SAU169C8GはIntel製MAX 10 FPGAです。制御・インターフェース用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/sku/210275/intel-max-10-10m16-fpga/specifications.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "UBGA-169"
-        },
         {
           "label": "ファミリ",
           "value": "MAX 10"
@@ -2040,22 +1898,18 @@
         "FPGA",
         "UBGA169",
         "16000 logic elements"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LFE5U-85F-6BG381C",
       "manufacturer": "Lattice Semiconductor",
       "category": "FPGA",
       "package": "caBGA-381",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/ECP5",
       "description": "LFE5U-85F-6BG381CはLattice製ECP5 FPGAです。映像・通信・産業ネットワーク用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/ECP5",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "caBGA-381"
-        },
         {
           "label": "ファミリ",
           "value": "ECP5"
@@ -2096,22 +1950,18 @@
         "caBGA381",
         "84K LUT",
         "industrial video"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LCMXO2-2000HC-4TG144C",
       "manufacturer": "Lattice Semiconductor",
       "category": "FPGA",
       "package": "TQFP-144",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/MachXO2",
       "description": "LCMXO2-2000HC-4TG144CはLattice製MachXO2 FPGAです。制御やブリッジ用途で広く使われ、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/MachXO2",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "TQFP-144"
-        },
         {
           "label": "ファミリ",
           "value": "MachXO2"
@@ -2148,25 +1998,21 @@
         "TQFP144",
         "2112 LUT",
         "bridge"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "M2S050-FGG484I",
       "manufacturer": "Microchip Technology",
       "category": "SoC FPGA",
       "package": "FBGA-484",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/product/m2s050",
       "description": "M2S050-FGG484IはMicrochip製SmartFusion2 SoC FPGAです。産業制御や通信装置で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/m2s050",
       "specs": [
         {
           "label": "コア",
           "value": "ARM Cortex-M3"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-484"
         },
         {
           "label": "ファミリ",
@@ -2208,22 +2054,18 @@
         "Cortex-M3",
         "FBGA484",
         "industrial"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "A3P250-VQG100I",
       "manufacturer": "Microchip Technology",
       "category": "FPGA",
       "package": "VQFP-100",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/product/a3p250",
       "description": "A3P250-VQG100IはMicrochip製ProASIC3 FPGAです。保守・補修や産業制御で根強い需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/a3p250",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "VQFP-100"
-        },
         {
           "label": "ファミリ",
           "value": "ProASIC3"
@@ -2260,25 +2102,21 @@
         "VQFP100",
         "250K gates",
         "industrial"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "M2S090-FGG484I",
       "manufacturer": "Microchip Technology",
       "category": "SoC FPGA",
       "package": "FBGA-484",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/product/m2s090",
       "description": "M2S090-FGG484IはMicrochip製SmartFusion2 SoC FPGAです。高信頼な産業・通信用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/m2s090",
       "specs": [
         {
           "label": "コア",
           "value": "ARM Cortex-M3"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-484"
         },
         {
           "label": "ファミリ",
@@ -2320,22 +2158,18 @@
         "Cortex-M3",
         "FBGA484",
         "high reliability"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LIFCL-40-9BG400C",
       "manufacturer": "Lattice Semiconductor",
       "category": "FPGA",
       "package": "caBGA-400",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/CrossLink-NX",
       "description": "LIFCL-40-9BG400CはLattice製CrossLink-NX FPGAです。画像センサー接続や映像処理で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/CrossLink-NX",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "caBGA-400"
-        },
         {
           "label": "ファミリ",
           "value": "CrossLink-NX"
@@ -2376,22 +2210,18 @@
         "caBGA400",
         "MIPI",
         "embedded vision"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "XC7A75T-1FGG484C",
       "manufacturer": "AMD (Xilinx)",
       "category": "FPGA",
       "package": "FBGA-484",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "description": "XC7A75T-1FGG484CはAMD製Artix-7 FPGAです。画像処理や産業用通信で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FBGA-484"
-        },
         {
           "label": "ファミリ",
           "value": "Artix-7"
@@ -2432,22 +2262,18 @@
         "FPGA",
         "FBGA484",
         "75520 logic cells"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "XC7S50-1CSGA324C",
       "manufacturer": "AMD (Xilinx)",
       "category": "FPGA",
       "package": "CSBGA-324",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/spartan-7.html",
       "description": "XC7S50-1CSGA324CはAMD製Spartan-7 FPGAです。低消費電力の産業制御や接続用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/spartan-7.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "CSBGA-324"
-        },
         {
           "label": "ファミリ",
           "value": "Spartan-7"
@@ -2488,22 +2314,18 @@
         "FPGA",
         "CSBGA324",
         "52160 logic cells"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "10CL040YU256C8G",
       "manufacturer": "Intel (Altera)",
       "category": "FPGA",
       "package": "UBGA-256",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/10/lp.html",
       "description": "10CL040YU256C8GはIntel製Cyclone 10 LP FPGAです。低消費電力の産業機器で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/10/lp.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "UBGA-256"
-        },
         {
           "label": "ファミリ",
           "value": "Cyclone 10 LP"
@@ -2540,22 +2362,18 @@
         "FPGA",
         "UBGA256",
         "39600 logic elements"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "5CGXFC5C6F27C7N",
       "manufacturer": "Intel (Altera)",
       "category": "FPGA",
       "package": "FBGA-672",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/v/gx.html",
       "description": "5CGXFC5C6F27C7NはIntel製Cyclone V GX FPGAです。高速通信や映像処理で需要があり、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/v/gx.html",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FBGA-672"
-        },
         {
           "label": "ファミリ",
           "value": "Cyclone V GX"
@@ -2596,22 +2414,18 @@
         "FPGA",
         "FBGA672",
         "high speed"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LFE5UM5G-45F-8BG381C",
       "manufacturer": "Lattice Semiconductor",
       "category": "FPGA",
       "package": "caBGA-381",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/ECP5",
       "description": "LFE5UM5G-45F-8BG381CはLattice製ECP5-5G FPGAです。映像・通信接続用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/ECP5",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "caBGA-381"
-        },
         {
           "label": "ファミリ",
           "value": "ECP5-5G"
@@ -2655,22 +2469,18 @@
         "FPGA",
         "caBGA381",
         "5Gbps SERDES"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LCMXO3LF-9400C-5BG400C",
       "manufacturer": "Lattice Semiconductor",
       "category": "FPGA",
       "package": "caBGA-400",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/MachXO3",
       "description": "LCMXO3LF-9400C-5BG400CはLattice製MachXO3 FPGAです。制御・ブリッジ用途で採用され、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/MachXO3",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "caBGA-400"
-        },
         {
           "label": "ファミリ",
           "value": "MachXO3"
@@ -2707,22 +2517,18 @@
         "caBGA400",
         "9400 LUT",
         "control PLD"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LFCPNX-100-9BG400C",
       "manufacturer": "Lattice Semiconductor",
       "category": "FPGA",
       "package": "caBGA-400",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/CertusPro-NX",
       "description": "LFCPNX-100-9BG400CはLattice製CertusPro-NX FPGAです。高帯域の映像・通信機器で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/en/Products/FPGAandCPLD/CertusPro-NX",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "caBGA-400"
-        },
         {
           "label": "ファミリ",
           "value": "CertusPro-NX"
@@ -2766,22 +2572,18 @@
         "FPGA",
         "caBGA400",
         "100K logic cells"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MPF100T-FCG484I",
       "manufacturer": "Microchip Technology",
       "category": "FPGA",
       "package": "FCBGA-484",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/polarfire-fpgas",
       "description": "MPF100T-FCG484IはMicrochip製PolarFire FPGAです。低消費電力と高信頼性を要する用途で、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/polarfire-fpgas",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FCBGA-484"
-        },
         {
           "label": "ファミリ",
           "value": "PolarFire"
@@ -2822,22 +2624,18 @@
         "FCBGA484",
         "low power",
         "high reliability"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "M2GL060-FGG484I",
       "manufacturer": "Microchip Technology",
       "category": "FPGA",
       "package": "FBGA-484",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/igloo-2-fpgas",
       "description": "M2GL060-FGG484IはMicrochip製IGLOO2 FPGAです。産業・通信分野の制御用途で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/igloo-2-fpgas",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "FBGA-484"
-        },
         {
           "label": "ファミリ",
           "value": "IGLOO2"
@@ -2874,22 +2672,18 @@
         "FBGA484",
         "nonvolatile",
         "industrial"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "AGLN060V2-VQG100I",
       "manufacturer": "Microchip Technology",
       "category": "FPGA",
       "package": "VQFP-100",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/igloo-fpgas",
       "description": "AGLN060V2-VQG100IはMicrochip製IGLOO nano FPGAです。小型・低消費電力機器で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/igloo-fpgas",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "VQFP-100"
-        },
         {
           "label": "ファミリ",
           "value": "IGLOO nano"
@@ -2926,25 +2720,21 @@
         "VQFP100",
         "low power",
         "60K gates"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT40A1G8SA-062E:R",
       "manufacturer": "Micron Technology",
       "category": "DRAM (DDR4 SDRAM)",
       "package": "FBGA-78",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a1g8sa-062e-r",
       "description": "MT40A1G8SA-062E:RはMicron製8Gb DDR4 SDRAMです。産業機器や通信装置の保守需要があり、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a1g8sa-062e-r",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "8 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-78"
         },
         {
           "label": "ファミリ",
@@ -2986,25 +2776,21 @@
         "8Gb",
         "FBGA78",
         "3200MT/s"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT53D512M32D2DS-046 WT:D",
       "manufacturer": "Micron Technology",
       "category": "DRAM (LPDDR4)",
       "package": "FBGA-200",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/lpddr4/part-catalog/part-detail/mt53d512m32d2ds-046-wt",
       "description": "MT53D512M32D2DS-046 WT:DはMicron製16Gb LPDDR4です。組込み機器の保守・代替需要があり、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/lpddr4/part-catalog/part-detail/mt53d512m32d2ds-046-wt",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "16 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-200"
         },
         {
           "label": "ファミリ",
@@ -3046,25 +2832,21 @@
         "16Gb",
         "FBGA200",
         "embedded memory"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "K4A8G165WG-BCWE",
       "manufacturer": "Samsung Electronics",
       "category": "DRAM (DDR4 SDRAM)",
       "package": "FBGA-96",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://semiconductor.samsung.com/dram/ddr/ddr4/",
       "description": "K4A8G165WG-BCWEはSamsung製8Gb DDR4 SDRAMです。産業・通信分野の交換需要が見込まれ、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://semiconductor.samsung.com/dram/ddr/ddr4/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "8 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-96"
         },
         {
           "label": "ファミリ",
@@ -3106,25 +2888,21 @@
         "8Gb",
         "FBGA96",
         "3200Mbps"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "W25Q256JVBIQ",
       "manufacturer": "Winbond Electronics",
       "category": "Flashメモリ (SPI NOR)",
       "package": "WSON-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.winbond.com/hq/support/documentation/?__locale=en&category=%2F.categories%2Fresources%2Fdatasheet%2F&family=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2Findex.html&line=%2Fproduct%2Fcode-storage-flash%2Findex.html&pno=W25Q256JVBIQ",
       "description": "W25Q256JVBIQはWinbond製256Mb SPI NOR Flashです。制御基板の起動領域や保守交換で需要があり、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/support/documentation/?__locale=en&category=%2F.categories%2Fresources%2Fdatasheet%2F&family=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2Findex.html&line=%2Fproduct%2Fcode-storage-flash%2Findex.html&pno=W25Q256JVBIQ",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "256 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "WSON-8"
         },
         {
           "label": "ファミリ",
@@ -3166,25 +2944,21 @@
         "256Mb",
         "WSON8",
         "QSPI"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "W25N02KVZEIR",
       "manufacturer": "Winbond Electronics",
       "category": "Flashメモリ (SPI NAND)",
       "package": "WSON-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.winbond.com/hq/support/documentation/?__locale=en&category=%2F.categories%2Fresources%2Fdatasheet%2F&family=%2Fproduct%2Fcode-storage-flash-memory%2Fqspinand-flash%2Findex.html&line=%2Fproduct%2Fcode-storage-flash-memory%2Findex.html&pno=W25N02KV",
       "description": "W25N02KVZEIRはWinbond製2Gb QSPI NAND Flashです。大容量コード保存や組込み機器で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/support/documentation/?__locale=en&category=%2F.categories%2Fresources%2Fdatasheet%2F&family=%2Fproduct%2Fcode-storage-flash-memory%2Fqspinand-flash%2Findex.html&line=%2Fproduct%2Fcode-storage-flash-memory%2Findex.html&pno=W25N02KV",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "2 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "WSON-8"
         },
         {
           "label": "ファミリ",
@@ -3226,25 +3000,21 @@
         "2Gb",
         "WSON8",
         "embedded ECC"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IS43TR16256BL-125KBL",
       "manufacturer": "ISSI",
       "category": "DRAM (DDR3L SDRAM)",
       "package": "FBGA-96",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.issi.com/WW/pdf/43-46TR16256B-85120BL.pdf",
       "description": "IS43TR16256BL-125KBLはISSI製4Gb DDR3L SDRAMです。産業機器向けの長期供給用途で採用され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/WW/pdf/43-46TR16256B-85120BL.pdf",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "4 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-96"
         },
         {
           "label": "ファミリ",
@@ -3286,25 +3056,21 @@
         "4Gb",
         "FBGA96",
         "industrial memory"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IS61WV102416BLL-10TLI",
       "manufacturer": "ISSI",
       "category": "SRAM (非同期)",
       "package": "TSOP II-44",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.issi.com/WW/pdf/61WV102416ALL.pdf",
       "description": "IS61WV102416BLL-10TLIはISSI製16Mb非同期SRAMです。産業制御や計測器の保守用途で需要があり、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/WW/pdf/61WV102416ALL.pdf",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "16 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP II-44"
         },
         {
           "label": "ファミリ",
@@ -3346,25 +3112,21 @@
         "TSOP44",
         "10ns",
         "asynchronous"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "AS4C512M16D4B-62BCN",
       "manufacturer": "Alliance Memory",
       "category": "DRAM (DDR4 SDRAM)",
       "package": "FBGA-96",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.alliancememory.com/as4c512m16d4b/",
       "description": "AS4C512M16D4B-62BCNはAlliance Memory製8Gb DDR4 SDRAMです。主要品の代替・延命設計で注目され、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/as4c512m16d4b/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "8 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-96"
         },
         {
           "label": "ファミリ",
@@ -3406,25 +3168,21 @@
         "8Gb",
         "FBGA96",
         "replacement"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "AS6C4008-55SIN",
       "manufacturer": "Alliance Memory",
       "category": "SRAM (非同期)",
       "package": "SOP-32",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.alliancememory.com/as6c4008/",
       "description": "AS6C4008-55SINはAlliance Memory製4Mb低消費電力SRAMです。旧型装置の保守交換で採用しやすく、長納期・調達困難時の在庫探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/as6c4008/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "4 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SOP-32"
         },
         {
           "label": "ファミリ",
@@ -3466,25 +3224,21 @@
         "SOP32",
         "55ns",
         "low power"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "R1LV0416DSB-5SI#B0",
       "manufacturer": "Renesas Electronics",
       "category": "SRAM (低消費電力)",
       "package": "TSOP II-44",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.renesas.com/en/products/r1lv0416dsb-5si/part-details/r1lv0416dsb-5si-b0",
       "description": "R1LV0416DSB-5SI#B0はRenesas製4Mb低消費電力SRAMです。既採用顧客向けの保守需要が中心で、長納期・調達困難時の探索と安定供給をご相談いただけます。",
+      "datasheetUrl": "https://www.renesas.com/en/products/r1lv0416dsb-5si/part-details/r1lv0416dsb-5si-b0",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "4 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP II-44"
         },
         {
           "label": "ファミリ",
@@ -3526,25 +3280,21 @@
         "TSOP44",
         "55ns",
         "low power"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT40A512M16LY-062E IT:E",
       "manufacturer": "Micron Technology",
       "category": "DRAM (DDR4 SDRAM)",
       "package": "FBGA-96",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-it-e",
       "description": "MT40A512M16LY-062E IT:EはMicron製8Gb DDR4 SDRAMです。産業機器や通信装置の増設・保守用途で採用され、長納期・入手困難品の在庫確認や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-it-e",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "8 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-96"
         },
         {
           "label": "ファミリ",
@@ -3586,25 +3336,21 @@
         "8Gb",
         "FBGA96",
         "industrial"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT40A512M8HX-083E",
       "manufacturer": "Micron Technology",
       "category": "DRAM (DDR4 SDRAM)",
       "package": "FBGA-78",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m8hx-083e",
       "description": "MT40A512M8HX-083EはMicron製4Gb DDR4 SDRAMです。ネットワーク機器や組込み機器の保守需要があり、長納期・入手困難時の調達や在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m8hx-083e",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "4 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-78"
         },
         {
           "label": "ファミリ",
@@ -3646,25 +3392,21 @@
         "4Gb",
         "FBGA78",
         "2400MT/s"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT48LC16M16A2P-6A:G",
       "manufacturer": "Micron Technology",
       "category": "DRAM (SDRAM)",
       "package": "TSOP II-54",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/sdram/part-catalog",
       "description": "MT48LC16M16A2P-6A:GはMicron製256Mb SDR SDRAMです。旧型産業装置や制御基板の保守用途で需要があり、長納期・入手困難品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/memory/dram-components/sdram/part-catalog",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "256 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP II-54"
         },
         {
           "label": "ファミリ",
@@ -3706,25 +3448,21 @@
         "256Mb",
         "TSOP54",
         "166MHz"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "W25Q64JVSSIQ",
       "manufacturer": "Winbond Electronics",
       "category": "Flashメモリ (SPI NOR)",
       "package": "SOP-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.winbond.com/hq/new-online-purchasing-guide/index.html?__locale=ja&pLine=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2F&pNo=W25Q64JV",
       "description": "W25Q64JVSSIQはWinbond製64Mb SPI NOR Flashです。制御基板のブート領域やファームウェア保存に広く使われ、長納期・入手困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/new-online-purchasing-guide/index.html?__locale=ja&pLine=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2F&pNo=W25Q64JV",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "64 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SOP-8"
         },
         {
           "label": "ファミリ",
@@ -3766,25 +3504,21 @@
         "64Mb",
         "SOP8",
         "QSPI"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "W25Q25NESFIG",
       "manufacturer": "Winbond Electronics",
       "category": "Flashメモリ (SPI NOR)",
       "package": "SOP-16",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.winbond.com/hq/product/code-storage-flash/qspi-nor/w25q-ne/?__locale=en&partNo=W25Q25NESFIG",
       "description": "W25Q25NESFIGはWinbond製256Mb低電圧SPI NOR Flashです。省電力組込み機器やアクセラレータ用途で採用され、長納期・調達困難時の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/product/code-storage-flash/qspi-nor/w25q-ne/?__locale=en&partNo=W25Q25NESFIG",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "256 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SOP-16"
         },
         {
           "label": "ファミリ",
@@ -3826,25 +3560,21 @@
         "256Mb",
         "SOP16",
         "1.2V"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IS62WV51216BLL-55TLI",
       "manufacturer": "ISSI",
       "category": "SRAM (非同期)",
       "package": "TSOP II-44",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.issi.com/US/product-asynchronous-sram.shtml",
       "description": "IS62WV51216BLL-55TLIはISSI製8Mb低消費電力非同期SRAMです。産業制御や計測機器のバッファ用途で需要があり、長納期・入手困難時の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/US/product-asynchronous-sram.shtml",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "8 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP II-44"
         },
         {
           "label": "ファミリ",
@@ -3886,25 +3616,21 @@
         "TSOP44",
         "55ns",
         "asynchronous"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "AS6C1008-55SIN",
       "manufacturer": "Alliance Memory",
       "category": "SRAM (非同期)",
       "package": "SOP-32",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.alliancememory.com/product/low-power-asynchronous-sram/",
       "description": "AS6C1008-55SINはAlliance Memory製1Mb低消費電力非同期SRAMです。旧型装置の保守交換や代替用途に適し、長納期・入手困難時の在庫確認をご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/product/low-power-asynchronous-sram/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "1 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SOP-32"
         },
         {
           "label": "ファミリ",
@@ -3946,25 +3672,21 @@
         "SOP32",
         "55ns",
         "low power"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "AS4C16M16SA-6TCN",
       "manufacturer": "Alliance Memory",
       "category": "DRAM (SDRAM)",
       "package": "TSOP II-54",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.alliancememory.com/wp-content/uploads/pdf/dram/256M-AS4C16M16SA.pdf",
       "description": "AS4C16M16SA-6TCNはAlliance Memory製256Mb SDR SDRAMです。レガシー装置の延命や置換用途で採用され、長納期・入手困難時の在庫探索や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/wp-content/uploads/pdf/dram/256M-AS4C16M16SA.pdf",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "256 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP II-54"
         },
         {
           "label": "ファミリ",
@@ -4006,25 +3728,21 @@
         "256Mb",
         "TSOP54",
         "166MHz"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "S34ML08G3TFI000",
       "manufacturer": "Infineon",
       "category": "Flash (NAND)",
       "package": "BGA-63",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.infineon.com/",
       "description": "S34ML08G3TFI000はInfineon製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "8 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "BGA-63"
         },
         {
           "label": "ファミリ",
@@ -4057,25 +3775,21 @@
       ],
       "keywords": [
         "S34ML08G3TFI000"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "S34ML04G2TFI000",
       "manufacturer": "Infineon",
       "category": "Flash (NAND)",
       "package": "BGA-63",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.infineon.com/",
       "description": "S34ML04G2TFI000はInfineon製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "4 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "BGA-63"
         },
         {
           "label": "ファミリ",
@@ -4108,25 +3822,21 @@
       ],
       "keywords": [
         "S34ML04G2TFI000"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MX25R6435FM2IL0",
       "manufacturer": "Macronix",
       "category": "Flash (NOR)",
       "package": "SOP-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.macronix.com/",
       "description": "MX25R6435FM2IL0はMacronix製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.macronix.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "64 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SOP-8"
         },
         {
           "label": "ファミリ",
@@ -4159,25 +3869,21 @@
       ],
       "keywords": [
         "MX25R6435FM2IL0"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MX66U1G45GMI00",
       "manufacturer": "Macronix",
       "category": "Flash (NOR)",
       "package": "BGA",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.macronix.com/",
       "description": "MX66U1G45GMI00はMacronix製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.macronix.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "1 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "BGA"
         },
         {
           "label": "ファミリ",
@@ -4210,25 +3916,21 @@
       ],
       "keywords": [
         "MX66U1G45GMI00"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IS66WVH8M8BLL",
       "manufacturer": "ISSI",
       "category": "SRAM",
       "package": "TSOP-44",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.issi.com/",
       "description": "IS66WVH8M8BLLはISSI製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "64 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP-44"
         },
         {
           "label": "ファミリ",
@@ -4261,25 +3963,21 @@
       ],
       "keywords": [
         "IS66WVH8M8BLL"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IS66WVE4M16EBLL",
       "manufacturer": "ISSI",
       "category": "SRAM",
       "package": "BGA",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.issi.com/",
       "description": "IS66WVE4M16EBLLはISSI製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "64 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "BGA"
         },
         {
           "label": "ファミリ",
@@ -4312,25 +4010,21 @@
       ],
       "keywords": [
         "IS66WVE4M16EBLL"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "EM6GA16EWXA",
       "manufacturer": "ESMT",
       "category": "DDR3",
       "package": "FBGA-96",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.esmt.com.tw/",
       "description": "EM6GA16EWXAはESMT製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.esmt.com.tw/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "4 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA-96"
         },
         {
           "label": "ファミリ",
@@ -4363,25 +4057,21 @@
       ],
       "keywords": [
         "EM6GA16EWXA"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "EM68B16CWQD",
       "manufacturer": "ESMT",
       "category": "LPDDR2",
       "package": "FBGA",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.esmt.com.tw/",
       "description": "EM68B16CWQDはESMT製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.esmt.com.tw/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "8 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "FBGA"
         },
         {
           "label": "ファミリ",
@@ -4414,25 +4104,21 @@
       ],
       "keywords": [
         "EM68B16CWQD"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT29F2G08ABAEAWP",
       "manufacturer": "Micron",
       "category": "NAND Flash",
       "package": "TSOP-48",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/",
       "description": "MT29F2G08ABAEAWPはMicron製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "2 Gb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP-48"
         },
         {
           "label": "ファミリ",
@@ -4465,25 +4151,21 @@
       ],
       "keywords": [
         "MT29F2G08ABAEAWP"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MT25QL512ABB",
       "manufacturer": "Micron",
       "category": "NOR Flash",
       "package": "BGA-24",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.micron.com/",
       "description": "MT25QL512ABBはMicron製メモリ製品です。長納期・調達困難時の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "512 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "BGA-24"
         },
         {
           "label": "ファミリ",
@@ -4516,25 +4198,21 @@
       ],
       "keywords": [
         "MT25QL512ABB"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "EEU-FR1V471",
       "manufacturer": "Panasonic",
       "category": "アルミ電解コンデンサ",
       "package": "Radial",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://industrial.panasonic.com/",
       "description": "EEU-FR1V471はPanasonic製アルミ電解コンデンサです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://industrial.panasonic.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "470 µF"
-        },
-        {
-          "label": "パッケージ",
-          "value": "Radial"
         },
         {
           "label": "ファミリ",
@@ -4563,25 +4241,21 @@
       ],
       "keywords": [
         "EEU-FR1V471"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "UPW1V471MPD",
       "manufacturer": "Nichicon",
       "category": "アルミ電解コンデンサ",
       "package": "Radial",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.nichicon.co.jp/",
       "description": "UPW1V471MPDはNichicon製アルミ電解コンデンサです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.nichicon.co.jp/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "470 µF"
-        },
-        {
-          "label": "パッケージ",
-          "value": "Radial"
         },
         {
           "label": "ファミリ",
@@ -4609,25 +4283,21 @@
       ],
       "keywords": [
         "UPW1V471MPD"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "UHE1E221MPD",
       "manufacturer": "Nichicon",
       "category": "アルミ電解コンデンサ",
       "package": "Radial",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.nichicon.co.jp/",
       "description": "UHE1E221MPDはNichicon製アルミ電解コンデンサです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.nichicon.co.jp/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "220 µF"
-        },
-        {
-          "label": "パッケージ",
-          "value": "Radial"
         },
         {
           "label": "ファミリ",
@@ -4655,25 +4325,21 @@
       ],
       "keywords": [
         "UHE1E221MPD"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "EKZH500ELL331MJ20S",
       "manufacturer": "United Chemi-Con",
       "category": "アルミ電解コンデンサ",
       "package": "Radial",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.chemi-con.co.jp/",
       "description": "EKZH500ELL331MJ20SはUnited Chemi-Con製アルミ電解コンデンサです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.chemi-con.co.jp/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "330 µF"
-        },
-        {
-          "label": "パッケージ",
-          "value": "Radial"
         },
         {
           "label": "ファミリ",
@@ -4701,25 +4367,21 @@
       ],
       "keywords": [
         "EKZH500ELL331MJ20S"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "B43504A2477M",
       "manufacturer": "TDK EPCOS",
       "category": "アルミ電解コンデンサ",
       "package": "Snap-in",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.tdk-electronics.tdk.com/",
       "description": "B43504A2477MはTDK EPCOS製アルミ電解コンデンサです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.tdk-electronics.tdk.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "470 µF"
-        },
-        {
-          "label": "パッケージ",
-          "value": "Snap-in"
         },
         {
           "label": "ファミリ",
@@ -4747,25 +4409,21 @@
       ],
       "keywords": [
         "B43504A2477M"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MAL214651471E3",
       "manufacturer": "Vishay",
       "category": "アルミ電解コンデンサ",
       "package": "Radial",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.vishay.com/",
       "description": "MAL214651471E3はVishay製アルミ電解コンデンサです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.vishay.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "470 µF"
-        },
-        {
-          "label": "パッケージ",
-          "value": "Radial"
         },
         {
           "label": "ファミリ",
@@ -4793,17 +4451,17 @@
       ],
       "keywords": [
         "MAL214651471E3"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IRLZ44NPBF",
       "manufacturer": "Infineon",
       "category": "MOSFET",
       "package": "TO-220AB",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.google.com/search?q=IRLZ44NPBF",
       "description": "IRLZ44NPBFはInfineon製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.google.com/search?q=IRLZ44NPBF",
       "specs": [
         {
           "label": "動作温度",
@@ -4820,17 +4478,17 @@
       ],
       "keywords": [
         "IRLZ44NPBF"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IPB017N10N5ATMA1",
       "manufacturer": "Infineon",
       "category": "MOSFET",
       "package": "TO-263",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.google.com/search?q=IPB017N10N5ATMA1",
       "description": "IPB017N10N5ATMA1はInfineon製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.google.com/search?q=IPB017N10N5ATMA1",
       "specs": [
         {
           "label": "動作温度",
@@ -4847,17 +4505,17 @@
       ],
       "keywords": [
         "IPB017N10N5ATMA1"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "FGH60N60SFD",
       "manufacturer": "onsemi",
       "category": "IGBT",
       "package": "TO-247",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.google.com/search?q=FGH60N60SFD",
       "description": "FGH60N60SFDはonsemi製のIGBTです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.google.com/search?q=FGH60N60SFD",
       "specs": [
         {
           "label": "動作温度",
@@ -4874,17 +4532,17 @@
       ],
       "keywords": [
         "FGH60N60SFD"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LM2596S-5.0",
       "manufacturer": "Texas Instruments",
       "category": "電源IC",
       "package": "TO-263",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.google.com/search?q=LM2596S-5.0",
       "description": "LM2596S-5.0はTexas Instruments製の電源ICです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.google.com/search?q=LM2596S-5.0",
       "specs": [
         {
           "label": "動作温度",
@@ -4901,17 +4559,17 @@
       ],
       "keywords": [
         "LM2596S-5.0"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "TPS5430DDAR",
       "manufacturer": "Texas Instruments",
       "category": "電源IC",
       "package": "SOIC-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.google.com/search?q=TPS5430DDAR",
       "description": "TPS5430DDARはTexas Instruments製の電源ICです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.google.com/search?q=TPS5430DDAR",
       "specs": [
         {
           "label": "動作温度",
@@ -4928,17 +4586,17 @@
       ],
       "keywords": [
         "TPS5430DDAR"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "MP1584EN",
       "manufacturer": "Monolithic Power Systems",
       "category": "電源IC",
       "package": "SOIC-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.google.com/search?q=MP1584EN",
       "description": "MP1584ENはMonolithic Power Systems製の電源ICです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.google.com/search?q=MP1584EN",
       "specs": [
         {
           "label": "動作温度",
@@ -4955,17 +4613,17 @@
       ],
       "keywords": [
         "MP1584EN"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "CP2102N-A02-GQFN28",
       "manufacturer": "Silicon Labs",
       "category": "USB-UART",
       "package": "QFN-28",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.google.com/search?q=CP2102N-A02-GQFN28",
       "description": "CP2102N-A02-GQFN28はSilicon Labs製のUSB-UARTです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.google.com/search?q=CP2102N-A02-GQFN28",
       "specs": [
         {
           "label": "動作温度",
@@ -4982,17 +4640,17 @@
       ],
       "keywords": [
         "CP2102N-A02-GQFN28"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "CH340C",
       "manufacturer": "WCH",
       "category": "USB-UART",
       "package": "SOP-16",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.google.com/search?q=CH340C",
       "description": "CH340CはWCH製のUSB-UARTです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.google.com/search?q=CH340C",
       "specs": [
         {
           "label": "動作温度",
@@ -5009,22 +4667,18 @@
       ],
       "keywords": [
         "CH340C"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "LM2576S-5.0",
       "manufacturer": "Texas Instruments",
       "category": "電源IC",
       "package": "TO-263",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.ti.com/product/LM2576",
       "description": "LM2576S-5.0はTexas Instruments製の降圧DC/DCコンバータです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.ti.com/product/LM2576",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "TO-263"
-        },
         {
           "label": "動作温度",
           "value": "-40～125℃"
@@ -5056,22 +4710,18 @@
         "TI",
         "DC/DC",
         "Buck"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "AO3400A",
       "manufacturer": "Alpha & Omega",
       "category": "MOSFET",
       "package": "SOT-23",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.aosmd.com/",
       "description": "AO3400AはAlpha & Omega製Nch MOSFETです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.aosmd.com/",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "SOT-23"
-        },
         {
           "label": "動作温度",
           "value": "-55～150℃"
@@ -5092,22 +4742,18 @@
       "keywords": [
         "AO3400A",
         "MOSFET"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IRF3205PBF",
       "manufacturer": "Infineon",
       "category": "MOSFET",
       "package": "TO-220AB",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.infineon.com/",
       "description": "IRF3205PBFはInfineon製パワーMOSFETです。長納期品の調達や代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/",
       "specs": [
-        {
-          "label": "パッケージ",
-          "value": "TO-220AB"
-        },
         {
           "label": "動作温度",
           "value": "-55～175℃"
@@ -5128,25 +4774,21 @@
       "keywords": [
         "IRF3205PBF",
         "MOSFET"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "W25Q32JVSSIQ",
       "manufacturer": "Winbond Electronics",
       "category": "Flashメモリ (SPI NOR)",
       "package": "SOIC-8",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.winbond.com/",
       "description": "W25Q32JVSSIQはWinbond製32Mb SPI NOR Flashです。長納期・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "32 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "SOIC-8"
         },
         {
           "label": "ファミリ",
@@ -5176,25 +4818,21 @@
       "keywords": [
         "W25Q32JVSSIQ",
         "Winbond"
-      ]
+      ],
+      "longLead": true
     },
     {
       "partNumber": "IS42S32800J",
       "manufacturer": "ISSI",
       "category": "DRAM (SDRAM)",
       "package": "TSOP II-86",
-      "longLead": true,
       "rohs": "対応",
-      "datasheetUrl": "https://www.issi.com/",
       "description": "IS42S32800JはISSI製256Mb SDRAMです。保守・長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/",
       "specs": [
         {
           "label": "フラッシュメモリ",
           "value": "256 Mb"
-        },
-        {
-          "label": "パッケージ",
-          "value": "TSOP II-86"
         },
         {
           "label": "ファミリ",
@@ -5229,7 +4867,64 @@
         "IS42S32800J",
         "ISSI",
         "SDRAM"
-      ]
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7A35T-1CPG236C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "CSBGA-236",
+      "rohs": "対応",
+      "description": "XC7A35T-1CPG236CはAMD (Xilinx)製Artix-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
+      "specs": [
+        {
+          "label": "コア",
+          "value": "Artix-7"
+        },
+        {
+          "label": "動作周波数",
+          "value": "450 MHz"
+        },
+        {
+          "label": "ファミリ",
+          "value": "Artix-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "33280"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "1800 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "90"
+        },
+        {
+          "label": "I/Oピン",
+          "value": "170"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40～100℃"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "FA",
+        "通信機器"
+      ],
+      "keywords": [
+        "XC7A35T-1CPG236C",
+        "AMD",
+        "Xilinx",
+        "Artix-7",
+        "FPGA"
+      ],
+      "longLead": true
     }
   ]
 }
