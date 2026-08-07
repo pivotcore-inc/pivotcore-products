@@ -7156,6 +7156,3424 @@
         "3Mbaud"
       ],
       "longLead": true
+    },
+    {
+      "partNumber": "XC7A15T-2FTG256C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FTBGA-256",
+      "rohs": "対応",
+      "description": "XC7A15T-2FTG256CはAMD (Xilinx)製Artix-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Artix-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "16640"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "900 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "45"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "FA機器",
+        "画像処理",
+        "通信機器",
+        "計測機器"
+      ],
+      "keywords": [
+        "XC7A15T-2FTG256C",
+        "AMD",
+        "Xilinx",
+        "Artix-7",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7A35T-2FGG484C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FBGA-484",
+      "rohs": "対応",
+      "description": "XC7A35T-2FGG484CはAMD (Xilinx)製Artix-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Artix-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "33280"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "1800 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "90"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "FA機器",
+        "画像処理",
+        "通信機器",
+        "計測機器"
+      ],
+      "keywords": [
+        "XC7A35T-2FGG484C",
+        "AMD",
+        "Xilinx",
+        "Artix-7",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7A100T-2FGG484C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FBGA-484",
+      "rohs": "対応",
+      "description": "XC7A100T-2FGG484CはAMD (Xilinx)製Artix-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Artix-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "101440"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "4860 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "240"
+        }
+      ],
+      "applications": [
+        "画像処理",
+        "産業用ネットワーク",
+        "通信機器",
+        "計測機器",
+        "FA機器"
+      ],
+      "keywords": [
+        "XC7A100T-2FGG484C",
+        "AMD",
+        "Xilinx",
+        "Artix-7",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7K160T-2FBG484C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FBGA-484",
+      "rohs": "対応",
+      "description": "XC7K160T-2FBG484CはAMD (Xilinx)製Kintex-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-7.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Kintex-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "162240"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "11700 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "600"
+        }
+      ],
+      "applications": [
+        "通信インフラ",
+        "画像処理",
+        "放送機器",
+        "産業機器",
+        "高速データ処理"
+      ],
+      "keywords": [
+        "XC7K160T-2FBG484C",
+        "AMD",
+        "Xilinx",
+        "Kintex-7",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7K325T-2FFG900C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FFG-900",
+      "rohs": "対応",
+      "description": "XC7K325T-2FFG900CはAMD (Xilinx)製Kintex-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-7.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Kintex-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "326080"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "16020 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "840"
+        }
+      ],
+      "applications": [
+        "通信インフラ",
+        "画像処理",
+        "放送機器",
+        "産業機器",
+        "高速データ処理"
+      ],
+      "keywords": [
+        "XC7K325T-2FFG900C",
+        "AMD",
+        "Xilinx",
+        "Kintex-7",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7Z010-1CLG225C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "CLG-225",
+      "rohs": "対応",
+      "description": "XC7Z010-1CLG225CはAMD (Xilinx)製Zynq-7000ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/soc/zynq-7000.html",
+      "specs": [
+        {
+          "label": "コア",
+          "value": "Dual-core Arm Cortex-A9"
+        },
+        {
+          "label": "ファミリ",
+          "value": "Zynq-7000"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "28000"
+        }
+      ],
+      "applications": [
+        "組込み制御",
+        "産業機器",
+        "モータ制御",
+        "画像処理",
+        "IoT機器"
+      ],
+      "keywords": [
+        "XC7Z010-1CLG225C",
+        "AMD",
+        "Xilinx",
+        "Zynq-7000",
+        "FPGA",
+        "SoC"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7Z020-2CLG484C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "CLG-484",
+      "rohs": "対応",
+      "description": "XC7Z020-2CLG484CはAMD (Xilinx)製Zynq-7000ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/soc/zynq-7000.html",
+      "specs": [
+        {
+          "label": "コア",
+          "value": "Dual-core Arm Cortex-A9"
+        },
+        {
+          "label": "ファミリ",
+          "value": "Zynq-7000"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "85000"
+        }
+      ],
+      "applications": [
+        "組込み制御",
+        "画像処理",
+        "産業機器",
+        "通信機器",
+        "IoT機器"
+      ],
+      "keywords": [
+        "XC7Z020-2CLG484C",
+        "AMD",
+        "Xilinx",
+        "Zynq-7000",
+        "FPGA",
+        "SoC"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7Z030-2FBG676C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FBG-676",
+      "rohs": "対応",
+      "description": "XC7Z030-2FBG676CはAMD (Xilinx)製Zynq-7000ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/soc/zynq-7000.html",
+      "specs": [
+        {
+          "label": "コア",
+          "value": "Dual-core Arm Cortex-A9"
+        },
+        {
+          "label": "ファミリ",
+          "value": "Zynq-7000"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "125000"
+        }
+      ],
+      "applications": [
+        "画像処理",
+        "通信機器",
+        "産業機器",
+        "高速制御",
+        "エッジコンピューティング"
+      ],
+      "keywords": [
+        "XC7Z030-2FBG676C",
+        "AMD",
+        "Xilinx",
+        "Zynq-7000",
+        "FPGA",
+        "SoC"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7Z045-2FFG900C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FFG-900",
+      "rohs": "対応",
+      "description": "XC7Z045-2FFG900CはAMD (Xilinx)製Zynq-7000ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/soc/zynq-7000.html",
+      "specs": [
+        {
+          "label": "コア",
+          "value": "Dual-core Arm Cortex-A9"
+        },
+        {
+          "label": "ファミリ",
+          "value": "Zynq-7000"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "350000"
+        }
+      ],
+      "applications": [
+        "画像処理",
+        "通信インフラ",
+        "放送機器",
+        "産業機器",
+        "高速データ処理"
+      ],
+      "keywords": [
+        "XC7Z045-2FFG900C",
+        "AMD",
+        "Xilinx",
+        "Zynq-7000",
+        "FPGA",
+        "SoC"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7VX485T-2FFG1761C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FFG-1761",
+      "rohs": "対応",
+      "description": "XC7VX485T-2FFG1761CはAMD (Xilinx)製Virtex-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/virtex-7.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Virtex-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "485760"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "37080 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "2800"
+        }
+      ],
+      "applications": [
+        "高速通信",
+        "レーダー",
+        "ASICプロトタイピング",
+        "放送機器",
+        "高性能画像処理"
+      ],
+      "keywords": [
+        "XC7VX485T-2FFG1761C",
+        "AMD",
+        "Xilinx",
+        "Virtex-7",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7A200T-2FBG676C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FBG-676",
+      "rohs": "対応",
+      "description": "XC7A200T-2FBG676CはAMD (Xilinx)製Artix-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/artix-7.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Artix-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "202160"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "13400 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "740"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "XC7A200T-2FBG676C",
+        "AMD (Xilinx)",
+        "Artix-7",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC7K410T-2FFG900C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FFG-900",
+      "rohs": "対応",
+      "description": "XC7K410T-2FFG900CはAMD (Xilinx)製Kintex-7ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-7.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Kintex-7"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "406720"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "28620 Kb"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "1540"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "XC7K410T-2FFG900C",
+        "AMD (Xilinx)",
+        "Kintex-7",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "10CL016YU256C8G",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "UBGA-256",
+      "rohs": "対応",
+      "description": "10CL016YU256C8GはIntel (Altera)製Cyclone 10 LPファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Cyclone 10 LP"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "15000"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "10CL016YU256C8G",
+        "Intel (Altera)",
+        "Cyclone 10 LP",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "10CL055YU484C8G",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "UBGA-484",
+      "rohs": "対応",
+      "description": "10CL055YU484C8GはIntel (Altera)製Cyclone 10 LPファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Cyclone 10 LP"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "55000"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "10CL055YU484C8G",
+        "Intel (Altera)",
+        "Cyclone 10 LP",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "5CEBA2F17C8N",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "FBGA-256",
+      "rohs": "対応",
+      "description": "5CEBA2F17C8NはIntel (Altera)製Cyclone V EファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Cyclone V E"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "25000"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "5CEBA2F17C8N",
+        "Intel (Altera)",
+        "Cyclone V E",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "5CGTFD9E5F35C7N",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "FBGA-896",
+      "rohs": "対応",
+      "description": "5CGTFD9E5F35C7NはIntel (Altera)製Cyclone V GXファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Cyclone V GX"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "301000"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "5CGTFD9E5F35C7N",
+        "Intel (Altera)",
+        "Cyclone V GX",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "10M08SCU169C8G",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "UBGA-169",
+      "rohs": "対応",
+      "description": "10M08SCU169C8GはIntel (Altera)製MAX 10ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "MAX 10"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "8000"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "10M08SCU169C8G",
+        "Intel (Altera)",
+        "MAX 10",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "EP4CE30F23C8N",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "FBGA-484",
+      "rohs": "対応",
+      "description": "EP4CE30F23C8NはIntel (Altera)製Cyclone IV EファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Cyclone IV E"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "29400"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "EP4CE30F23C8N",
+        "Intel (Altera)",
+        "Cyclone IV E",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "5CSXFC6D6F31C6N",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "FBGA-896",
+      "rohs": "対応",
+      "description": "5CSXFC6D6F31C6NはIntel (Altera)製Cyclone V SoCファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Cyclone V SoC"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "110000"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "FA機器"
+      ],
+      "keywords": [
+        "5CSXFC6D6F31C6N",
+        "Intel (Altera)",
+        "Cyclone V SoC",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LFE5U-25F-8BG256C",
+      "manufacturer": "Lattice",
+      "category": "FPGA",
+      "package": "CABGA-256",
+      "rohs": "対応",
+      "description": "LFE5U-25F-8BG256CはLattice製ECP5ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/Products/FPGAandCPLD/ECP5",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "ECP5"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "24240"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "972"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "56"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "画像処理",
+        "通信機器",
+        "FA機器"
+      ],
+      "keywords": [
+        "LFE5U-25F-8BG256C",
+        "Lattice",
+        "ECP5",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LFE5U-85F-6BG554C",
+      "manufacturer": "Lattice",
+      "category": "FPGA",
+      "package": "CABGA-554",
+      "rohs": "対応",
+      "description": "LFE5U-85F-6BG554CはLattice製ECP5ファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/Products/FPGAandCPLD/ECP5",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "ECP5"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "84000"
+        },
+        {
+          "label": "ブロックRAM",
+          "value": "3798"
+        },
+        {
+          "label": "DSPスライス",
+          "value": "156"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "画像処理",
+        "通信機器",
+        "FA機器"
+      ],
+      "keywords": [
+        "LFE5U-85F-6BG554C",
+        "Lattice",
+        "ECP5",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LCMXO3D-9400HC-6BG256C",
+      "manufacturer": "Lattice",
+      "category": "FPGA",
+      "package": "CABGA-256",
+      "rohs": "対応",
+      "description": "LCMXO3D-9400HC-6BG256CはLattice製MachXO3DファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/Products/FPGAandCPLD/MachXO3D",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "MachXO3D"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "9400"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "画像処理",
+        "通信機器",
+        "FA機器"
+      ],
+      "keywords": [
+        "LCMXO3D-9400HC-6BG256C",
+        "Lattice",
+        "MachXO3D",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LIFCL-40-9BG400CES",
+      "manufacturer": "Lattice",
+      "category": "FPGA",
+      "package": "caBGA-400",
+      "rohs": "対応",
+      "description": "LIFCL-40-9BG400CESはLattice製CrossLinkファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/Products/FPGAandCPLD/CrossLink",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "CrossLink"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "40000"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "画像処理",
+        "通信機器",
+        "FA機器"
+      ],
+      "keywords": [
+        "LIFCL-40-9BG400CES",
+        "Lattice",
+        "CrossLink",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LFCPNX-100-9BG400I",
+      "manufacturer": "Lattice",
+      "category": "FPGA",
+      "package": "caBGA-400",
+      "rohs": "対応",
+      "description": "LFCPNX-100-9BG400IはLattice製CertusPro-NXファミリのFPGAです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/Products/FPGAandCPLD/CertusProNX",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "CertusPro-NX"
+        },
+        {
+          "label": "ロジックセル",
+          "value": "100000"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "画像処理",
+        "通信機器",
+        "FA機器"
+      ],
+      "keywords": [
+        "LFCPNX-100-9BG400I",
+        "Lattice",
+        "CertusPro-NX",
+        "FPGA"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MT41K512M16HA-125",
+      "manufacturer": "Micron",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "MT41K512M16HA-125はMicron製のDDR3 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "MT41K512M16HA-125",
+        "Micron",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "K4A8G165WB-BCRC",
+      "manufacturer": "Samsung",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "K4A8G165WB-BCRCはSamsung製のDDR4 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://semiconductor.samsung.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "K4A8G165WB-BCRC",
+        "Samsung",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "K4B4G1646E-BYMA",
+      "manufacturer": "Samsung",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "K4B4G1646E-BYMAはSamsung製のDDR3 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://semiconductor.samsung.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "K4B4G1646E-BYMA",
+        "Samsung",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "H5AN8G8NAFR-UHC",
+      "manufacturer": "SK hynix",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "H5AN8G8NAFR-UHCはSK hynix製のDDR4 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://product.skhynix.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "H5AN8G8NAFR-UHC",
+        "SK hynix",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "H5TC4G63AFR-PBA",
+      "manufacturer": "SK hynix",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "H5TC4G63AFR-PBAはSK hynix製のDDR3 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://product.skhynix.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "H5TC4G63AFR-PBA",
+        "SK hynix",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS43TR16256BL-125KBLI",
+      "manufacturer": "ISSI",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "IS43TR16256BL-125KBLIはISSI製のDDR3 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "IS43TR16256BL-125KBLI",
+        "ISSI",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS43TR85120BL-107KBLI",
+      "manufacturer": "ISSI",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "IS43TR85120BL-107KBLIはISSI製のDDR3 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "IS43TR85120BL-107KBLI",
+        "ISSI",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AS4C256M16D4A-125BIN",
+      "manufacturer": "Alliance Memory",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "AS4C256M16D4A-125BINはAlliance Memory製のDDR4 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "AS4C256M16D4A-125BIN",
+        "Alliance Memory",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AS4C128M16D3A-12BCN",
+      "manufacturer": "Alliance Memory",
+      "category": "メモリ",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "AS4C128M16D3A-12BCNはAlliance Memory製のDDR3 SDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "医療機器"
+      ],
+      "keywords": [
+        "AS4C128M16D3A-12BCN",
+        "Alliance Memory",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "K4A4G165WF-BCTD",
+      "manufacturer": "Samsung",
+      "category": "DRAM",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "K4A4G165WF-BCTDはSamsung製のDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://semiconductor.samsung.com/dram/ddr4/",
+      "specs": [],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器"
+      ],
+      "keywords": [
+        "K4A4G165WF-BCTD",
+        "Samsung",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "H5AN4G6NBJR-UHC",
+      "manufacturer": "SK hynix",
+      "category": "DRAM",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "H5AN4G6NBJR-UHCはSK hynix製のDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://product.skhynix.com",
+      "specs": [],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器"
+      ],
+      "keywords": [
+        "H5AN4G6NBJR-UHC",
+        "SK hynix",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS43TR16512BL-125KBLI",
+      "manufacturer": "ISSI",
+      "category": "DRAM",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "IS43TR16512BL-125KBLIはISSI製のDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com",
+      "specs": [],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器"
+      ],
+      "keywords": [
+        "IS43TR16512BL-125KBLI",
+        "ISSI",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AS4C64M16D4A-125BCN",
+      "manufacturer": "Alliance Memory",
+      "category": "DRAM",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "AS4C64M16D4A-125BCNはAlliance Memory製のDRAMです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com",
+      "specs": [],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器"
+      ],
+      "keywords": [
+        "AS4C64M16D4A-125BCN",
+        "Alliance Memory",
+        "DRAM"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MT25QL512ABB8ESF-0SIT",
+      "manufacturer": "Micron",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "MT25QL512ABB8ESF-0SITはMicron製のFlashメモリです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/nor-flash",
+      "specs": [],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器"
+      ],
+      "keywords": [
+        "MT25QL512ABB8ESF-0SIT",
+        "Micron",
+        "Flash"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "S25FL256LAGMFI013",
+      "manufacturer": "Infineon",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "S25FL256LAGMFI013はInfineon製のFlashメモリです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com",
+      "specs": [],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器"
+      ],
+      "keywords": [
+        "S25FL256LAGMFI013",
+        "Infineon",
+        "Flash"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MX25L51245GMI-10G",
+      "manufacturer": "Macronix",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "MX25L51245GMI-10GはMacronix製のFlashメモリです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.macronix.com",
+      "specs": [],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器"
+      ],
+      "keywords": [
+        "MX25L51245GMI-10G",
+        "Macronix",
+        "Flash"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AT25SF321B-SSHB-T",
+      "manufacturer": "Microchip",
+      "category": "Flash",
+      "package": "SOIC-8",
+      "rohs": "対応",
+      "description": "AT25SF321B-SSHB-TはMicrochip製のFlashメモリです。長納期・EOL品の調達もご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com",
+      "specs": [],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器"
+      ],
+      "keywords": [
+        "AT25SF321B-SSHB-T",
+        "Microchip",
+        "Flash"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "SST26VF064B-104I/SO",
+      "manufacturer": "Microchip",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "SST26VF064B-104I/SOはMicrochip製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/sst26vf064b",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "64 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～105°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.3 V～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / SDI / SQI"
+        },
+        {
+          "label": "機能",
+          "value": "Serial Quad I/O, XIP対応"
+        },
+        {
+          "label": "データレート",
+          "value": "最大104 MHz"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "通信機器",
+        "ネットワーク機器",
+        "コードストレージ"
+      ],
+      "keywords": [
+        "SST26VF064B-104I/SO",
+        "Microchip",
+        "Flash",
+        "Serial NOR",
+        "SQI",
+        "64Mbit",
+        "SOIC-16"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "SST26VF064BA-104I/SO",
+      "manufacturer": "Microchip",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "SST26VF064BA-104I/SOはMicrochip製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/sst26vf064ba",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "64 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～105°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.3 V～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / SDI / SQI"
+        },
+        {
+          "label": "機能",
+          "value": "Serial Quad I/O, XIP対応"
+        },
+        {
+          "label": "データレート",
+          "value": "最大104 MHz"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "通信機器",
+        "ネットワーク機器",
+        "ファームウェア格納"
+      ],
+      "keywords": [
+        "SST26VF064BA-104I/SO",
+        "Microchip",
+        "Flash",
+        "Serial NOR",
+        "SQI",
+        "64Mbit",
+        "SOIC-16"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "SST26VF016B-104I/SN",
+      "manufacturer": "Microchip",
+      "category": "Flash",
+      "package": "SOIC-8",
+      "rohs": "対応",
+      "description": "SST26VF016B-104I/SNはMicrochip製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/sst26vf016b",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "16 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～105°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.3 V～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / SDI / SQI"
+        },
+        {
+          "label": "機能",
+          "value": "Serial Quad I/O, XIP対応"
+        },
+        {
+          "label": "データレート",
+          "value": "最大104 MHz"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "センサー機器",
+        "通信機器",
+        "ファームウェア格納"
+      ],
+      "keywords": [
+        "SST26VF016B-104I/SN",
+        "Microchip",
+        "Flash",
+        "Serial NOR",
+        "SQI",
+        "16Mbit",
+        "SOIC-8"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "SST26WF064C-104I/SO",
+      "manufacturer": "Microchip",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "SST26WF064C-104I/SOはMicrochip製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/sst26wf064c",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "64 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "1.65 V～1.95 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / SDI / SQI / DTR"
+        },
+        {
+          "label": "機能",
+          "value": "低電圧Serial Quad I/O, XIP対応"
+        },
+        {
+          "label": "データレート",
+          "value": "最大104 MHz"
+        }
+      ],
+      "applications": [
+        "低消費電力機器",
+        "IoT機器",
+        "ウェアラブル機器",
+        "組込み機器",
+        "通信機器"
+      ],
+      "keywords": [
+        "SST26WF064C-104I/SO",
+        "Microchip",
+        "Flash",
+        "Serial NOR",
+        "SQI",
+        "1.8V",
+        "64Mbit"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "S25FL512SDPMFV011",
+      "manufacturer": "Infineon",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "S25FL512SDPMFV011はInfineon製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/ja/part/S25FL512SDPMFV011",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "512 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～105°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.7 V～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Dual / Quad I/O / DDR"
+        },
+        {
+          "label": "機能",
+          "value": "XiP, ASP, 32-bitアドレス対応"
+        },
+        {
+          "label": "データレート",
+          "value": "133 MHz SDR / 66 MHz DDR"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "車載機器",
+        "通信機器",
+        "ADAS",
+        "ファームウェア格納"
+      ],
+      "keywords": [
+        "S25FL512SDPMFV011",
+        "Infineon",
+        "Flash",
+        "Serial NOR",
+        "Quad SPI",
+        "512Mbit",
+        "SOIC-16"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "S25FS512SAGMFI013",
+      "manufacturer": "Infineon",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "S25FS512SAGMFI013はInfineon製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/part/S25FS512SAGMFI013",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "512 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～125°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "1.7 V～2.0 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Dual / Quad I/O / DDR"
+        },
+        {
+          "label": "機能",
+          "value": "XiP, ECC, ASP対応"
+        },
+        {
+          "label": "データレート",
+          "value": "最大133 MHz"
+        }
+      ],
+      "applications": [
+        "車載機器",
+        "産業機器",
+        "ADAS",
+        "通信機器",
+        "組込みシステム"
+      ],
+      "keywords": [
+        "S25FS512SAGMFI013",
+        "Infineon",
+        "Flash",
+        "Serial NOR",
+        "Quad SPI",
+        "512Mbit",
+        "1.8V"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MX25L25645GMI-10G",
+      "manufacturer": "Macronix",
+      "category": "Flash",
+      "package": "SOP-16",
+      "rohs": "対応",
+      "description": "MX25L25645GMI-10GはMacronix製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.macronix.com/Lists/Datasheet/Attachments/8906/MX25L25645G%2C%203V%2C%20256Mb%2C%20v2.0.pdf",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "256 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.7 V～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Dual / Quad I/O / QPI"
+        },
+        {
+          "label": "機能",
+          "value": "DTR, 個別ブロック保護, XIP対応"
+        },
+        {
+          "label": "データレート",
+          "value": "最大133 MHz"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "ネットワーク機器",
+        "セットトップボックス",
+        "組込み機器"
+      ],
+      "keywords": [
+        "MX25L25645GMI-10G",
+        "Macronix",
+        "Flash",
+        "Serial NOR",
+        "Quad SPI",
+        "256Mbit",
+        "SOP-16"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS25LP256D-JKLE",
+      "manufacturer": "ISSI",
+      "category": "Flash",
+      "package": "TFBGA-24",
+      "rohs": "対応",
+      "description": "IS25LP256D-JKLEはISSI製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/WW/pdf/IS25LP%28WP%29256D.pdf",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "256 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～105°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.3 V～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Dual / Quad I/O / QPI / DTR"
+        },
+        {
+          "label": "機能",
+          "value": "Multi I/O, XIP, 4-byteアドレス対応"
+        },
+        {
+          "label": "データレート",
+          "value": "最大166 MHz"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "ネットワーク機器",
+        "組込み機器",
+        "データロギング"
+      ],
+      "keywords": [
+        "IS25LP256D-JKLE",
+        "ISSI",
+        "Flash",
+        "Serial NOR",
+        "Quad SPI",
+        "256Mbit",
+        "TFBGA-24"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "GD25Q128ESIG",
+      "manufacturer": "GigaDevice",
+      "category": "Flash",
+      "package": "SOP-8",
+      "rohs": "対応",
+      "description": "GD25Q128ESIGはGigaDevice製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.gigadevice.com/product/flash/spi-nor-flash/gd25q128e",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "128 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.7 V～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Dual / Quad I/O"
+        },
+        {
+          "label": "機能",
+          "value": "OTP, Unique ID, Suspend, Hardware Reset"
+        },
+        {
+          "label": "データレート",
+          "value": "最大133 MHz"
+        }
+      ],
+      "applications": [
+        "IoT機器",
+        "産業機器",
+        "通信機器",
+        "民生機器",
+        "ファームウェア格納"
+      ],
+      "keywords": [
+        "GD25Q128ESIG",
+        "GigaDevice",
+        "Flash",
+        "Serial NOR",
+        "Quad SPI",
+        "128Mbit",
+        "SOP-8"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "W25Q512JVFIM",
+      "manufacturer": "Winbond",
+      "category": "Flash",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "W25Q512JVFIMはWinbond製のシリアルNOR Flashメモリです。長納期や調達困難が発生しやすい組込み用途向け製品で、安定供給に向けた在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/new-online-purchasing-guide/?__locale=en&pLine=%2Fproduct%2Fcode-storage-flash%2Fqspi-nor%2F&pNo=W25Q512JV",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "512 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "シリアルNOR Flash"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.7 V～3.6 V"
+        },
+        {
+          "label": "アーキテクチャ",
+          "value": "SPI / Dual / Quad I/O / QPI"
+        },
+        {
+          "label": "機能",
+          "value": "XIP, OTP, Suspend, 4-byteアドレス対応"
+        },
+        {
+          "label": "データレート",
+          "value": "最大133 MHz"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "ネットワーク機器",
+        "PC周辺機器",
+        "ファームウェア格納"
+      ],
+      "keywords": [
+        "W25Q512JVFIM",
+        "Winbond",
+        "Flash",
+        "Serial NOR",
+        "Quad SPI",
+        "512Mbit",
+        "SOIC-16"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS61WV102416BLL-10BLI",
+      "manufacturer": "ISSI",
+      "category": "SRAM",
+      "package": "TSOP-II-48",
+      "rohs": "対応",
+      "description": "IS61WV102416BLL-10BLIはISSI製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/WW/pdf/61-64WV102416ALL_BLL.pdf",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "16 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Async SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.7–3.6 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "IS61WV102416BLL-10BLI",
+        "ISSI",
+        "SRAM",
+        "16 Mbit",
+        "TSOP-II-48"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS61WV51216BLL-10BLI",
+      "manufacturer": "ISSI",
+      "category": "SRAM",
+      "package": "TSOP-II-44",
+      "rohs": "対応",
+      "description": "IS61WV51216BLL-10BLIはISSI製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/WW/pdf/61-64WV51216ALL_BLL.pdf",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "8 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Async SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.7–3.6 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "IS61WV51216BLL-10BLI",
+        "ISSI",
+        "SRAM",
+        "8 Mbit",
+        "TSOP-II-44"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "CY7C1061DV33-10ZSXI",
+      "manufacturer": "Infineon",
+      "category": "SRAM",
+      "package": "TSOP-II-44",
+      "rohs": "対応",
+      "description": "CY7C1061DV33-10ZSXIはInfineon製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "16 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Async SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.0–3.6 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "CY7C1061DV33-10ZSXI",
+        "Infineon",
+        "SRAM",
+        "16 Mbit",
+        "TSOP-II-44"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "CY7C1049GN30-10ZSXI",
+      "manufacturer": "Infineon",
+      "category": "SRAM",
+      "package": "TSOP-II-44",
+      "rohs": "対応",
+      "description": "CY7C1049GN30-10ZSXIはInfineon製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "4 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Async SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.0–3.6 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "CY7C1049GN30-10ZSXI",
+        "Infineon",
+        "SRAM",
+        "4 Mbit",
+        "TSOP-II-44"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AS7C34098A-10TIN",
+      "manufacturer": "Alliance Memory",
+      "category": "SRAM",
+      "package": "TSOP-II-44",
+      "rohs": "対応",
+      "description": "AS7C34098A-10TINはAlliance Memory製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "4 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Async SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.0–3.6 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "AS7C34098A-10TIN",
+        "Alliance Memory",
+        "SRAM",
+        "4 Mbit",
+        "TSOP-II-44"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AS7C4098A-10TIN",
+      "manufacturer": "Alliance Memory",
+      "category": "SRAM",
+      "package": "TSOP-II-44",
+      "rohs": "対応",
+      "description": "AS7C4098A-10TINはAlliance Memory製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "4 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Async SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.0–3.6 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "AS7C4098A-10TIN",
+        "Alliance Memory",
+        "SRAM",
+        "4 Mbit",
+        "TSOP-II-44"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IDT71V416S10PH",
+      "manufacturer": "Renesas",
+      "category": "SRAM",
+      "package": "TQFP-100",
+      "rohs": "対応",
+      "description": "IDT71V416S10PHはRenesas製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.renesas.com/",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "4 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Async SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "3.3 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "IDT71V416S10PH",
+        "Renesas",
+        "SRAM",
+        "4 Mbit",
+        "TQFP-100"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "RMLV1616AGSA-5S2",
+      "manufacturer": "Renesas",
+      "category": "SRAM",
+      "package": "TSOP-II-44",
+      "rohs": "対応",
+      "description": "RMLV1616AGSA-5S2はRenesas製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.renesas.com/",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "16 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Low Power SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.3–3.6 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "RMLV1616AGSA-5S2",
+        "Renesas",
+        "SRAM",
+        "16 Mbit",
+        "TSOP-II-44"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "BS62LV1027TCP55",
+      "manufacturer": "ROHM",
+      "category": "SRAM",
+      "package": "TSOP-II-32",
+      "rohs": "対応",
+      "description": "BS62LV1027TCP55はROHM製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.rohm.com/",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "1 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Low Power SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.4–5.5 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "BS62LV1027TCP55",
+        "ROHM",
+        "SRAM",
+        "1 Mbit",
+        "TSOP-II-32"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "BS62LV4006TCP70",
+      "manufacturer": "ROHM",
+      "category": "SRAM",
+      "package": "TSOP-II-44",
+      "rohs": "対応",
+      "description": "BS62LV4006TCP70はROHM製のSRAMです。長納期や調達困難時の在庫確認・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.rohm.com/",
+      "specs": [
+        {
+          "label": "フラッシュメモリ",
+          "value": "4 Mbit"
+        },
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Low Power SRAM"
+        },
+        {
+          "label": "入力電圧",
+          "value": "2.4–5.5 V"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "制御機器"
+      ],
+      "keywords": [
+        "BS62LV4006TCP70",
+        "ROHM",
+        "SRAM",
+        "4 Mbit",
+        "TSOP-II-44"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IPB042N10N5LFATMA1",
+      "manufacturer": "Infineon",
+      "category": "MOSFET",
+      "package": "",
+      "rohs": "対応",
+      "description": "IPB042N10N5LFATMA1はInfineon製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        }
+      ],
+      "applications": [
+        "ホットスワップ",
+        "eFuse",
+        "通信機器",
+        "サーバー電源",
+        "産業用電源"
+      ],
+      "keywords": [
+        "IPB042N10N5LFATMA1",
+        "Infineon",
+        "MOSFET",
+        "OptiMOS",
+        "Linear FET",
+        "100V"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "BSC093N15NS5ATMA1",
+      "manufacturer": "Infineon",
+      "category": "MOSFET",
+      "package": "SuperSO8 5x6",
+      "rohs": "対応",
+      "description": "BSC093N15NS5ATMA1はInfineon製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/part/BSC093N15NS5",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "150 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "87 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "9.3 mΩ"
+        }
+      ],
+      "applications": [
+        "通信電源",
+        "太陽光発電",
+        "低電圧ドライブ",
+        "産業用電源",
+        "モータードライブ"
+      ],
+      "keywords": [
+        "BSC093N15NS5ATMA1",
+        "Infineon",
+        "MOSFET",
+        "OptiMOS 5",
+        "150V",
+        "87A",
+        "SuperSO8"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IPT015N10N5ATMA1",
+      "manufacturer": "Infineon",
+      "category": "MOSFET",
+      "package": "TOLL (HSOF-8)",
+      "rohs": "対応",
+      "description": "IPT015N10N5ATMA1はInfineon製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/part/IPT015N10N5",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "100 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "300 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "1.5 mΩ"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "2.2 V～3.8 V"
+        }
+      ],
+      "applications": [
+        "サーバー電源",
+        "通信電源",
+        "同期整流",
+        "DC/DCコンバータ",
+        "バッテリーシステム"
+      ],
+      "keywords": [
+        "IPT015N10N5ATMA1",
+        "Infineon",
+        "MOSFET",
+        "OptiMOS 5",
+        "100V",
+        "300A",
+        "TOLL"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IAUC120N04S6N006ATMA1",
+      "manufacturer": "Infineon",
+      "category": "MOSFET",
+      "package": "PG-TDSON-8",
+      "rohs": "対応",
+      "description": "IAUC120N04S6N006ATMA1はInfineon製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/part/IAUC120N04S6N006",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "40 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "120 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "0.6 mΩ"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "2.2 V～3.0 V"
+        }
+      ],
+      "applications": [
+        "車載電源",
+        "電動パワーステアリング",
+        "DC/DCコンバータ",
+        "モータードライブ",
+        "バッテリー保護"
+      ],
+      "keywords": [
+        "IAUC120N04S6N006ATMA1",
+        "Infineon",
+        "MOSFET",
+        "OptiMOS 6",
+        "Automotive",
+        "40V",
+        "120A"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "NTMFS6H801NL",
+      "manufacturer": "onsemi",
+      "category": "MOSFET",
+      "package": "DFN5 5x6",
+      "rohs": "対応",
+      "description": "NTMFS6H801NLはonsemi製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.onsemi.com/download/data-sheet/pdf/ntmfs6h801nl-d.pdf",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "80 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "160 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "2.7 mΩ"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "同期整流",
+        "サーバー電源",
+        "通信機器",
+        "モータードライブ"
+      ],
+      "keywords": [
+        "NTMFS6H801NL",
+        "onsemi",
+        "MOSFET",
+        "80V",
+        "160A",
+        "2.7mΩ",
+        "DFN5"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "NVMFS5C460NL",
+      "manufacturer": "onsemi",
+      "category": "MOSFET",
+      "package": "DFN5 5x6",
+      "rohs": "対応",
+      "description": "NVMFS5C460NLはonsemi製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.onsemi.com/products/discrete-power-modules/mosfets/low-medium-voltage-mosfets/nvmfs5c460nl",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "40 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "78 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "4.5 mΩ"
+        }
+      ],
+      "applications": [
+        "車載電源",
+        "逆接保護",
+        "Hブリッジ",
+        "スイッチング電源",
+        "パワースイッチ"
+      ],
+      "keywords": [
+        "NVMFS5C460NL",
+        "onsemi",
+        "MOSFET",
+        "Automotive",
+        "40V",
+        "78A",
+        "DFN5"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "FDMC86160",
+      "manufacturer": "onsemi",
+      "category": "MOSFET",
+      "package": "Power33",
+      "rohs": "対応",
+      "description": "FDMC86160はonsemi製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.onsemi.com/products/discrete-power-modules/mosfets/low-medium-voltage-mosfets/fdmc86160",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "100 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "43 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "14 mΩ"
+        }
+      ],
+      "applications": [
+        "VRM",
+        "POLコンバータ",
+        "ORing回路",
+        "DC/DC電源",
+        "通信機器"
+      ],
+      "keywords": [
+        "FDMC86160",
+        "onsemi",
+        "MOSFET",
+        "PowerTrench",
+        "100V",
+        "43A",
+        "Power33"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "FDS6912A",
+      "manufacturer": "onsemi",
+      "category": "MOSFET",
+      "package": "SOIC-8",
+      "rohs": "対応",
+      "description": "FDS6912Aはonsemi製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.onsemi.com/download/data-sheet/pdf/fds6912a-d.pdf",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "デュアルNチャネル ロジックレベルMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "30 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "6 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "28 mΩ"
+        }
+      ],
+      "applications": [
+        "バッテリー機器",
+        "DC/DCコンバータ",
+        "負荷スイッチ",
+        "携帯機器",
+        "低電圧電源"
+      ],
+      "keywords": [
+        "FDS6912A",
+        "onsemi",
+        "Dual MOSFET",
+        "Logic Level",
+        "30V",
+        "6A",
+        "SOIC-8"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "SiRA80DP-T1-GE3",
+      "manufacturer": "Vishay",
+      "category": "MOSFET",
+      "package": "PowerPAK SO-8",
+      "rohs": "対応",
+      "description": "SiRA80DP-T1-GE3はVishay製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.vishay.com/docs/76354/sira80dp.pdf",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "30 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "335 A"
+        }
+      ],
+      "applications": [
+        "高電力密度DC/DC",
+        "同期整流",
+        "VRM",
+        "サーバー電源",
+        "通信機器"
+      ],
+      "keywords": [
+        "SiRA80DP-T1-GE3",
+        "Vishay",
+        "MOSFET",
+        "30V",
+        "PowerPAK SO-8",
+        "N-channel"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "SiR626DP-T1-GE3",
+      "manufacturer": "Vishay",
+      "category": "MOSFET",
+      "package": "PowerPAK SO-8",
+      "rohs": "対応",
+      "description": "SiR626DP-T1-GE3はVishay製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.vishay.com/docs/75255/sir626dp.pdf",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "60 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "100 A"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "同期整流",
+        "通信電源",
+        "産業用電源",
+        "モータードライブ"
+      ],
+      "keywords": [
+        "SiR626DP-T1-GE3",
+        "Vishay",
+        "MOSFET",
+        "60V",
+        "100A",
+        "PowerPAK SO-8"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "SiRA12DP-T1-GE3",
+      "manufacturer": "Vishay",
+      "category": "MOSFET",
+      "package": "PowerPAK SO-8",
+      "rohs": "対応",
+      "description": "SiRA12DP-T1-GE3はVishay製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.vishay.com/docs/63786/sira12dp.pdf",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "30 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "25 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "4.3 mΩ"
+        }
+      ],
+      "applications": [
+        "高電力密度DC/DC",
+        "同期整流",
+        "VRM",
+        "組込み電源",
+        "POLコンバータ"
+      ],
+      "keywords": [
+        "SiRA12DP-T1-GE3",
+        "Vishay",
+        "MOSFET",
+        "30V",
+        "25A",
+        "4.3mΩ",
+        "PowerPAK SO-8"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "SiSS52DN-T1-GE3",
+      "manufacturer": "Vishay",
+      "category": "MOSFET",
+      "package": "PowerPAK 1212-8S",
+      "rohs": "対応",
+      "description": "SiSS52DN-T1-GE3はVishay製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.vishay.com/docs/79977/siss52dn.pdf",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "30 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "162 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "1.2 mΩ"
+        }
+      ],
+      "applications": [
+        "同期整流",
+        "DC/DCコンバータ",
+        "VRM",
+        "サーバー電源",
+        "通信機器"
+      ],
+      "keywords": [
+        "SiSS52DN-T1-GE3",
+        "Vishay",
+        "MOSFET",
+        "30V",
+        "162A",
+        "1.2mΩ",
+        "PowerPAK 1212-8S"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "PSMN1R2-30YLD",
+      "manufacturer": "Nexperia",
+      "category": "MOSFET",
+      "package": "LFPAK56",
+      "rohs": "対応",
+      "description": "PSMN1R2-30YLDはNexperia製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.nexperia.com/product/PSMN1R2-30YLD",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル ロジックレベルMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "30 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "250 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "1.2 mΩ"
+        }
+      ],
+      "applications": [
+        "同期整流",
+        "DC/DCコンバータ",
+        "サーバー電源",
+        "通信機器",
+        "モータードライブ"
+      ],
+      "keywords": [
+        "PSMN1R2-30YLD",
+        "Nexperia",
+        "MOSFET",
+        "LFPAK56",
+        "30V",
+        "250A",
+        "1.2mΩ"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "PSMN2R6-40YS",
+      "manufacturer": "Nexperia",
+      "category": "MOSFET",
+      "package": "LFPAK56",
+      "rohs": "対応",
+      "description": "PSMN2R6-40YSはNexperia製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.nexperia.com/product/PSMN2R6-40YS",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル 標準レベルMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "40 V"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "2.8 mΩ"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "同期整流",
+        "産業用電源",
+        "モータードライブ",
+        "通信機器"
+      ],
+      "keywords": [
+        "PSMN2R6-40YS",
+        "Nexperia",
+        "MOSFET",
+        "LFPAK56",
+        "40V",
+        "2.8mΩ"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "BUK9Y12-60E",
+      "manufacturer": "Nexperia",
+      "category": "MOSFET",
+      "package": "LFPAK56",
+      "rohs": "対応",
+      "description": "BUK9Y12-60EはNexperia製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル 車載対応MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "60 V"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "12 mΩ"
+        }
+      ],
+      "applications": [
+        "車載電源",
+        "ソレノイド駆動",
+        "モータードライブ",
+        "負荷スイッチ",
+        "逆接保護"
+      ],
+      "keywords": [
+        "BUK9Y12-60E",
+        "Nexperia",
+        "MOSFET",
+        "Automotive",
+        "LFPAK56",
+        "60V",
+        "12mΩ"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "TK2R4E08QM",
+      "manufacturer": "Toshiba",
+      "category": "MOSFET",
+      "package": "",
+      "rohs": "対応",
+      "description": "TK2R4E08QMはToshiba製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://toshiba.semicon-storage.com/jp/semiconductor/product/mosfets/12v-300v-mosfets/detail.TK2R4E08QM.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "80 V"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "2.44 mΩ"
+        }
+      ],
+      "applications": [
+        "スイッチング電源",
+        "DC/DCコンバータ",
+        "通信電源",
+        "産業用電源",
+        "モータードライブ"
+      ],
+      "keywords": [
+        "TK2R4E08QM",
+        "Toshiba",
+        "MOSFET",
+        "U-MOS",
+        "80V",
+        "2.44mΩ"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "TK31N60X",
+      "manufacturer": "Toshiba",
+      "category": "MOSFET",
+      "package": "TO-247",
+      "rohs": "対応",
+      "description": "TK31N60XはToshiba製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://toshiba.semicon-storage.com/ap-en/semiconductor/product/mosfets/400v-900v-mosfets/detail.TK31N60X.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル 高耐圧MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "600 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "30.8 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "88 mΩ"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "3.5 V typ."
+        }
+      ],
+      "applications": [
+        "スイッチング電源",
+        "PFC",
+        "インバータ",
+        "産業用電源",
+        "通信電源"
+      ],
+      "keywords": [
+        "TK31N60X",
+        "Toshiba",
+        "MOSFET",
+        "DTMOS",
+        "600V",
+        "30.8A",
+        "TO-247"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "TPH2R408QM",
+      "manufacturer": "Toshiba",
+      "category": "MOSFET",
+      "package": "",
+      "rohs": "対応",
+      "description": "TPH2R408QMはToshiba製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://toshiba.semicon-storage.com/jp/semiconductor/product/mosfets/12v-300v-mosfets/detail.TPH2R408QM.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "80 V"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "2.4 mΩ"
+        }
+      ],
+      "applications": [
+        "スイッチング電源",
+        "DC/DCコンバータ",
+        "サーバー電源",
+        "通信機器",
+        "モータードライブ"
+      ],
+      "keywords": [
+        "TPH2R408QM",
+        "Toshiba",
+        "MOSFET",
+        "U-MOS",
+        "80V",
+        "2.4mΩ"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "TK4R4A06PL",
+      "manufacturer": "Toshiba",
+      "category": "MOSFET",
+      "package": "",
+      "rohs": "対応",
+      "description": "TK4R4A06PLはToshiba製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://toshiba.semicon-storage.com/jp/semiconductor/product/mosfets/12v-300v-mosfets/detail.TK4R4A06PL.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "60 V"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "4.4 mΩ"
+        }
+      ],
+      "applications": [
+        "スイッチング電源",
+        "DC/DCコンバータ",
+        "産業機器",
+        "モータードライブ",
+        "バッテリー機器"
+      ],
+      "keywords": [
+        "TK4R4A06PL",
+        "Toshiba",
+        "MOSFET",
+        "U-MOS",
+        "60V",
+        "4.4mΩ"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "STL110N10F7",
+      "manufacturer": "STMicroelectronics",
+      "category": "MOSFET",
+      "package": "PowerFLAT 5x6",
+      "rohs": "対応",
+      "description": "STL110N10F7はSTMicroelectronics製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.st.com/en/power-transistors/stl110n10f7.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "100 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "107 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "5 mΩ typ."
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "同期整流",
+        "通信電源",
+        "産業用電源",
+        "モータードライブ"
+      ],
+      "keywords": [
+        "STL110N10F7",
+        "STMicroelectronics",
+        "MOSFET",
+        "STripFET F7",
+        "100V",
+        "107A",
+        "PowerFLAT"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "STB80NF55",
+      "manufacturer": "STMicroelectronics",
+      "category": "MOSFET",
+      "package": "D2PAK",
+      "rohs": "対応",
+      "description": "STB80NF55はSTMicroelectronics製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.st.com/en/power-transistors/stb80nf55.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "55 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "80 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "6.5 mΩ"
+        }
+      ],
+      "applications": [
+        "車載電源",
+        "DC/DCコンバータ",
+        "モータードライブ",
+        "スイッチング電源",
+        "産業機器"
+      ],
+      "keywords": [
+        "STB80NF55",
+        "STMicroelectronics",
+        "MOSFET",
+        "55V",
+        "80A",
+        "D2PAK"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "STL75N4LF7AG",
+      "manufacturer": "STMicroelectronics",
+      "category": "MOSFET",
+      "package": "PowerFLAT 5x6",
+      "rohs": "対応",
+      "description": "STL75N4LF7AGはSTMicroelectronics製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.st.com/en/power-transistors/stl75n4lf7ag.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル 車載対応MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "40 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "75 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "4.2 mΩ"
+        }
+      ],
+      "applications": [
+        "車載電源",
+        "DC/DCコンバータ",
+        "モータードライブ",
+        "バッテリー保護",
+        "負荷スイッチ"
+      ],
+      "keywords": [
+        "STL75N4LF7AG",
+        "STMicroelectronics",
+        "MOSFET",
+        "Automotive",
+        "40V",
+        "PowerFLAT"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AON6284A",
+      "manufacturer": "Alpha & Omega Semiconductor",
+      "category": "MOSFET",
+      "package": "",
+      "rohs": "対応",
+      "description": "AON6284AはAlpha & Omega Semiconductor製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.aosmd.com/products/mosfets/n-channel-mosfets-8v-60v/aon6284a",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "同期整流",
+        "サーバー電源",
+        "通信機器",
+        "組込み電源"
+      ],
+      "keywords": [
+        "AON6284A",
+        "Alpha & Omega Semiconductor",
+        "AOS",
+        "MOSFET",
+        "N-channel"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AO3407A",
+      "manufacturer": "Alpha & Omega Semiconductor",
+      "category": "MOSFET",
+      "package": "SOT-23",
+      "rohs": "対応",
+      "description": "AO3407AはAlpha & Omega Semiconductor製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.aosmd.com/products/mosfets/p-channel-mosfets-8v-60v/ao3407a",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "Pチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "-30 V"
+        },
+        {
+          "label": "連続ドレイン電流 (ID)",
+          "value": "-4.3 A"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "48 mΩ"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "最大 -3 V"
+        }
+      ],
+      "applications": [
+        "負荷スイッチ",
+        "バッテリー保護",
+        "携帯機器",
+        "電源ライン切替",
+        "PWM制御"
+      ],
+      "keywords": [
+        "AO3407A",
+        "Alpha & Omega Semiconductor",
+        "AOS",
+        "P-channel MOSFET",
+        "30V",
+        "SOT-23"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AOTL66912",
+      "manufacturer": "Alpha & Omega Semiconductor",
+      "category": "MOSFET",
+      "package": "",
+      "rohs": "対応",
+      "description": "AOTL66912はAlpha & Omega Semiconductor製のMOSFETです。長納期品の調達・代替提案をご相談いただけます。",
+      "datasheetUrl": "https://www.aosmd.com/products/mosfets/n-channel-mosfets-80v-100v/aotl66912",
+      "specs": [
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        }
+      ],
+      "applications": [
+        "サーバー電源",
+        "通信電源",
+        "DC/DCコンバータ",
+        "バッテリーシステム",
+        "産業用電源"
+      ],
+      "keywords": [
+        "AOTL66912",
+        "Alpha & Omega Semiconductor",
+        "AOS",
+        "MOSFET",
+        "N-channel"
+      ],
+      "longLead": true
     }
   ]
 }
