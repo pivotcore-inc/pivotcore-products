@@ -14187,6 +14187,2004 @@
         "SOIC20"
       ],
       "longLead": true
+    },
+    {
+      "partNumber": "XC6SLX9-2TQG144C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "TQG-144",
+      "rohs": "対応",
+      "description": "XC6SLX9-2TQG144CはAMD (Xilinx)製Spartan-6ファミリのFPGAです。産業機器や制御・インターフェース用途で採用され、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/spartan-6.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Spartan-6"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TQG-144"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "制御機器",
+        "通信機器",
+        "計測機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "XC6SLX9-2TQG144C",
+        "AMD",
+        "Xilinx",
+        "Spartan-6",
+        "FPGA",
+        "TQG144"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC6SLX16-2FTG256C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "FTG-256",
+      "rohs": "対応",
+      "description": "XC6SLX16-2FTG256CはAMD (Xilinx)製Spartan-6ファミリのFPGAです。組込み制御や通信・画像処理用途で需要があり、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/spartan-6.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Spartan-6"
+        },
+        {
+          "label": "パッケージ",
+          "value": "FTG-256"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "産業機器",
+        "通信機器",
+        "画像処理",
+        "保守・補修"
+      ],
+      "keywords": [
+        "XC6SLX16-2FTG256C",
+        "AMD",
+        "Xilinx",
+        "Spartan-6",
+        "FPGA",
+        "FTG256"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "XC6SLX45-2CSG324C",
+      "manufacturer": "AMD (Xilinx)",
+      "category": "FPGA",
+      "package": "CSG-324",
+      "rohs": "対応",
+      "description": "XC6SLX45-2CSG324CはAMD (Xilinx)製Spartan-6ファミリのFPGAです。産業用画像処理や通信機器、既存装置の保守用途で、調達困難時の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/spartan-6.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Spartan-6"
+        },
+        {
+          "label": "パッケージ",
+          "value": "CSG-324"
+        }
+      ],
+      "applications": [
+        "画像処理",
+        "通信機器",
+        "産業機器",
+        "FA機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "XC6SLX45-2CSG324C",
+        "AMD",
+        "Xilinx",
+        "Spartan-6",
+        "FPGA",
+        "CSG324"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "EP4CE10E22C8N",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "EQFP-144",
+      "rohs": "対応",
+      "description": "EP4CE10E22C8NはIntel (Altera)製Cyclone IV EファミリのFPGAです。産業制御や通信機器、既存装置の保守用途で、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/cyclone/iv.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "Cyclone IV E"
+        },
+        {
+          "label": "パッケージ",
+          "value": "EQFP-144"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "FA機器",
+        "通信機器",
+        "計測機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "EP4CE10E22C8N",
+        "Intel",
+        "Altera",
+        "Cyclone IV E",
+        "FPGA",
+        "EQFP144"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "10M04SCE144C8G",
+      "manufacturer": "Intel (Altera)",
+      "category": "FPGA",
+      "package": "EQFP-144",
+      "rohs": "対応",
+      "description": "10M04SCE144C8GはIntel (Altera)製MAX 10ファミリの不揮発性FPGAです。システム管理やI/O拡張、産業制御用途で、長納期・調達困難時の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.intel.com/content/www/us/en/products/details/fpga/max/10.html",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "MAX 10"
+        },
+        {
+          "label": "パッケージ",
+          "value": "EQFP-144"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "システム管理",
+        "I/O拡張",
+        "制御機器",
+        "通信機器"
+      ],
+      "keywords": [
+        "10M04SCE144C8G",
+        "Intel",
+        "Altera",
+        "MAX 10",
+        "FPGA",
+        "EQFP144"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LCMXO2-1200HC-4TG100C",
+      "manufacturer": "Lattice Semiconductor",
+      "category": "FPGA",
+      "package": "TQFP-100",
+      "rohs": "対応",
+      "description": "LCMXO2-1200HC-4TG100CはLattice Semiconductor製MachXO2ファミリのFPGAです。制御・ブリッジ・インターフェース用途に適し、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/Products/FPGAandCPLD/MachXO2",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "MachXO2"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TQFP-100"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "制御機器",
+        "インターフェース",
+        "ブリッジ回路",
+        "FA機器"
+      ],
+      "keywords": [
+        "LCMXO2-1200HC-4TG100C",
+        "Lattice",
+        "MachXO2",
+        "FPGA",
+        "TQFP100"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "ICE40UP5K-SG48I",
+      "manufacturer": "Lattice Semiconductor",
+      "category": "FPGA",
+      "package": "QFN-48",
+      "rohs": "対応",
+      "description": "ICE40UP5K-SG48IはLattice Semiconductor製iCE40 UltraPlusファミリの低消費電力FPGAです。小型組込み機器やセンサー、エッジ用途での調達をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/Products/FPGAandCPLD/iCE40UltraPlus",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "iCE40 UltraPlus"
+        },
+        {
+          "label": "パッケージ",
+          "value": "QFN-48"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "センサー機器",
+        "IoT機器",
+        "エッジ機器",
+        "低消費電力機器"
+      ],
+      "keywords": [
+        "ICE40UP5K-SG48I",
+        "Lattice",
+        "iCE40 UltraPlus",
+        "FPGA",
+        "QFN48"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LFE5U-25F-6BG381C",
+      "manufacturer": "Lattice Semiconductor",
+      "category": "FPGA",
+      "package": "caBGA-381",
+      "rohs": "対応",
+      "description": "LFE5U-25F-6BG381CはLattice Semiconductor製ECP5ファミリのFPGAです。映像・通信・産業ネットワーク用途で需要があり、長納期・調達困難時の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.latticesemi.com/Products/FPGAandCPLD/ECP5",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "ECP5"
+        },
+        {
+          "label": "パッケージ",
+          "value": "caBGA-381"
+        }
+      ],
+      "applications": [
+        "映像機器",
+        "通信機器",
+        "産業ネットワーク",
+        "組込み機器",
+        "FA機器"
+      ],
+      "keywords": [
+        "LFE5U-25F-6BG381C",
+        "Lattice",
+        "ECP5",
+        "FPGA",
+        "caBGA381"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "A3P125-VQG100I",
+      "manufacturer": "Microchip Technology",
+      "category": "FPGA",
+      "package": "VQFP-100",
+      "rohs": "対応",
+      "description": "A3P125-VQG100IはMicrochip Technology製ProASIC3ファミリのFPGAです。産業制御や既存装置の保守・補修用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/proasic3-fpgas",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "ProASIC3"
+        },
+        {
+          "label": "パッケージ",
+          "value": "VQFP-100"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "制御機器",
+        "計測機器",
+        "保守・補修",
+        "高信頼システム"
+      ],
+      "keywords": [
+        "A3P125-VQG100I",
+        "Microchip",
+        "ProASIC3",
+        "FPGA",
+        "VQFP100"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "M2GL010-TQG144I",
+      "manufacturer": "Microchip Technology",
+      "category": "FPGA",
+      "package": "TQFP-144",
+      "rohs": "対応",
+      "description": "M2GL010-TQG144IはMicrochip Technology製IGLOO2ファミリのFPGAです。高信頼性が求められる産業・通信・システム管理用途で、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/fpgas-and-plds/fpgas/igloo-2-fpgas",
+      "specs": [
+        {
+          "label": "ファミリ",
+          "value": "IGLOO2"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TQFP-144"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "システム管理",
+        "セキュリティ機器",
+        "高信頼システム"
+      ],
+      "keywords": [
+        "M2GL010-TQG144I",
+        "Microchip",
+        "IGLOO2",
+        "FPGA",
+        "TQFP144"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MT40A512M16LY-062E:F",
+      "manufacturer": "Micron Technology",
+      "category": "メモリ（DRAM）",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "MT40A512M16LY-062E:FはMicron製DDR4 SDRAMです。産業・通信・組込み機器向けのメモリ調達や、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/dram/ddr4-sdram",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～95°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM (DDR4)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "FBGA"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "ネットワーク機器",
+        "サーバー"
+      ],
+      "keywords": [
+        "MT40A512M16LY-062E:F",
+        "Micron",
+        "DDR4",
+        "DRAM",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MT41K512M16HA-125:A",
+      "manufacturer": "Micron Technology",
+      "category": "メモリ（DRAM）",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "MT41K512M16HA-125:AはMicron製DDR3L SDRAMです。既存装置の保守や産業機器向けを含め、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.micron.com/products/dram/ddr3-sdram",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～95°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM (DDR3L)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "FBGA"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "計測機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "MT41K512M16HA-125:A",
+        "Micron",
+        "DDR3L",
+        "DRAM",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "K4A4G165WE-BCTD",
+      "manufacturer": "Samsung Electronics",
+      "category": "メモリ（DRAM）",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "K4A4G165WE-BCTDはSamsung Electronics製DDR4 SDRAMです。産業・通信・組込み機器向けの調達や、需給逼迫時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://semiconductor.samsung.com/dram/ddr/ddr4/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "0°C～95°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM (DDR4)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "FBGA"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "ネットワーク機器",
+        "サーバー"
+      ],
+      "keywords": [
+        "K4A4G165WE-BCTD",
+        "Samsung Electronics",
+        "DDR4",
+        "DRAM",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS43TR85120BL-125KBL",
+      "manufacturer": "ISSI",
+      "category": "メモリ（DRAM）",
+      "package": "FBGA",
+      "rohs": "対応",
+      "description": "IS43TR85120BL-125KBLはISSI製DDR3 SDRAMです。産業用途や長期供給が求められる機器向けに、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/US/product-dram.shtml",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～95°C"
+        },
+        {
+          "label": "種別",
+          "value": "DRAM (DDR3)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "FBGA"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "FA機器",
+        "計測機器"
+      ],
+      "keywords": [
+        "IS43TR85120BL-125KBL",
+        "ISSI",
+        "DDR3",
+        "DRAM",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "W25Q256JVFIQ",
+      "manufacturer": "Winbond Electronics",
+      "category": "メモリ（Flash）",
+      "package": "WSON-8",
+      "rohs": "対応",
+      "description": "W25Q256JVFIQはWinbond Electronics製SPI NOR Flashメモリです。組込み・産業制御・IoT機器のコードストレージ用途で、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Flash (SPI NOR)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "WSON-8"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "産業機器",
+        "IoT機器",
+        "制御機器",
+        "コードストレージ"
+      ],
+      "keywords": [
+        "W25Q256JVFIQ",
+        "Winbond Electronics",
+        "SPI NOR",
+        "Flash",
+        "256Mb",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MX25L51245GMI-08G",
+      "manufacturer": "Macronix",
+      "category": "メモリ（Flash）",
+      "package": "SOP-16",
+      "rohs": "対応",
+      "description": "MX25L51245GMI-08GはMacronix製Serial NOR Flashメモリです。産業・通信・組込み機器のコード保存用途で需要があり、調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.macronix.com/en-us/products/NOR-Flash/Serial-NOR-Flash",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Flash (Serial NOR)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SOP-16"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "IoT機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "MX25L51245GMI-08G",
+        "Macronix",
+        "Serial NOR",
+        "Flash",
+        "512Mb",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "S25FL256SAGMFI000",
+      "manufacturer": "Infineon Technologies",
+      "category": "メモリ（Flash）",
+      "package": "SOIC-16",
+      "rohs": "対応",
+      "description": "S25FL256SAGMFI000はInfineon Technologies製Serial NOR Flashメモリです。産業・通信機器のコードストレージ用途などで、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/memories/nor-flash/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Flash (Serial NOR)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SOIC-16"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "コードストレージ",
+        "保守・補修"
+      ],
+      "keywords": [
+        "S25FL256SAGMFI000",
+        "Infineon Technologies",
+        "Serial NOR",
+        "Flash",
+        "256Mb",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AT25SF321B-SHB-T",
+      "manufacturer": "Microchip Technology",
+      "category": "メモリ（Flash）",
+      "package": "SOIC-8",
+      "rohs": "対応",
+      "description": "AT25SF321B-SHB-TはMicrochip Technology製SPI Serial Flashメモリです。組込み・IoT・産業制御用途で、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/products/memory/serial-eeprom-and-serial-flash/serial-flash",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "Flash (SPI NOR)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SOIC-8"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "IoT機器",
+        "産業制御",
+        "通信機器",
+        "コードストレージ"
+      ],
+      "keywords": [
+        "AT25SF321B-SHB-T",
+        "Microchip Technology",
+        "SPI NOR",
+        "Flash",
+        "32Mb",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IS61WV51216BLL-10TLI",
+      "manufacturer": "ISSI",
+      "category": "メモリ（SRAM）",
+      "package": "TSOP-44",
+      "rohs": "対応",
+      "description": "IS61WV51216BLL-10TLIはISSI製低電圧非同期SRAMです。産業制御・通信・計測機器などの保守用途を含め、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.issi.com/US/product-sram.shtml",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "SRAM (非同期)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TSOP-44"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "制御機器",
+        "通信機器",
+        "計測機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "IS61WV51216BLL-10TLI",
+        "ISSI",
+        "SRAM",
+        "asynchronous SRAM",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AS6C62256-55SIN",
+      "manufacturer": "Alliance Memory",
+      "category": "メモリ（SRAM）",
+      "package": "SOP-28",
+      "rohs": "対応",
+      "description": "AS6C62256-55SINはAlliance Memory製低消費電力非同期SRAMです。産業機器や既存装置の保守・補修用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.alliancememory.com/asynchronous-sram/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "SRAM (非同期)"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SOP-28"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "組込み機器",
+        "制御機器",
+        "計測機器",
+        "保守・補修"
+      ],
+      "keywords": [
+        "AS6C62256-55SIN",
+        "Alliance Memory",
+        "SRAM",
+        "asynchronous SRAM",
+        "memory"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "BSC016N06NS",
+      "manufacturer": "Infineon Technologies",
+      "category": "MOSFET",
+      "package": "PG-TDSON-8",
+      "rohs": "対応",
+      "description": "BSC016N06NSはInfineon Technologies製Nチャネル・パワーMOSFETです。DC/DCコンバータ、同期整流、産業用電源などの用途で、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "60 V"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "1.6 mΩ"
+        },
+        {
+          "label": "パッケージ",
+          "value": "PG-TDSON-8"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "同期整流",
+        "産業用電源",
+        "通信電源",
+        "サーバー電源"
+      ],
+      "keywords": [
+        "BSC016N06NS",
+        "Infineon Technologies",
+        "MOSFET",
+        "N-channel",
+        "60V",
+        "TDSON"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IPB110N20N3G",
+      "manufacturer": "Infineon Technologies",
+      "category": "MOSFET",
+      "package": "D2PAK",
+      "rohs": "対応",
+      "description": "IPB110N20N3GはInfineon Technologies製Nチャネル・パワーMOSFETです。産業用電源やモータードライブ、電力変換用途で、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "200 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "D2PAK"
+        }
+      ],
+      "applications": [
+        "産業用電源",
+        "モータードライブ",
+        "DC/DCコンバータ",
+        "UPS",
+        "電力変換"
+      ],
+      "keywords": [
+        "IPB110N20N3G",
+        "Infineon Technologies",
+        "MOSFET",
+        "N-channel",
+        "200V",
+        "D2PAK"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "NTMFS5C646NLT1G",
+      "manufacturer": "onsemi",
+      "category": "MOSFET",
+      "package": "SO-8FL",
+      "rohs": "対応",
+      "description": "NTMFS5C646NLT1Gはonsemi製Nチャネル・パワーMOSFETです。電源管理やDC/DC変換、モータードライブ用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.onsemi.com/products/discrete-power-modules/mosfets",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "60 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SO-8FL"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "電源管理",
+        "モータードライブ",
+        "通信機器",
+        "産業機器"
+      ],
+      "keywords": [
+        "NTMFS5C646NLT1G",
+        "onsemi",
+        "MOSFET",
+        "N-channel",
+        "60V",
+        "SO-8FL"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "NVMFS5C442NLT1G",
+      "manufacturer": "onsemi",
+      "category": "MOSFET",
+      "package": "SO-8FL",
+      "rohs": "対応",
+      "description": "NVMFS5C442NLT1Gはonsemi製Nチャネル・パワーMOSFETです。車載・産業用電源やモータ制御用途で、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.onsemi.com/products/discrete-power-modules/mosfets",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "40 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SO-8FL"
+        }
+      ],
+      "applications": [
+        "車載電源",
+        "産業用電源",
+        "モータードライブ",
+        "DC/DCコンバータ",
+        "バッテリー機器"
+      ],
+      "keywords": [
+        "NVMFS5C442NLT1G",
+        "onsemi",
+        "MOSFET",
+        "N-channel",
+        "40V",
+        "SO-8FL"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "PSMN1R8-80BS",
+      "manufacturer": "Nexperia",
+      "category": "MOSFET",
+      "package": "LFPAK56",
+      "rohs": "対応",
+      "description": "PSMN1R8-80BSはNexperia製Nチャネル・パワーMOSFETです。産業用電源、モータードライブ、バッテリーシステム用途で、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.nexperia.com/products/mosfets",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "80 V"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "1.8 mΩ"
+        },
+        {
+          "label": "パッケージ",
+          "value": "LFPAK56"
+        }
+      ],
+      "applications": [
+        "産業用電源",
+        "モータードライブ",
+        "DC/DCコンバータ",
+        "バッテリー機器",
+        "通信電源"
+      ],
+      "keywords": [
+        "PSMN1R8-80BS",
+        "Nexperia",
+        "MOSFET",
+        "N-channel",
+        "80V",
+        "LFPAK56"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "PSMN7R0-100BS",
+      "manufacturer": "Nexperia",
+      "category": "MOSFET",
+      "package": "LFPAK56",
+      "rohs": "対応",
+      "description": "PSMN7R0-100BSはNexperia製Nチャネル・パワーMOSFETです。100V系の電源変換・産業機器用途などで、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.nexperia.com/products/mosfets",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "100 V"
+        },
+        {
+          "label": "オン抵抗 (RDS(on))",
+          "value": "7.0 mΩ"
+        },
+        {
+          "label": "パッケージ",
+          "value": "LFPAK56"
+        }
+      ],
+      "applications": [
+        "産業用電源",
+        "DC/DCコンバータ",
+        "モータードライブ",
+        "通信機器",
+        "バッテリー機器"
+      ],
+      "keywords": [
+        "PSMN7R0-100BS",
+        "Nexperia",
+        "MOSFET",
+        "N-channel",
+        "100V",
+        "LFPAK56"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "TPH1R403NL",
+      "manufacturer": "Toshiba",
+      "category": "MOSFET",
+      "package": "SOP Advance",
+      "rohs": "対応",
+      "description": "TPH1R403NLはToshiba製Nチャネル・パワーMOSFETです。高効率電源やモータードライブ、DC/DCコンバータ用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://toshiba.semicon-storage.com/us/semiconductor/product/mosfets.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "30 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SOP Advance"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "モータードライブ",
+        "スイッチング電源",
+        "サーバー電源",
+        "通信機器"
+      ],
+      "keywords": [
+        "TPH1R403NL",
+        "Toshiba",
+        "MOSFET",
+        "N-channel",
+        "30V",
+        "SOP Advance"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "TK2R4E04PL",
+      "manufacturer": "Toshiba",
+      "category": "MOSFET",
+      "package": "DPAK",
+      "rohs": "対応",
+      "description": "TK2R4E04PLはToshiba製Nチャネル・パワーMOSFETです。低電圧電源、DC/DCコンバータ、モータードライブ用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://toshiba.semicon-storage.com/us/semiconductor/product/mosfets.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "40 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "DPAK"
+        }
+      ],
+      "applications": [
+        "産業用電源",
+        "DC/DCコンバータ",
+        "モータードライブ",
+        "バッテリー機器",
+        "電源管理"
+      ],
+      "keywords": [
+        "TK2R4E04PL",
+        "Toshiba",
+        "MOSFET",
+        "N-channel",
+        "40V",
+        "DPAK"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "STL140N6F7",
+      "manufacturer": "STMicroelectronics",
+      "category": "MOSFET",
+      "package": "PowerFLAT 5x6",
+      "rohs": "対応",
+      "description": "STL140N6F7はSTMicroelectronics製Nチャネル・パワーMOSFETです。高効率電源や同期整流、産業機器用途で、長納期・調達困難品の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.st.com/en/power-transistors/mosfets.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル パワーMOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "60 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "PowerFLAT 5x6"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "同期整流",
+        "産業用電源",
+        "通信電源",
+        "モータードライブ"
+      ],
+      "keywords": [
+        "STL140N6F7",
+        "STMicroelectronics",
+        "MOSFET",
+        "N-channel",
+        "60V",
+        "PowerFLAT 5x6"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "AON7418",
+      "manufacturer": "Alpha & Omega Semiconductor",
+      "category": "MOSFET",
+      "package": "DFN 3x3",
+      "rohs": "対応",
+      "description": "AON7418はAlpha & Omega Semiconductor製NチャネルMOSFETです。DC/DCコンバータ、電源管理、バッテリー機器などの用途で、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.aosmd.com/products/mosfets",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "Nチャネル MOSFET"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "30 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "DFN 3x3"
+        }
+      ],
+      "applications": [
+        "DC/DCコンバータ",
+        "電源管理",
+        "バッテリー機器",
+        "組込み機器",
+        "通信機器"
+      ],
+      "keywords": [
+        "AON7418",
+        "Alpha & Omega Semiconductor",
+        "AOS",
+        "MOSFET",
+        "N-channel",
+        "30V",
+        "DFN"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "FGH75T65SHD",
+      "manufacturer": "onsemi",
+      "category": "IGBT",
+      "package": "TO-247-3",
+      "rohs": "対応",
+      "description": "FGH75T65SHDはonsemi製IGBTです。高電力インバータ、モータードライブ、UPSなどの用途で、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.onsemi.com/products/discrete-power-modules/igbts",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "IGBT"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "650 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TO-247-3"
+        }
+      ],
+      "applications": [
+        "高電力インバータ",
+        "モータードライブ",
+        "UPS",
+        "産業用電源",
+        "電力変換"
+      ],
+      "keywords": [
+        "FGH75T65SHD",
+        "onsemi",
+        "IGBT",
+        "650V",
+        "TO-247"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IKW40N65H5",
+      "manufacturer": "Infineon Technologies",
+      "category": "IGBT",
+      "package": "TO-247",
+      "rohs": "対応",
+      "description": "IKW40N65H5はInfineon Technologies製IGBTです。高効率インバータ、PFC、産業用電源などで、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/power/igbt/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "IGBT"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "650 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TO-247"
+        }
+      ],
+      "applications": [
+        "インバータ",
+        "PFC",
+        "産業用電源",
+        "モータードライブ",
+        "UPS"
+      ],
+      "keywords": [
+        "IKW40N65H5",
+        "Infineon Technologies",
+        "IGBT",
+        "650V",
+        "TO-247"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "IKW75N65ES5",
+      "manufacturer": "Infineon Technologies",
+      "category": "IGBT",
+      "package": "TO-247",
+      "rohs": "対応",
+      "description": "IKW75N65ES5はInfineon Technologies製IGBTです。産業用インバータやモータ制御、電力変換用途で、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://www.infineon.com/cms/en/product/power/igbt/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "IGBT"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "650 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TO-247"
+        }
+      ],
+      "applications": [
+        "産業用インバータ",
+        "モータードライブ",
+        "UPS",
+        "PFC",
+        "電力変換"
+      ],
+      "keywords": [
+        "IKW75N65ES5",
+        "Infineon Technologies",
+        "IGBT",
+        "650V",
+        "TO-247"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "STGW60H65DFB",
+      "manufacturer": "STMicroelectronics",
+      "category": "IGBT",
+      "package": "TO-247",
+      "rohs": "対応",
+      "description": "STGW60H65DFBはSTMicroelectronics製IGBTです。モータ制御、インバータ、産業用電源などで、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.st.com/en/power-transistors/igbts.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "IGBT"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "650 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TO-247"
+        }
+      ],
+      "applications": [
+        "モータードライブ",
+        "インバータ",
+        "産業用電源",
+        "PFC",
+        "電力変換"
+      ],
+      "keywords": [
+        "STGW60H65DFB",
+        "STMicroelectronics",
+        "IGBT",
+        "650V",
+        "TO-247"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "GT50J325",
+      "manufacturer": "Toshiba",
+      "category": "IGBT",
+      "package": "TO-3P(N)",
+      "rohs": "対応",
+      "description": "GT50J325はToshiba製IGBTです。インバータ、モータ制御、産業用電源などの用途で、保守用を含む調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://toshiba.semicon-storage.com/us/semiconductor/product/igbts.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "IGBT"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "600 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TO-3P(N)"
+        }
+      ],
+      "applications": [
+        "インバータ",
+        "モータードライブ",
+        "産業用電源",
+        "家電インバータ",
+        "保守・補修"
+      ],
+      "keywords": [
+        "GT50J325",
+        "Toshiba",
+        "IGBT",
+        "600V",
+        "TO-3P"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "RGT60TS65D",
+      "manufacturer": "ROHM",
+      "category": "IGBT",
+      "package": "TO-247N",
+      "rohs": "対応",
+      "description": "RGT60TS65DはROHM製IGBTです。産業用インバータ、モータードライブ、電源装置などの用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.rohm.com/products/igbt",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "IGBT"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "650 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TO-247N"
+        }
+      ],
+      "applications": [
+        "産業用インバータ",
+        "モータードライブ",
+        "電源装置",
+        "UPS",
+        "PFC"
+      ],
+      "keywords": [
+        "RGT60TS65D",
+        "ROHM",
+        "IGBT",
+        "650V",
+        "TO-247"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "FGW75N60HD",
+      "manufacturer": "onsemi",
+      "category": "IGBT",
+      "package": "TO-247-3",
+      "rohs": "対応",
+      "description": "FGW75N60HDはonsemi製IGBTです。高電力インバータやモータードライブ、UPS用途で、長納期・調達困難時の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.onsemi.com/products/discrete-power-modules/igbts",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-55°C～175°C"
+        },
+        {
+          "label": "種別",
+          "value": "IGBT"
+        },
+        {
+          "label": "ゲート閾値電圧",
+          "value": "600 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "TO-247-3"
+        }
+      ],
+      "applications": [
+        "高電力インバータ",
+        "モータードライブ",
+        "UPS",
+        "産業用電源",
+        "電力変換"
+      ],
+      "keywords": [
+        "FGW75N60HD",
+        "onsemi",
+        "IGBT",
+        "600V",
+        "TO-247"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LMR36520ADDAR",
+      "manufacturer": "Texas Instruments",
+      "category": "電源IC",
+      "package": "SO PowerPAD-8",
+      "rohs": "対応",
+      "description": "LMR36520ADDARはTexas Instruments製降圧DC/DCコンバータICです。産業・通信・組込み機器の電源回路向けに、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.ti.com/product/LMR36520",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "降圧DC/DCレギュレータ"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "65 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SO PowerPAD-8"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "DC/DC電源",
+        "制御機器"
+      ],
+      "keywords": [
+        "LMR36520ADDAR",
+        "Texas Instruments",
+        "TI",
+        "power IC",
+        "buck converter",
+        "LMR36520"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LT8640SIV#PBF",
+      "manufacturer": "Analog Devices",
+      "category": "電源IC",
+      "package": "LQFN",
+      "rohs": "対応",
+      "description": "LT8640SIV#PBFはAnalog Devices製同期整流降圧レギュレータICです。産業・通信・車載系電源などで、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.analog.com/en/products/lt8640s.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～125°C"
+        },
+        {
+          "label": "種別",
+          "value": "同期整流降圧DC/DCレギュレータ"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "42 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "LQFN"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "DC/DC電源",
+        "車載機器",
+        "組込み機器"
+      ],
+      "keywords": [
+        "LT8640SIV#PBF",
+        "Analog Devices",
+        "ADI",
+        "power IC",
+        "buck regulator",
+        "LT8640S"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MPQ4572GQ-AEC1-Z",
+      "manufacturer": "Monolithic Power Systems",
+      "category": "電源IC",
+      "package": "QFN",
+      "rohs": "対応",
+      "description": "MPQ4572GQ-AEC1-ZはMonolithic Power Systems製降圧DC/DCコンバータICです。車載・産業機器向け電源回路などで、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.monolithicpower.com/en/mpq4572.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～125°C"
+        },
+        {
+          "label": "種別",
+          "value": "降圧DC/DCレギュレータ"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "60 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "QFN"
+        }
+      ],
+      "applications": [
+        "車載機器",
+        "産業機器",
+        "DC/DC電源",
+        "通信機器",
+        "組込み機器"
+      ],
+      "keywords": [
+        "MPQ4572GQ-AEC1-Z",
+        "Monolithic Power Systems",
+        "MPS",
+        "power IC",
+        "buck converter"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LMR38020FDDAR",
+      "manufacturer": "Texas Instruments",
+      "category": "電源IC",
+      "package": "SO PowerPAD-8",
+      "rohs": "対応",
+      "description": "LMR38020FDDARはTexas Instruments製降圧DC/DCコンバータICです。産業・通信・組込み機器の電源回路向けに、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.ti.com/product/LMR38020",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～150°C"
+        },
+        {
+          "label": "種別",
+          "value": "降圧DC/DCレギュレータ"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "80 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SO PowerPAD-8"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "組込み機器",
+        "DC/DC電源",
+        "制御機器"
+      ],
+      "keywords": [
+        "LMR38020FDDAR",
+        "Texas Instruments",
+        "TI",
+        "power IC",
+        "buck converter",
+        "LMR38020"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "LT8645SIV#PBF",
+      "manufacturer": "Analog Devices",
+      "category": "電源IC",
+      "package": "LQFN",
+      "rohs": "対応",
+      "description": "LT8645SIV#PBFはAnalog Devices製同期整流降圧レギュレータICです。産業・通信・車載系の高効率電源用途で、長納期・調達困難時の在庫探索をご相談いただけます。",
+      "datasheetUrl": "https://www.analog.com/en/products/lt8645s.html",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～125°C"
+        },
+        {
+          "label": "種別",
+          "value": "同期整流降圧DC/DCレギュレータ"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "65 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "LQFN"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "通信機器",
+        "車載機器",
+        "DC/DC電源",
+        "組込み機器"
+      ],
+      "keywords": [
+        "LT8645SIV#PBF",
+        "Analog Devices",
+        "ADI",
+        "power IC",
+        "buck regulator",
+        "LT8645S"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MPQ4323GLE-AEC1-Z",
+      "manufacturer": "Monolithic Power Systems",
+      "category": "電源IC",
+      "package": "QFN",
+      "rohs": "対応",
+      "description": "MPQ4323GLE-AEC1-ZはMonolithic Power Systems製降圧DC/DCコンバータICです。車載・産業機器向けの電源回路などで、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.monolithicpower.com/en/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～125°C"
+        },
+        {
+          "label": "種別",
+          "value": "降圧DC/DCレギュレータ"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "42 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "QFN"
+        }
+      ],
+      "applications": [
+        "車載機器",
+        "産業機器",
+        "DC/DC電源",
+        "通信機器",
+        "組込み機器"
+      ],
+      "keywords": [
+        "MPQ4323GLE-AEC1-Z",
+        "Monolithic Power Systems",
+        "MPS",
+        "power IC",
+        "buck converter"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "BD9G341AEFJ-LA",
+      "manufacturer": "ROHM",
+      "category": "電源IC",
+      "package": "HTSOP-J8",
+      "rohs": "対応",
+      "description": "BD9G341AEFJ-LAはROHM製降圧DC/DCコンバータICです。産業機器やFA機器、組込み機器の電源用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.rohm.com/products/power-management/switching-regulators",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～125°C"
+        },
+        {
+          "label": "種別",
+          "value": "降圧DC/DCレギュレータ"
+        },
+        {
+          "label": "ドレイン-ソース電圧 (VDSS)",
+          "value": "42 V"
+        },
+        {
+          "label": "パッケージ",
+          "value": "HTSOP-J8"
+        }
+      ],
+      "applications": [
+        "産業機器",
+        "FA機器",
+        "組込み機器",
+        "DC/DC電源",
+        "制御機器"
+      ],
+      "keywords": [
+        "BD9G341AEFJ-LA",
+        "ROHM",
+        "power IC",
+        "buck converter",
+        "switching regulator"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "FT232RQ-REEL",
+      "manufacturer": "FTDI",
+      "category": "USB-UART変換IC",
+      "package": "QFN-32",
+      "rohs": "対応",
+      "description": "FT232RQ-REELはFTDI製USB-UART変換ICです。USBとUART間のシリアル通信、組込み機器やデバッグ用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://ftdichip.com/products/ft232rq/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "USB-UARTブリッジ"
+        },
+        {
+          "label": "パッケージ",
+          "value": "QFN-32"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "USBシリアル変換",
+        "デバッグ",
+        "通信機器",
+        "産業機器"
+      ],
+      "keywords": [
+        "FT232RQ-REEL",
+        "FTDI",
+        "FT232R",
+        "USB UART",
+        "USB serial",
+        "QFN32"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "FT2232HL-REEL",
+      "manufacturer": "FTDI",
+      "category": "USB-UART変換IC",
+      "package": "LQFP-64",
+      "rohs": "対応",
+      "description": "FT2232HL-REELはFTDI製デュアル高速USB-UART/FIFO変換ICです。開発・デバッグ、産業機器、通信インターフェース用途で、調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://ftdichip.com/products/ft2232hl/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "USB-UART/FIFOブリッジ"
+        },
+        {
+          "label": "パッケージ",
+          "value": "LQFP-64"
+        }
+      ],
+      "applications": [
+        "開発機器",
+        "デバッグ",
+        "産業機器",
+        "USBシリアル変換",
+        "通信機器"
+      ],
+      "keywords": [
+        "FT2232HL-REEL",
+        "FTDI",
+        "FT2232H",
+        "USB UART",
+        "USB FIFO",
+        "LQFP64"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "FT4232HL-REEL",
+      "manufacturer": "FTDI",
+      "category": "USB-UART変換IC",
+      "package": "LQFP-64",
+      "rohs": "対応",
+      "description": "FT4232HL-REELはFTDI製クアッド高速USB-UART変換ICです。複数シリアルポートを必要とする開発・産業機器用途で、長納期品の調達をご相談いただけます。",
+      "datasheetUrl": "https://ftdichip.com/products/ft4232hl/",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "USB-UARTブリッジ（4ch）"
+        },
+        {
+          "label": "パッケージ",
+          "value": "LQFP-64"
+        }
+      ],
+      "applications": [
+        "開発機器",
+        "デバッグ",
+        "産業機器",
+        "USBシリアル変換",
+        "通信機器"
+      ],
+      "keywords": [
+        "FT4232HL-REEL",
+        "FTDI",
+        "FT4232H",
+        "USB UART",
+        "quad UART",
+        "LQFP64"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "CP2104-F03-GM",
+      "manufacturer": "Silicon Labs",
+      "category": "USB-UART変換IC",
+      "package": "QFN-24",
+      "rohs": "対応",
+      "description": "CP2104-F03-GMはSilicon Labs製USB-UARTブリッジICです。組込み機器やUSBシリアル通信、デバッグ用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.silabs.com/interface/usb-bridges",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "USB-UARTブリッジ"
+        },
+        {
+          "label": "パッケージ",
+          "value": "QFN-24"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "USBシリアル変換",
+        "デバッグ",
+        "通信機器",
+        "産業機器"
+      ],
+      "keywords": [
+        "CP2104-F03-GM",
+        "Silicon Labs",
+        "CP2104",
+        "USB UART",
+        "USB serial",
+        "QFN24"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "CP2105-F01-GM",
+      "manufacturer": "Silicon Labs",
+      "category": "USB-UART変換IC",
+      "package": "QFN-24",
+      "rohs": "対応",
+      "description": "CP2105-F01-GMはSilicon Labs製デュアルUSB-UARTブリッジICです。複数UARTを扱う組込み機器やデバッグ用途で、長納期・調達困難時の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.silabs.com/interface/usb-bridges",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "USB-UARTブリッジ（2ch）"
+        },
+        {
+          "label": "パッケージ",
+          "value": "QFN-24"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "USBシリアル変換",
+        "デバッグ",
+        "通信機器",
+        "産業機器"
+      ],
+      "keywords": [
+        "CP2105-F01-GM",
+        "Silicon Labs",
+        "CP2105",
+        "USB UART",
+        "dual UART",
+        "QFN24"
+      ],
+      "longLead": true
+    },
+    {
+      "partNumber": "MCP2221A-I/SL",
+      "manufacturer": "Microchip Technology",
+      "category": "USB-UART変換IC",
+      "package": "SOIC-14",
+      "rohs": "対応",
+      "description": "MCP2221A-I/SLはMicrochip Technology製USB-UART/I2C変換ICです。組込み機器、USBシリアル通信、開発・デバッグ用途で、長納期・調達困難品の探索をご相談いただけます。",
+      "datasheetUrl": "https://www.microchip.com/en-us/product/mcp2221a",
+      "specs": [
+        {
+          "label": "動作温度",
+          "value": "-40°C～85°C"
+        },
+        {
+          "label": "種別",
+          "value": "USB-UART/I2Cブリッジ"
+        },
+        {
+          "label": "パッケージ",
+          "value": "SOIC-14"
+        }
+      ],
+      "applications": [
+        "組込み機器",
+        "USBシリアル変換",
+        "I2C",
+        "デバッグ",
+        "産業機器"
+      ],
+      "keywords": [
+        "MCP2221A-I/SL",
+        "Microchip Technology",
+        "MCP2221A",
+        "USB UART",
+        "I2C",
+        "SOIC14"
+      ],
+      "longLead": true
     }
   ]
 }
