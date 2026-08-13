@@ -6,8 +6,8 @@ compatibility_date = "2024-09-01"
 #   npx wrangler secret put ADMIN_PASSWORD
 #   npx wrangler secret put GITHUB_TOKEN
 [vars]
-GITHUB_OWNER = "pivotcore"
+GITHUB_OWNER = "pivotcore-inc"
 GITHUB_REPO = "pivotcore-products"
-GITHUB_BRANCH = "uat"   # 管理画面の編集は uat に入り、uat→staging→main の昇格フローに乗せる
+GITHUB_BRANCH = "main"   # 管理画面の編集は uat に入り、uat→staging→main の昇格フローに乗せる
 FILE_PATH = "products-data/products.json"
 ALLOWED_ORIGIN = "*"   # 本番では管理画面のオリジンに限定推奨（例: https://admin.pivotcore.jp）
