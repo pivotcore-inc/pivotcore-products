@@ -555,12 +555,14 @@ function closeDetail(){history.back();}
 async function doPublish(){
   const btn=$('pub-btn'),status=$('pub-status');
   btn.disabled=true;
+  const payload=JSON.stringify({data:{site:siteMeta,products:working},sha:currentSha,message:'製品データ更新（管理画面）'});
+  if(payload.length>2*1024*1024){status.className='pub-status err';status.style.display='inline-block';status.textContent='❌ データサイズが上限（2MB）を超えています。不要な製品を削除してください。';btn.disabled=false;return;}
   status.className='pub-status ing';status.style.display='inline-block';status.textContent='⏳ 公開中...';
   try{
     const res=await fetch(WORKER+'/products',{
       method:'PUT',
       headers:{'Content-Type':'application/json','X-Admin-Password':PASSWORD},
-      body:JSON.stringify({data:{site:siteMeta,products:working},sha:currentSha,message:'製品データ更新（管理画面）'})
+      body:payload
     });
     const body=await res.json();
     if(!res.ok)throw new Error(body.detail||body.error||res.status);
