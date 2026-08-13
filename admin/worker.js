@@ -114,6 +114,7 @@ export default {
       }
 
       const newContent = JSON.stringify(data, null, 2) + '\n';
+      if(newContent.length > 2 * 1024 * 1024){return json({error:'data_too_large',detail:'製品データが2MBを超えています'},400,env);}
       const payload = {
         message: message || `chore: 製品データ更新 (${new Date().toISOString()})`,
         content: toBase64Utf8(newContent),
