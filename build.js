@@ -108,7 +108,7 @@ function buildProductPage(p, site, tpl, allProducts) {
   const slug = p.slug ? toSlug(p.slug) : toSlug(p.partNumber);
   const canonical = `${site.baseUrl}${site.productsPath}/${slug}/`;
   const makerUrl = `${site.productsPath}/?maker=${encodeURIComponent(p.manufacturer)}`;
-  const rfqPrefill = `${site.baseUrl}/?model=${encodeURIComponent(p.partNumber)}#rfq`;
+  const rfqPrefill = `${site.baseUrl}/?model=${encodeURIComponent(p.partNumber)}&ref=${encodeURIComponent(canonical)}#rfq`;
 
   // meta description（説明文を120字程度に整形）
   const descSrc = (p.description || '').replace(/\s+/g, ' ').trim();
