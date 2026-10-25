@@ -5,11 +5,7 @@ name = "pivotcore-products-proxy"
 main = "proxy-worker.js"
 compatibility_date = "2024-11-01"
 
-# 転送先ホスト。ConoHa WING の WordPress サイト。
-[vars]
-PAGES_HOST = "pivotcore-wp.com"
-
-# /products と /products/* のみをこの Worker に紐づける。
+# /products, /products/*, および wp-sitemap をこの Worker に紐づける。
 # それ以外のパスは Worker を経由せず既存オリジン(GitHub Pages)へ直接到達する。
 routes = [
   { pattern = "www.pivotcore.jp/products", zone_name = "pivotcore.jp" },
@@ -18,6 +14,10 @@ routes = [
   { pattern = "www.pivotcore.jp/wp-sitemap-*", zone_name = "pivotcore.jp" }
 ]
 
+# 転送先ホスト。ConoHa WING の WordPress サイト。
+[vars]
+PAGES_HOST = "pivotcore-wp.com"
+
 # デプロイ:
 #   cd infra
 #   npx wrangler deploy
@@ -25,3 +25,4 @@ routes = [
 # 動作確認:
 #   https://www.pivotcore.jp/products/                → 一覧
 #   https://www.pivotcore.jp/products/stm32f103c8t6/  → 個別ページ
+#   https://www.pivotcore.jp/wp-sitemap.xml           → サイトマップ
