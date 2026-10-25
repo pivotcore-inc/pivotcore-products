@@ -1,19 +1,17 @@
 /**
  * 本番リバースプロキシ Worker
  * --------------------------------------------------------------------------
- * 目的: www.pivotcore.jp/products* へのアクセスを Cloudflare Pages（製品ページ）へ
+ * 目的: www.pivotcore.jp/products* へのアクセスを WordPress（ConoHa WING）へ
  *       透過的に転送する。これにより既存サイト（GitHub Pages）はそのまま残しつつ、
- *       /products/ 配下だけを Pages が提供する構成を実現する。
+ *       /products/ 配下だけを WordPress が提供する構成を実現する。
  *
  * 仕組み:
  *   - この Worker は wrangler.toml の routes で /products と /products/* のみに紐づく。
  *   - それ以外のパス（トップページや会社情報など）はこの Worker を経由せず、
  *     通常どおり既存オリジン（GitHub Pages）へ到達する。
- *   - build.js は出力を /products/ 配下にマウントしているため、パスは 1 対 1 で転送できる
- *     （リライト不要）。
  *
  * 設定（wrangler.toml の [vars]）:
- *   PAGES_HOST … 転送先 Pages 本番ホスト（例: pivotcore-products.pages.dev）
+ *   PAGES_HOST … 転送先ホスト（例: pivotcore-wp.com）
  */
 export default {
   async fetch(request, env) {
@@ -32,12 +30,18 @@ export default {
     // パスはそのまま（/products/... を /products/... へ）転送
     const upstream = `https://${pagesHost}${url.pathname}${url.search}`;
 
+    // Host ヘッダーを転送先に書き換え（ConoHa WING が正しい仮想ホストで応答するため）
+    const headers = new Headers(request.headers);
+    headers.set('Host', pagesHost);
+    headers.set('X-Forwarded-Host', url.hostname);
+    headers.set('X-Forwarded-Proto', 'https');
+
     const method = request.method.toUpperCase();
     const init = {
       method,
-      headers: request.headers,
+      headers,
       body: method === 'GET' || method === 'HEAD' ? undefined : request.body,
-      redirect: 'manual', // Pages 側の 3xx を書き換えずそのまま返す
+      redirect: 'manual', // WordPress 側の 3xx を書き換えずそのまま返す
     };
 
     let resp;
@@ -47,13 +51,19 @@ export default {
       return new Response('Upstream fetch failed', { status: 502 });
     }
 
-    // レスポンスは原則そのまま返す。
-    // 必要に応じてヘッダを調整できるよう Headers を複製している。
-    const headers = new Headers(resp.headers);
+    // レスポンスヘッダーを複製し、Location ヘッダーのドメインを書き換え
+    const respHeaders = new Headers(resp.headers);
+    const location = respHeaders.get('Location');
+    if (location) {
+      respHeaders.set('Location', location.replace(
+        `https://${pagesHost}`, `https://${url.hostname}`
+      ));
+    }
+
     return new Response(resp.body, {
       status: resp.status,
       statusText: resp.statusText,
-      headers,
+      headers: respHeaders,
     });
   },
 };
