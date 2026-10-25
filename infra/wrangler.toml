@@ -13,7 +13,9 @@ PAGES_HOST = "pivotcore-wp.com"
 # それ以外のパスは Worker を経由せず既存オリジン(GitHub Pages)へ直接到達する。
 routes = [
   { pattern = "www.pivotcore.jp/products", zone_name = "pivotcore.jp" },
-  { pattern = "www.pivotcore.jp/products/*", zone_name = "pivotcore.jp" }
+  { pattern = "www.pivotcore.jp/products/*", zone_name = "pivotcore.jp" },
+  { pattern = "www.pivotcore.jp/wp-sitemap.xml", zone_name = "pivotcore.jp" },
+  { pattern = "www.pivotcore.jp/wp-sitemap-*", zone_name = "pivotcore.jp" }
 ]
 
 # デプロイ:
