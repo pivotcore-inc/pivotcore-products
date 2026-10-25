@@ -18,7 +18,7 @@ export default {
     const url = new URL(request.url);
 
     // 念のため /products 配下のみを受け付ける（ルート設定の保険）
-    if (!(url.pathname === '/products' || url.pathname.startsWith('/products/'))) {
+    if (!(url.pathname === '/products' || url.pathname.startsWith('/products/') || url.pathname.startsWith('/wp-sitemap'))) {
       return new Response('Not found', { status: 404 });
     }
 
